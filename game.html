@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ohio State Football — Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="header"></div>
+  <main>
+    <a class="back-link" href="index.html" id="back-link">← Back to Schedule</a>
+    <div id="game"></div>
+  </main>
+  <footer class="site-footer">Data via ESPN API · Updated by local scraper</footer>
+
+  <script type="module">
+    import { loadJSON, fmtDate, fmtTime } from "./js/data.js";
+    import { initScrapeButton } from "./js/scrape.js";
+    import { initYearSelect } from "./js/year.js";
+
+    document.getElementById("header").innerHTML = await (await fetch("partials/header.html")).text();
+    initScrapeButton();
+    await initYearSelect();
+
+    const params = new URLSearchParams(location.search);
+    const year = params.get("year") || "2026";
+    const eventId = params.get("event");
+    const game = document.getElementById("game");
+
+    const card = (title) => {
+      const el = document.createElement("div");
+      el.className = "card";
+      if (title) {
+        const h = document.createElement("h2");
+        h.textContent = title;
+        el.appendChild(h);
+      }
+      game.appendChild(el);
+      return el;
+    };
+
+    if (!eventId) {
+      game.innerHTML = '<div class="empty"><div class="big">No game selected</div>Pick a game from the schedule.</div>';
+    } else {
+      const box = await loadJSON(`data/${year}/boxscores.json`);
+      const bs = box[eventId];
+      if (!bs) {
+        game.innerHTML = '<div class="empty"><div class="big">Game not found</div>No boxscore available for this game.</div>';
+      } else {
+        const schedule = await loadJSON(`data/${year}/schedule.json`);
+        const sched = schedule.find((g) => g.id === eventId) || {};
+        const homeIsOsu = sched.homeAway === "home";
+        const win = (sched.osuScore ?? 0) > (sched.oppScore ?? 0);
+        const opp = sched.opponent || "Opponent";
+
+        // Header
+        const header = card();
+        header.innerHTML = `
+          <div class="game-header">
+            <div class="game-teams">
+              <div class="team-name">Ohio State</div>
+              <div class="team-score ${win ? "win" : "loss"}">${sched.osuScore ?? "–"}</div>
+            </div>
+            <div class="game-score-divider">–</div>
+            <div class="game-teams">
+              <div class="team-name">${opp}</div>
+              <div class="team-score ${win ? "loss" : "win"}">${sched.oppScore ?? "–"}</div>
+            </div>
+          </div>
+          <div class="game-meta">
+            <div class="meta-badge ${win ? "" : "loss"}">${sched.status === "final" ? (win ? "W" : "L") : "Upcoming"}</div>
+            <div>${sched.week ? `Week ${sched.week} · ` : ""}${fmtDate(sched.date)}${sched.date ? ` · ${fmtTime(sched.date)}` : ""}</div>
+            <div>${sched.venue || ""}</div>
+            <div>${bs.attendance ? `Attendance: ${bs.attendance.toLocaleString()}` : ""}</div>
+          </div>
+        `;
+
+        // Game leaders
+        if (bs.leaders && Object.keys(bs.leaders).length) {
+          const leadersCard = card("Game Leaders");
+          const grid = document.createElement("div");
+          grid.className = "leader-grid";
+          const LABELS = {
+            passingYards: "Passing Yards",
+            rushingYards: "Rushing Yards",
+            receivingYards: "Receiving Yards",
+            sacks: "Sacks",
+            totalTackles: "Tackles",
+          };
+          for (const [cat, l] of Object.entries(bs.leaders)) {
+            const div = document.createElement("div");
+            div.className = "leader-card";
+            div.innerHTML = `
+              <div class="cat">${LABELS[cat] || cat}</div>
+              <div class="name">${l.name || "—"}</div>
+              <div class="stat">${l.displayValue || ""}</div>
+            `;
+            grid.appendChild(div);
+          }
+          leadersCard.appendChild(grid);
+        }
+
+        // Scoring recap
+        if (bs.scoringPlays && bs.scoringPlays.length) {
+          const scCard = card("Scoring Recap");
+          const ul = document.createElement("ul");
+          ul.className = "scoring-list";
+          let prevAway = 0, prevHome = 0;
+          for (const p of bs.scoringPlays) {
+            const li = document.createElement("li");
+            const awayScored = (p.awayScore ?? prevAway) > prevAway;
+            const homeScored = (p.homeScore ?? prevHome) > prevHome;
+            const isOsu = homeIsOsu ? homeScored : awayScored;
+            li.innerHTML = `
+              <div class="time">Q${p.period} ${p.clock}</div>
+              <div class="text">${isOsu ? "OSU " : ""}${p.text}</div>
+              <div class="score">${p.awayScore}–${p.homeScore}</div>
+            `;
+            ul.appendChild(li);
+            prevAway = p.awayScore ?? prevAway;
+            prevHome = p.homeScore ?? prevHome;
+          }
+          scCard.appendChild(ul);
+        }
+
+        // Win probability chart
+        if (bs.winProbability && bs.winProbability.length > 1) {
+          const wpCard = card("Win Probability");
+          const wrap = document.createElement("div");
+          wrap.className = "wp-wrap";
+          const W = 600, H = 120, PAD = 6;
+          const raw = bs.winProbability.map((w) => w.homeWinPercentage * 100);
+          const pts = homeIsOsu ? raw : raw.map((v) => 100 - v);
+          const n = pts.length;
+          const min = Math.min(...pts), max = Math.max(...pts);
+          const range = max - min || 1;
+          const xs = (i) => PAD + (i / (n - 1)) * (W - 2 * PAD);
+          const ys = (v) => H - PAD - ((v - min) / range) * (H - 2 * PAD);
+          const line = pts.map((v, i) => `${i === 0 ? "M" : "L"}${xs(i).toFixed(1)},${ys(v).toFixed(1)}`).join(" ");
+          const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+          svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+          const area = document.createElementNS("http://www.w3.org/2000/svg", "path");
+          area.setAttribute("d", `${line} L${xs(n - 1).toFixed(1)},${H} L${xs(0).toFixed(1)},${H} Z`);
+          area.setAttribute("fill", "#ba0c2f");
+          area.setAttribute("opacity", "0.12");
+          svg.appendChild(area);
+          const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+          path.setAttribute("d", line);
+          path.setAttribute("fill", "none");
+          path.setAttribute("stroke", "#ba0c2f");
+          path.setAttribute("stroke-width", "2.5");
+          svg.appendChild(path);
+          wrap.appendChild(svg);
+          const axis = document.createElement("div");
+          axis.className = "wp-axis";
+          axis.innerHTML = "<span>0%</span><span>50%</span><span>100%</span>";
+          wrap.appendChild(axis);
+          wpCard.appendChild(wrap);
+        }
+
+        // Scoring drives
+        if (bs.scoringDrives && bs.scoringDrives.length) {
+          const driveCard = card("Scoring Drives");
+          const ul = document.createElement("ul");
+          ul.className = "drive-list";
+          for (const dr of bs.scoringDrives) {
+            const li = document.createElement("li");
+            li.innerHTML = `
+              <div class="drive-team">${dr.teamAbbr || dr.team}</div>
+              <div class="drive-desc">${dr.description || ""}</div>
+              <div class="drive-result">${dr.result || "Score"}</div>
+              <div class="drive-plays">${(dr.plays || []).map((p) => p.text).join(" · ")}</div>
+            `;
+            ul.appendChild(li);
+          }
+          driveCard.appendChild(ul);
+        }
+
+        // Odds (rare, only when present)
+        if (bs.odds && (bs.odds.details || bs.odds.spread?.length)) {
+          const oddsCard = card("Betting");
+          const wrap = document.createElement("div");
+          wrap.className = "stat-grid";
+          if (bs.odds.details) {
+            const tile = document.createElement("div");
+            tile.className = "stat-tile";
+            tile.innerHTML = `<div class="val">${bs.odds.details}</div><div class="lbl">Line</div>`;
+            wrap.appendChild(tile);
+          }
+          for (const sp of bs.odds.spread) {
+            const tile = document.createElement("div");
+            tile.className = "stat-tile";
+            tile.innerHTML = `<div class="val">${sp.spread ?? "—"}</div><div class="lbl">${sp.team}</div>`;
+            wrap.appendChild(tile);
+          }
+          if (bs.odds.overUnder) {
+            const tile = document.createElement("div");
+            tile.className = "stat-tile";
+            tile.innerHTML = `<div class="val">${bs.odds.overUnder}</div><div class="lbl">O/U</div>`;
+            wrap.appendChild(tile);
+          }
+          oddsCard.appendChild(wrap);
+        }
+      }
+    }
+  </script>
+</body>
+</html>

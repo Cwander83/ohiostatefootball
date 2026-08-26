@@ -72,7 +72,12 @@
       status.className = "schedule-status" + (g.status === "final" ? " final" : "");
       status.textContent = g.status === "final" ? "Final" : "Upcoming";
 
-      li.append(week, date, opp, venue, score, status);
+      const link = document.createElement("a");
+      link.className = "schedule-link";
+      link.href = `game.html?year=${year}&event=${g.id}`;
+      link.textContent = "Details →";
+
+      li.append(week, date, opp, venue, score, status, link);
       list.appendChild(li);
     }
   </script>

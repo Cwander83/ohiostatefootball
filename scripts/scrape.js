@@ -121,12 +121,80 @@ async function scrapeBoxscore(eventId) {
     }
     return out;
   };
+  const leaders = () => {
+    // leaders is per-team; pick the Ohio State entry.
+    const teamLeaders = (d.leaders || []).find((t) => t.team?.id === TEAM_ID)?.leaders || [];
+    const out = {};
+    for (const cat of teamLeaders) {
+      const top = cat.leaders?.[0];
+      if (!top) continue;
+      const a = top.athlete || {};
+      out[cat.name] = {
+        name: a.displayName ?? a.fullName ?? null,
+        id: a.id ?? null,
+        position: a.position?.abbreviation ?? null,
+        jersey: a.jersey ?? null,
+        displayValue: top.displayValue ?? null,
+        value: top.value ?? null,
+      };
+    }
+    return out;
+  };
+  const scoringPlays = () =>
+    (d.scoringPlays || []).map((p) => ({
+      type: p.type?.text ?? null,
+      text: p.text ?? null,
+      awayScore: p.awayScore ?? null,
+      homeScore: p.homeScore ?? null,
+      period: p.period?.number ?? null,
+      clock: p.clock?.displayValue ?? null,
+    }));
+  const scoringDrives = () => {
+    const prev = d.drives?.previous || {};
+    return Object.values(prev)
+      .filter((dr) => dr.isScore)
+      .map((dr) => ({
+        team: dr.team?.displayName ?? null,
+        teamAbbr: dr.team?.abbreviation ?? null,
+        description: dr.description ?? null,
+        result: dr.shortDisplayResult ?? dr.displayResult ?? dr.result ?? null,
+        plays: (dr.plays || []).map((p) => ({
+          text: p.text ?? null,
+          awayScore: p.awayScore ?? null,
+          homeScore: p.homeScore ?? null,
+          period: p.period?.number ?? null,
+          clock: p.clock?.displayValue ?? null,
+        })),
+      }));
+  };
+  const winprobability = () =>
+    (d.winprobability || []).map((w) => ({
+      homeWinPercentage: w.homeWinPercentage ?? null,
+      playId: w.playId ?? null,
+    }));
+  const odds = () => {
+    const line = (d.odds || [])[0] || {};
+    const spread = (d.againstTheSpread || [])
+      .map((r) => r.records || [])
+      .flat()
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((r) => ({ team: r.team?.abbreviation ?? null, spread: r.spread ?? null, overUnder: r.overUnder ?? null }));
+    return { details: line.details ?? null, overUnder: line.overUnder ?? null, spread, winner: line.winner ?? null };
+  };
   return {
     eventId,
     osuTeam: teamStats(osu),
     oppTeam: teamStats(opp),
     osuPlayers: playerStats(TEAM_ID),
     oppPlayers: playerStats(opp?.team?.id),
+    leaders: leaders(),
+    scoringPlays: scoringPlays(),
+    scoringDrives: scoringDrives(),
+    winProbability: winprobability(),
+    attendance: d.gameInfo?.attendance ?? null,
+    broadcast: (d.broadcasts || []).map((b) => b.market ?? b.names ?? []).flat() ?? [],
+    odds: odds(),
   };
 }
 

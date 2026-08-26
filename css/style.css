@@ -228,6 +228,16 @@ main {
   color: var(--muted);
 }
 .schedule-status.final { background: var(--scarlet); color: var(--white); }
+.schedule-link {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: var(--scarlet);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.schedule-link:hover { text-decoration: underline; }
 
 /* ---------- Filters ---------- */
 .filters {
@@ -355,6 +365,127 @@ td.jersey {
   color: var(--muted);
 }
 .empty .big { font-family: var(--font-head); font-size: 20px; color: var(--ink); }
+
+/* ---------- Game detail page ---------- */
+.game-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 24px 20px;
+}
+.game-teams { flex: 1; min-width: 200px; text-align: center; }
+.game-teams .team-name { font-family: var(--font-head); font-weight: 600; font-size: 18px; text-transform: uppercase; letter-spacing: 1px; }
+.game-teams .team-score { font-family: var(--font-head); font-weight: 700; font-size: 40px; letter-spacing: 1px; }
+.game-teams .team-score.win { color: var(--scarlet); }
+.game-teams .team-score.loss { color: var(--muted); }
+.game-score-divider {
+  font-family: var(--font-head);
+  font-size: 26px;
+  color: var(--gray);
+  font-weight: 600;
+}
+.game-meta { text-align: center; padding: 12px 24px 20px; color: var(--muted); font-size: 13px; }
+.game-meta .meta-badge {
+  display: inline-block;
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: var(--scarlet);
+  color: var(--white);
+  margin-bottom: 8px;
+}
+.game-meta .meta-badge.loss { background: var(--muted); }
+
+/* Leader cards */
+.leader-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  padding: 16px;
+}
+.leader-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+}
+.leader-card .cat {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.leader-card .name { font-family: var(--font-head); font-size: 17px; font-weight: 600; }
+.leader-card .stat { font-size: 13px; color: var(--scarlet); font-weight: 600; margin-top: 4px; }
+
+/* Scoring recap */
+.scoring-list { list-style: none; margin: 0; padding: 8px 0; }
+.scoring-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.scoring-list li:last-child { border-bottom: none; }
+.scoring-list .time { font-family: var(--font-head); font-weight: 600; color: var(--scarlet); min-width: 74px; }
+.scoring-list .text { flex: 1; min-width: 200px; font-size: 14px; }
+.scoring-list .score { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; }
+.scoring-list .osu-score { color: var(--scarlet); font-weight: 600; }
+
+/* Drive chart */
+.drive-list { list-style: none; margin: 0; padding: 8px 0; }
+.drive-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.drive-list li:last-child { border-bottom: none; }
+.drive-list .drive-team { font-family: var(--font-head); font-weight: 600; color: var(--scarlet); min-width: 120px; }
+.drive-list .drive-desc { flex: 1; min-width: 200px; font-size: 13px; }
+.drive-list .drive-result {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--scarlet);
+  color: var(--white);
+}
+.drive-list .drive-plays { flex-basis: 100%; font-size: 12px; color: var(--muted); margin-top: 4px; }
+
+/* Win probability chart */
+.wp-wrap { padding: 16px; }
+.wp-wrap svg { width: 100%; height: auto; display: block; }
+.wp-axis {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 4px;
+  padding: 0 2px;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: var(--scarlet);
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-decoration: none;
+}
+.back-link:hover { text-decoration: underline; }
 
 @media (max-width: 600px) {
   .site-header h1 { font-size: 20px; }
