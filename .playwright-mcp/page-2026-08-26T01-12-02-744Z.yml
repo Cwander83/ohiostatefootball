@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]: OSU
+        - generic [ref=e6]:
+          - heading "Ohio State Football" [level=1] [ref=e7]
+          - generic [ref=e8]: 2022 Season
+        - generic [ref=e9]:
+          - combobox "Select season" [ref=e10] [cursor=pointer]:
+            - option "2026 Season"
+            - option "2025 Season"
+            - option "2024 Season"
+            - option "2023 Season"
+            - option "2022 Season" [selected]
+            - option "2021 Season"
+            - option "2020 Season"
+            - option "2019 Season"
+            - option "2018 Season"
+            - option "2017 Season"
+            - option "2016 Season"
+            - option "2015 Season"
+            - option "2014 Season"
+            - option "2013 Season"
+            - option "2012 Season"
+            - option "2011 Season"
+            - option "2010 Season"
+            - option "2009 Season"
+            - option "2008 Season"
+            - option "2007 Season"
+            - option "2006 Season"
+            - option "2005 Season"
+          - button "⟳ Refresh Stats" [ref=e11] [cursor=pointer]:
+            - generic [ref=e12]: ⟳
+            - generic [ref=e13]: Refresh Stats
+    - navigation [ref=e14]:
+      - generic [ref=e15]:
+        - link "Schedule" [ref=e16] [cursor=pointer]:
+          - /url: index.html
+        - link "Team Stats" [ref=e17] [cursor=pointer]:
+          - /url: team.html
+        - link "Player Stats" [ref=e18] [cursor=pointer]:
+          - /url: players.html
+        - link "Roster" [ref=e19] [cursor=pointer]:
+          - /url: roster.html
+  - main [ref=e20]:
+    - heading "2022 Schedule" [level=1] [ref=e21]
+    - paragraph [ref=e22]: Game-by-game results for the Ohio State Buckeyes.
+    - generic [ref=e23]:
+      - heading "Regular Season" [level=2] [ref=e24]
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - generic [ref=e27]: Wk 1
+          - generic [ref=e28]: Sep 3 · 11:30 PM
+          - generic [ref=e29]: vs Notre Dame Fighting Irish
+          - generic [ref=e30]: Ohio Stadium
+          - generic [ref=e31]: 21–10
+          - generic [ref=e32]: Final
+        - listitem [ref=e33]:
+          - generic [ref=e34]: Wk 2
+          - generic [ref=e35]: Sep 10 · 4:00 PM
+          - generic [ref=e36]: vs Arkansas State Red Wolves
+          - generic [ref=e37]: Ohio Stadium
+          - generic [ref=e38]: 45–12
+          - generic [ref=e39]: Final
+        - listitem [ref=e40]:
+          - generic [ref=e41]: Wk 3
+          - generic [ref=e42]: Sep 17 · 11:00 PM
+          - generic [ref=e43]: vs Toledo Rockets
+          - generic [ref=e44]: Ohio Stadium
+          - generic [ref=e45]: 77–21
+          - generic [ref=e46]: Final
+        - listitem [ref=e47]:
+          - generic [ref=e48]: Wk 4
+          - generic [ref=e49]: Sep 24 · 11:30 PM
+          - generic [ref=e50]: vs Wisconsin Badgers
+          - generic [ref=e51]: Ohio Stadium
+          - generic [ref=e52]: 52–21
+          - generic [ref=e53]: Final
+        - listitem [ref=e54]:
+          - generic [ref=e55]: Wk 5
+          - generic [ref=e56]: Oct 1 · 7:30 PM
+          - generic [ref=e57]: vs Rutgers Scarlet Knights
+          - generic [ref=e58]: Ohio Stadium
+          - generic [ref=e59]: 49–10
+          - generic [ref=e60]: Final
+        - listitem [ref=e61]:
+          - generic [ref=e62]: Wk 6
+          - generic [ref=e63]: Oct 8 · 8:00 PM
+          - generic [ref=e64]: "@ Michigan State Spartans"
+          - generic [ref=e65]: Spartan Stadium
+          - generic [ref=e66]: 49–20
+          - generic [ref=e67]: Final
+        - listitem [ref=e68]:
+          - generic [ref=e69]: Wk 8
+          - generic [ref=e70]: Oct 22 · 4:00 PM
+          - generic [ref=e71]: vs Iowa Hawkeyes
+          - generic [ref=e72]: Ohio Stadium
+          - generic [ref=e73]: 54–10
+          - generic [ref=e74]: Final
+        - listitem [ref=e75]:
+          - generic [ref=e76]: Wk 9
+          - generic [ref=e77]: Oct 29 · 4:00 PM
+          - generic [ref=e78]: "@ Penn State Nittany Lions"
+          - generic [ref=e79]: Beaver Stadium
+          - generic [ref=e80]: 44–31
+          - generic [ref=e81]: Final
+        - listitem [ref=e82]:
+          - generic [ref=e83]: Wk 10
+          - generic [ref=e84]: Nov 5 · 4:00 PM
+          - generic [ref=e85]: "@ Northwestern Wildcats"
+          - generic [ref=e86]: Ryan Field (1926)
+          - generic [ref=e87]: 21–7
+          - generic [ref=e88]: Final
+        - listitem [ref=e89]:
+          - generic [ref=e90]: Wk 11
+          - generic [ref=e91]: Nov 12 · 5:00 PM
+          - generic [ref=e92]: vs Indiana Hoosiers
+          - generic [ref=e93]: Ohio Stadium
+          - generic [ref=e94]: 56–14
+          - generic [ref=e95]: Final
+        - listitem [ref=e96]:
+          - generic [ref=e97]: Wk 12
+          - generic [ref=e98]: Nov 19 · 8:30 PM
+          - generic [ref=e99]: "@ Maryland Terrapins"
+          - generic [ref=e100]: SECU Stadium
+          - generic [ref=e101]: 43–30
+          - generic [ref=e102]: Final
+        - listitem [ref=e103]:
+          - generic [ref=e104]: Wk 13
+          - generic [ref=e105]: Nov 26 · 5:00 PM
+          - generic [ref=e106]: vs Michigan Wolverines
+          - generic [ref=e107]: Ohio Stadium
+          - generic [ref=e108]: 23–45
+          - generic [ref=e109]: Final
+  - contentinfo [ref=e110]: Data via ESPN API · Updated by local scraper

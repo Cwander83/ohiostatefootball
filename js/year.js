@@ -24,6 +24,13 @@ export async function initYearSelect() {
 
   if (sub) sub.textContent = `${sel.value} Season`;
 
+  // Update any hardcoded year in the page title/sub to match the selected season.
+  const title = document.getElementById("page-title");
+  const pageSub = document.getElementById("page-sub");
+  for (const el of [title, pageSub]) {
+    if (el) el.textContent = el.textContent.replace(/\b(19|20)\d{2}\b/, String(sel.value));
+  }
+
   sel.addEventListener("change", () => {
     const url = new URL(location.href);
     url.searchParams.set("year", sel.value);
