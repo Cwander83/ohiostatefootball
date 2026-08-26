@@ -1,0 +1,843 @@
+{
+  "passing": {
+    "completionPct": {
+      "value": 76.716,
+      "display": "76.7",
+      "perGame": "76.24"
+    },
+    "completions": {
+      "value": 313,
+      "display": "313",
+      "perGame": "22"
+    },
+    "interceptionPct": {
+      "value": 1.961,
+      "display": "1.96",
+      "perGame": "1.839"
+    },
+    "interceptions": {
+      "value": 8,
+      "display": "8",
+      "perGame": null
+    },
+    "longPassing": {
+      "value": 87,
+      "display": "87",
+      "perGame": "43"
+    },
+    "netPassingYards": {
+      "value": 3755,
+      "display": "3,755",
+      "perGame": "268"
+    },
+    "netPassingYardsPerGame": {
+      "value": 268.2143,
+      "display": "268.2",
+      "perGame": null
+    },
+    "passingAttempts": {
+      "value": 408,
+      "display": "408",
+      "perGame": "29"
+    },
+    "passingTouchdownPct": {
+      "value": 8.088,
+      "display": "8.09",
+      "perGame": "8.372"
+    },
+    "passingTouchdowns": {
+      "value": 33,
+      "display": "33",
+      "perGame": "2"
+    },
+    "QBRating": {
+      "value": 176.79039,
+      "display": "176.8",
+      "perGame": "172.727"
+    },
+    "sacks": {
+      "value": 16,
+      "display": "16",
+      "perGame": "1"
+    },
+    "sackYardsLost": {
+      "value": -110,
+      "display": "-110",
+      "perGame": "-7"
+    },
+    "yardsPerPassAttempt": {
+      "value": 9.203,
+      "display": "9.2",
+      "perGame": "9.215"
+    },
+    "passingYards": {
+      "value": 3755,
+      "display": "3,755",
+      "perGame": "268"
+    },
+    "passingFumblesLost": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "teamGamesPlayed": {
+      "value": 14,
+      "display": "14",
+      "perGame": null
+    },
+    "yardsPerGame": {
+      "value": 422.571,
+      "display": "422.6",
+      "perGame": null
+    },
+    "totalPointsPerGame": {
+      "value": 33.429,
+      "display": "33.4",
+      "perGame": null
+    },
+    "totalPoints": {
+      "value": 468,
+      "display": "468",
+      "perGame": "33"
+    },
+    "totalTouchdowns": {
+      "value": 91,
+      "display": "91",
+      "perGame": null
+    },
+    "passingYardsPerGame": {
+      "value": 268.214,
+      "display": "268.2",
+      "perGame": null
+    },
+    "completionAttempts": {
+      "display": "313-408",
+      "perGame": null
+    },
+    "sacksYardsLost": {
+      "display": "16--110",
+      "perGame": null
+    }
+  },
+  "rushing": {
+    "rushingAttempts": {
+      "value": 475,
+      "display": "475",
+      "perGame": "33"
+    },
+    "rushingYards": {
+      "value": 2161,
+      "display": "2,161",
+      "perGame": "154"
+    },
+    "yardsPerRushAttempt": {
+      "value": 4.549,
+      "display": "4.5",
+      "perGame": "4.462"
+    },
+    "longRushing": {
+      "value": 64,
+      "display": "64",
+      "perGame": "30"
+    },
+    "rushingBigPlays": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "rushingTouchdowns": {
+      "value": 25,
+      "display": "25",
+      "perGame": "1"
+    },
+    "rushingYardsPerGame": {
+      "value": 154.357,
+      "display": "154.4",
+      "perGame": null
+    },
+    "rushingFumbles": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "rushingFumblesLost": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "rushingFirstDowns": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "teamGamesPlayed": {
+      "value": 14,
+      "display": "14",
+      "perGame": null
+    },
+    "totalYards": {
+      "value": 5916,
+      "display": "5,916",
+      "perGame": "422"
+    },
+    "totalOffensivePlays": {
+      "value": 899,
+      "display": "899",
+      "perGame": "63"
+    },
+    "totalPointsPerGame": {
+      "value": 33.429,
+      "display": "33.4",
+      "perGame": null
+    },
+    "totalPoints": {
+      "value": 468,
+      "display": "468",
+      "perGame": "33"
+    },
+    "totalTouchdowns": {
+      "value": 91,
+      "display": "91",
+      "perGame": null
+    }
+  },
+  "receiving": {
+    "receptions": {
+      "value": 313,
+      "display": "313",
+      "perGame": "22"
+    },
+    "receivingTargets": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "receivingYards": {
+      "value": 3755,
+      "display": "3,755",
+      "perGame": "268"
+    },
+    "receivingTouchdowns": {
+      "value": 33,
+      "display": "33",
+      "perGame": "2"
+    },
+    "longReception": {
+      "value": 87,
+      "display": "87",
+      "perGame": "43"
+    },
+    "receivingBigPlays": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "receivingYardsPerGame": {
+      "value": 268.214,
+      "display": "268.2",
+      "perGame": null
+    },
+    "receivingFumbles": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "receivingFumblesLost": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "receivingYardsAfterCatch": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "receivingFirstDowns": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "teamGamesPlayed": {
+      "value": 14,
+      "display": "14",
+      "perGame": null
+    },
+    "yardsPerReception": {
+      "value": 11.997,
+      "display": "12.0",
+      "perGame": "11.992"
+    },
+    "totalPointsPerGame": {
+      "value": 33.429,
+      "display": "33.4",
+      "perGame": null
+    },
+    "totalPoints": {
+      "value": 468,
+      "display": "468",
+      "perGame": "33"
+    },
+    "totalTouchdowns": {
+      "value": 91,
+      "display": "91",
+      "perGame": null
+    }
+  },
+  "miscellaneous": {
+    "firstDowns": {
+      "value": 318,
+      "display": "318",
+      "perGame": "22"
+    },
+    "firstDownsRushing": {
+      "value": 122,
+      "display": "122",
+      "perGame": "8"
+    },
+    "firstDownsPassing": {
+      "value": 180,
+      "display": "180",
+      "perGame": "12"
+    },
+    "firstDownsPenalty": {
+      "value": 16,
+      "display": "16",
+      "perGame": "1"
+    },
+    "thirdDownConvs": {
+      "value": 81,
+      "display": "81",
+      "perGame": "5"
+    },
+    "thirdDownAttempts": {
+      "value": 152,
+      "display": "152",
+      "perGame": "10"
+    },
+    "thirdDownConvPct": {
+      "value": 53.289,
+      "display": "53.29",
+      "perGame": "53.518"
+    },
+    "fourthDownConvs": {
+      "value": 12,
+      "display": "12",
+      "perGame": null
+    },
+    "fourthDownAttempts": {
+      "value": 17,
+      "display": "17",
+      "perGame": "1"
+    },
+    "fourthDownConvPct": {
+      "value": 70.588,
+      "display": "70.59",
+      "perGame": "54.762"
+    },
+    "totalPenalties": {
+      "value": 58,
+      "display": "58",
+      "perGame": "4"
+    },
+    "totalPenaltyYards": {
+      "value": 544,
+      "display": "544",
+      "perGame": "38"
+    },
+    "possessionTimeSeconds": {
+      "value": 27727,
+      "display": "27727",
+      "perGame": "1,980"
+    },
+    "redzoneFieldGoalPct": {
+      "value": 0,
+      "display": "0.00",
+      "perGame": null
+    },
+    "redzoneScoringPct": {
+      "value": 0,
+      "display": "0.00",
+      "perGame": "86.726"
+    },
+    "redzoneEfficiencyPct": {
+      "value": 0,
+      "display": "0.00",
+      "perGame": "66.369"
+    },
+    "redzoneTouchdownPct": {
+      "value": 0,
+      "display": "0.00",
+      "perGame": null
+    },
+    "totalTakeaways": {
+      "value": 15,
+      "display": "15",
+      "perGame": "1.071"
+    },
+    "totalGiveaways": {
+      "value": 11,
+      "display": "11",
+      "perGame": "0.786"
+    },
+    "turnOverDifferential": {
+      "value": 4,
+      "display": "4",
+      "perGame": "0.285"
+    },
+    "fumblesLost": {
+      "value": 3,
+      "display": "3",
+      "perGame": "0.214"
+    },
+    "thirdDownEff": {
+      "display": "81-152",
+      "perGame": null
+    },
+    "fourthDownEff": {
+      "display": "12-17",
+      "perGame": null
+    },
+    "totalPenaltiesYards": {
+      "display": "58-544",
+      "perGame": null
+    }
+  },
+  "defensive": {
+    "soloTackles": {
+      "value": 445,
+      "display": "445",
+      "perGame": "31"
+    },
+    "assistTackles": {
+      "value": 338,
+      "display": "338",
+      "perGame": "24"
+    },
+    "totalTackles": {
+      "value": 783,
+      "display": "783",
+      "perGame": "55"
+    },
+    "sacks": {
+      "value": 35,
+      "display": "35",
+      "perGame": "2.5"
+    },
+    "sackYards": {
+      "value": 229,
+      "display": "229",
+      "perGame": "16.357"
+    },
+    "stuffs": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "passesDefended": {
+      "value": 30,
+      "display": "30",
+      "perGame": "2"
+    },
+    "avgInterceptionYards": {
+      "value": 6.25,
+      "display": "6.3",
+      "perGame": "3.571"
+    },
+    "longInterception": {
+      "value": 23,
+      "display": "23",
+      "perGame": "3"
+    },
+    "miscTouchdowns": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "kicksBlocked": {
+      "value": 1,
+      "display": "1",
+      "perGame": null
+    },
+    "tacklesForLoss": {
+      "value": 78,
+      "display": "78",
+      "perGame": "5.571"
+    },
+    "teamGamesPlayed": {
+      "value": 14,
+      "display": "14",
+      "perGame": null
+    }
+  },
+  "defensiveInterceptions": {
+    "interceptions": {
+      "value": 8,
+      "display": "8",
+      "perGame": null
+    },
+    "interceptionYards": {
+      "value": 50,
+      "display": "50",
+      "perGame": "3"
+    },
+    "interceptionTouchdowns": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "totalInterceptionsYards": {
+      "display": "8-50",
+      "perGame": null
+    }
+  },
+  "general": {
+    "fumbles": {
+      "value": 7,
+      "display": "7",
+      "perGame": null
+    },
+    "fumblesForced": {
+      "value": 11,
+      "display": "11",
+      "perGame": null
+    },
+    "fumblesRecovered": {
+      "value": 7,
+      "display": "7",
+      "perGame": null
+    },
+    "fumblesTouchdowns": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "gamesPlayed": {
+      "value": 14,
+      "display": "14",
+      "perGame": null
+    },
+    "fumblesAndLost": {
+      "display": "7-3",
+      "perGame": null
+    }
+  },
+  "returning": {
+    "kickReturns": {
+      "value": 8,
+      "display": "8",
+      "perGame": null
+    },
+    "kickReturnYards": {
+      "value": 202,
+      "display": "202",
+      "perGame": "15"
+    },
+    "yardsPerKickReturn": {
+      "value": 25.25,
+      "display": "25.3",
+      "perGame": null
+    },
+    "longKickReturn": {
+      "value": 100,
+      "display": "100",
+      "perGame": "16"
+    },
+    "kickReturnTouchdowns": {
+      "value": 1,
+      "display": "1",
+      "perGame": null
+    },
+    "puntReturns": {
+      "value": 20,
+      "display": "20",
+      "perGame": "1"
+    },
+    "puntReturnYards": {
+      "value": 222,
+      "display": "222",
+      "perGame": "17"
+    },
+    "yardsPerPuntReturn": {
+      "value": 11.1,
+      "display": "11.1",
+      "perGame": "17"
+    },
+    "longPuntReturn": {
+      "value": 36,
+      "display": "36",
+      "perGame": "13"
+    },
+    "puntReturnTouchdowns": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "puntReturnFairCatches": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "kickReturnFumblesLost": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "puntReturnFumblesLost": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "teamGamesPlayed": {
+      "value": 13,
+      "display": "13",
+      "perGame": null
+    },
+    "totalPuntReturnsYards": {
+      "display": "20-222",
+      "perGame": null
+    }
+  },
+  "kicking": {
+    "fieldGoalsMade": {
+      "value": 16,
+      "display": "16",
+      "perGame": "1"
+    },
+    "fieldGoalAttempts": {
+      "value": 20,
+      "display": "20",
+      "perGame": "1"
+    },
+    "fieldGoalPct": {
+      "value": 80,
+      "display": "80.0",
+      "perGame": "58.333"
+    },
+    "longFieldGoalMade": {
+      "value": 49,
+      "display": "49",
+      "perGame": "21"
+    },
+    "fieldGoalAttempts1_19": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "fieldGoalAttempts20_29": {
+      "value": 7,
+      "display": "7",
+      "perGame": null
+    },
+    "fieldGoalAttempts30_39": {
+      "value": 8,
+      "display": "8",
+      "perGame": null
+    },
+    "fieldGoalAttempts40_49": {
+      "value": 4,
+      "display": "4",
+      "perGame": null
+    },
+    "fieldGoalAttempts50": {
+      "value": 1,
+      "display": "1",
+      "perGame": null
+    },
+    "extraPointsMade": {
+      "value": 60,
+      "display": "60",
+      "perGame": "4"
+    },
+    "extraPointAttempts": {
+      "value": 60,
+      "display": "60",
+      "perGame": "4"
+    },
+    "extraPointPct": {
+      "value": 100,
+      "display": "100.0",
+      "perGame": "100"
+    },
+    "fieldGoalsMade1_19": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "fieldGoalsMade20_29": {
+      "value": 6,
+      "display": "6",
+      "perGame": null
+    },
+    "fieldGoalsMade30_39": {
+      "value": 7,
+      "display": "7",
+      "perGame": null
+    },
+    "fieldGoalsMade40_49": {
+      "value": 3,
+      "display": "3",
+      "perGame": null
+    },
+    "fieldGoalsMade50": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "totalKickingPoints": {
+      "value": 108,
+      "display": "108",
+      "perGame": "7"
+    },
+    "teamGamesPlayed": {
+      "value": 14,
+      "display": "14",
+      "perGame": null
+    },
+    "touchbackPct": {
+      "value": 72.222,
+      "display": "72",
+      "perGame": "72.534"
+    },
+    "avgKickoffReturnYards": {
+      "value": 25.25,
+      "display": "25.3",
+      "perGame": "14.429"
+    },
+    "kickoffReturnYards": {
+      "value": 202,
+      "display": "202",
+      "perGame": "14"
+    },
+    "kickoffReturns": {
+      "value": 8,
+      "display": "8",
+      "perGame": null
+    },
+    "totalKickoffYards": {
+      "display": "8-202",
+      "perGame": null
+    },
+    "totalGoalsVsAttemps": {
+      "display": "16-20",
+      "perGame": null
+    }
+  },
+  "punting": {
+    "punts": {
+      "value": 30,
+      "display": "30",
+      "perGame": "2"
+    },
+    "puntYards": {
+      "value": 1274,
+      "display": "1,274",
+      "perGame": "98"
+    },
+    "longPunt": {
+      "value": 55,
+      "display": "55",
+      "perGame": "45"
+    },
+    "grossAvgPuntYards": {
+      "value": 42.467,
+      "display": "42.5",
+      "perGame": "42.586"
+    },
+    "netAvgPuntYards": {
+      "value": 40.833,
+      "display": "40.8",
+      "perGame": "41.055"
+    },
+    "puntsBlocked": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "puntsInside20": {
+      "value": 12,
+      "display": "12",
+      "perGame": null
+    },
+    "touchbacks": {
+      "value": 2,
+      "display": "2",
+      "perGame": null
+    },
+    "fairCatches": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "puntReturns": {
+      "value": 17,
+      "display": "17",
+      "perGame": "1"
+    },
+    "puntReturnYards": {
+      "value": 202,
+      "display": "202",
+      "perGame": "15"
+    },
+    "avgPuntReturnYards": {
+      "value": 11.882,
+      "display": "11.9",
+      "perGame": "9.321"
+    },
+    "teamGamesPlayed": {
+      "value": 13,
+      "display": "13",
+      "perGame": null
+    },
+    "totalPuntsYards": {
+      "display": "30-1,274",
+      "perGame": null
+    }
+  },
+  "scoring": {
+    "rushingTouchdowns": {
+      "value": 25,
+      "display": "25",
+      "perGame": "1"
+    },
+    "receivingTouchdowns": {
+      "value": 33,
+      "display": "33",
+      "perGame": "2"
+    },
+    "returnTouchdowns": {
+      "value": 2,
+      "display": "2",
+      "perGame": null
+    },
+    "totalTouchdowns": {
+      "value": 60,
+      "display": "60",
+      "perGame": "4"
+    },
+    "fieldGoals": {
+      "value": 16,
+      "display": "16",
+      "perGame": "1"
+    },
+    "kickExtraPoints": {
+      "value": 60,
+      "display": "60",
+      "perGame": "4"
+    },
+    "totalTwoPointConvs": {
+      "value": 0,
+      "display": "0",
+      "perGame": null
+    },
+    "totalPoints": {
+      "value": 468,
+      "display": "468",
+      "perGame": "33"
+    },
+    "totalPointsPerGame": {
+      "value": 33.429,
+      "display": "33.4",
+      "perGame": "5.722"
+    }
+  }
+}

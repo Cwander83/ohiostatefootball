@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ohio State Football — Roster</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="header"></div>
+  <main>
+    <h1 class="page-title">Roster</h1>
+    <p class="page-sub">Full 2026 roster. Click a column header to sort.</p>
+    <div class="filters" id="filters"></div>
+    <div class="filters" id="posfilters"></div>
+    <div class="card">
+      <div id="table"></div>
+    </div>
+  </main>
+  <footer class="site-footer">Data via ESPN API · Updated by local scraper</footer>
+
+  <script type="module">
+    import { loadJSON } from "./js/data.js";
+    import { makeSortableTable } from "./js/table.js";
+    import { initScrapeButton } from "./js/scrape.js";
+    import { initYearSelect } from "./js/year.js";
+
+    document.getElementById("header").innerHTML = await (await fetch("partials/header.html")).text();
+    document.querySelector('[data-nav="roster"]').classList.add("active");
+    initScrapeButton();
+    await initYearSelect();
+
+    const year = new URLSearchParams(location.search).get("year") || "2026";
+    let roster = [];
+    try {
+      roster = await loadJSON(`data/${year}/roster.json`);
+    } catch {
+      roster = [];
+    }
+    const container = document.getElementById("table");
+    const filters = document.getElementById("filters");
+    const posfilters = document.getElementById("posfilters");
+
+    if (!roster.length) {
+      filters.innerHTML = "";
+      posfilters.innerHTML = "";
+      const empty = document.createElement("div");
+      empty.className = "empty";
+      empty.innerHTML = '<div class="big">No roster for this season</div>Rosters are only available for the current season.';
+      container.appendChild(empty);
+    } else {
+      initRoster(roster, container, filters, posfilters);
+    }
+
+    function initRoster(roster, container, filters, posfilters) {
+
+    const groups = ["All", "Offense", "Defense", "Special Teams"];
+    let active = "All";
+    let activePos = "All";
+
+    const POS_LABELS = {
+      QB: "QB", RB: "RB", WR: "WR", TE: "TE", OL: "OL",
+      DE: "DE", DT: "DT", LB: "LB", CB: "CB", S: "S", DB: "DB",
+      PK: "PK", P: "P", LS: "LS",
+    };
+
+    function positionsForGroup() {
+      let rows = roster;
+      if (active === "Offense") rows = roster.filter((p) => p.positionGroup === "offense");
+      else if (active === "Defense") rows = roster.filter((p) => p.positionGroup === "defense");
+      else if (active === "Special Teams") rows = roster.filter((p) => p.positionGroup === "specialTeam");
+      const set = new Set(rows.map((p) => p.position).filter(Boolean));
+      return [...set].sort();
+    }
+
+    function renderFilters() {
+      filters.innerHTML = "";
+      for (const g of groups) {
+        const b = document.createElement("button");
+        b.textContent = g;
+        b.classList.toggle("active", g === active);
+        b.addEventListener("click", () => { active = g; activePos = "All"; renderFilters(); renderPosFilters(); renderTable(); });
+        filters.appendChild(b);
+      }
+    }
+
+    function renderPosFilters() {
+      posfilters.innerHTML = "";
+      const positions = positionsForGroup();
+      const sel = document.createElement("select");
+      sel.className = "pos-select";
+      sel.name = "position";
+      const allOpt = document.createElement("option");
+      allOpt.value = "All";
+      allOpt.textContent = "All Positions";
+      sel.appendChild(allOpt);
+      for (const pos of positions) {
+        const opt = document.createElement("option");
+        opt.value = pos;
+        opt.textContent = POS_LABELS[pos] || pos;
+        sel.appendChild(opt);
+      }
+      sel.value = activePos;
+      sel.addEventListener("change", () => { activePos = sel.value; renderTable(); });
+      posfilters.appendChild(sel);
+    }
+
+    function renderTable() {
+      container.innerHTML = "";
+      let rows = roster;
+      if (active === "Offense") rows = roster.filter((p) => p.positionGroup === "offense");
+      else if (active === "Defense") rows = roster.filter((p) => p.positionGroup === "defense");
+      else if (active === "Special Teams") rows = roster.filter((p) => p.positionGroup === "specialTeam");
+      if (activePos !== "All") rows = rows.filter((p) => p.position === activePos);
+
+      const columns = [
+        { key: "jersey", label: "#", class: "jersey", defaultDir: "asc" },
+        { key: "name", label: "Name", class: "name", defaultDir: "asc" },
+        { key: "position", label: "Pos", defaultDir: "asc" },
+        { key: "class", label: "Class", defaultDir: "asc" },
+        { key: "height", label: "Ht", defaultDir: "asc" },
+        { key: "weight", label: "Wt", defaultDir: "asc" },
+      ];
+      makeSortableTable(container, { columns, rows, initialSort: "jersey", initialDir: "asc" });
+    }
+
+    renderFilters();
+    renderPosFilters();
+    renderTable();
+    }
+  </script>
+</body>
+</html>

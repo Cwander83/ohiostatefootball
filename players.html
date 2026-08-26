@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ohio State Football — Player Stats</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="header"></div>
+  <main>
+    <h1 class="page-title">Player Stats</h1>
+    <p class="page-sub">Season totals by position. Click a column header to sort.</p>
+    <div class="filters" id="filters"></div>
+    <div class="card">
+      <div id="table"></div>
+    </div>
+  </main>
+  <footer class="site-footer">Data via ESPN API · Updated by local scraper</footer>
+
+  <script type="module">
+    import { loadJSON } from "./js/data.js";
+    import { makeSortableTable } from "./js/table.js";
+    import { initScrapeButton } from "./js/scrape.js";
+    import { initYearSelect } from "./js/year.js";
+    import { aggregateBoxscores } from "./js/aggregate.js";
+
+    document.getElementById("header").innerHTML = await (await fetch("partials/header.html")).text();
+    document.querySelector('[data-nav="players"]').classList.add("active");
+    initScrapeButton();
+    await initYearSelect();
+
+    const year = new URLSearchParams(location.search).get("year") || "2026";
+    const boxscores = await loadJSON(`data/${year}/boxscores.json`);
+    let roster = [];
+    try {
+      roster = await loadJSON(`data/${year}/roster.json`);
+    } catch {
+      roster = [];
+    }
+    const rosterById = new Map(roster.map((p) => [p.id, p]));
+
+    const groups = aggregateBoxscores(boxscores);
+
+    const container = document.getElementById("table");
+    const filters = document.getElementById("filters");
+
+    const GROUP_LABELS = {
+      passing: "Quarterbacks",
+      rushing: "Running Backs",
+      receiving: "Receivers",
+      defensive: "Defense",
+      interceptions: "Interceptions",
+      kicking: "Kicking",
+      punting: "Punting",
+      kickReturns: "Kick Returns",
+      puntReturns: "Punt Returns",
+      fumbles: "Fumbles",
+    };
+
+    const groupKeys = Object.keys(groups);
+    let activeGroup = groupKeys[0] || null;
+
+    function renderFilters() {
+      filters.innerHTML = "";
+      for (const key of groupKeys) {
+        const b = document.createElement("button");
+        b.textContent = GROUP_LABELS[key] || key;
+        b.classList.toggle("active", key === activeGroup);
+        b.addEventListener("click", () => { activeGroup = key; renderFilters(); renderTable(); });
+        filters.appendChild(b);
+      }
+    }
+
+    function renderTable() {
+      container.innerHTML = "";
+      if (!activeGroup) {
+        const empty = document.createElement("div");
+        empty.className = "empty";
+        empty.innerHTML = '<div class="big">No game data yet</div>Run the scraper after games are played to populate player stats.';
+        container.appendChild(empty);
+        return;
+      }
+      const g = groups[activeGroup];
+      const rows = [...g.players.values()].map((p) => {
+        const rp = rosterById.get(p.id);
+        return { name: p.name, jersey: p.jersey || rp?.jersey || "—", ...p.row };
+      });
+      const columns = [
+        { key: "jersey", label: "#", class: "jersey", defaultDir: "asc" },
+        { key: "name", label: "Name", class: "name", defaultDir: "asc" },
+        ...g.labels.map((lbl) => ({ key: lbl, label: lbl })),
+      ];
+      makeSortableTable(container, { columns, rows, initialSort: columns[2]?.key, initialDir: "desc" });
+    }
+
+    renderFilters();
+    renderTable();
+  </script>
+</body>
+</html>

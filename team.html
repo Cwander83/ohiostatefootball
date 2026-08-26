@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ohio State Football — Team Stats</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="header"></div>
+  <main>
+    <h1 class="page-title">Team Stats</h1>
+    <p class="page-sub">2026 season totals for the Ohio State Buckeyes.</p>
+    <div id="stats"></div>
+  </main>
+  <footer class="site-footer">Data via ESPN API · Updated by local scraper</footer>
+
+  <script type="module">
+    import { loadJSON } from "./js/data.js";
+    import { initScrapeButton } from "./js/scrape.js";
+    import { initYearSelect } from "./js/year.js";
+
+    document.getElementById("header").innerHTML = await (await fetch("partials/header.html")).text();
+    document.querySelector('[data-nav="team"]').classList.add("active");
+    initScrapeButton();
+    await initYearSelect();
+
+    const year = new URLSearchParams(location.search).get("year") || "2026";
+    let cats = {};
+    try {
+      cats = await loadJSON(`data/${year}/team-stats.json`);
+    } catch {
+      cats = {};
+    }
+    const container = document.getElementById("stats");
+
+    if (!Object.keys(cats).length) {
+      const empty = document.createElement("div");
+      empty.className = "empty";
+      empty.innerHTML = '<div class="big">No team stats yet</div>Team stats will appear once the season begins.';
+      container.appendChild(empty);
+    }
+
+    const CAT_LABELS = {
+      passing: "Passing",
+      rushing: "Rushing",
+      receiving: "Receiving",
+      miscellaneous: "Miscellaneous",
+      defensive: "Defense",
+      defensiveInterceptions: "Interceptions",
+      general: "General",
+      returning: "Returns",
+      kicking: "Kicking",
+      punting: "Punting",
+      scoring: "Scoring",
+    };
+
+    for (const [key, stats] of Object.entries(cats)) {
+      const card = document.createElement("div");
+      card.className = "card";
+      const h2 = document.createElement("h2");
+      h2.textContent = CAT_LABELS[key] || key;
+      card.appendChild(h2);
+
+      const grid = document.createElement("div");
+      grid.className = "stat-grid";
+      for (const [name, s] of Object.entries(stats)) {
+        const tile = document.createElement("div");
+        tile.className = "stat-tile";
+        const val = document.createElement("div");
+        val.className = "val";
+        val.textContent = s.display;
+        const lbl = document.createElement("div");
+        lbl.className = "lbl";
+        lbl.textContent = name.replace(/([A-Z])/g, " $1").replace(/^./, (c) => c.toUpperCase());
+        tile.append(val, lbl);
+        grid.appendChild(tile);
+      }
+      card.appendChild(grid);
+      container.appendChild(card);
+    }
+  </script>
+</body>
+</html>

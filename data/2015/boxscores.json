@@ -1,0 +1,8222 @@
+{
+  "400756905": {
+    "eventId": "400756905",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "10/19",
+              "187",
+              "9.8",
+              "2",
+              "1",
+              "93.6"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "1/1",
+              "26",
+              "26.0",
+              "1",
+              "0",
+              "100.0"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "11",
+              "122",
+              "11.1",
+              "1",
+              "80"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "13",
+              "99",
+              "7.6",
+              "1",
+              "20"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "5",
+              "61",
+              "12.2",
+              "1",
+              "53"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "1",
+              "40",
+              "40.0",
+              "0",
+              "40"
+            ]
+          },
+          {
+            "id": "534280",
+            "name": "Warren Ball",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "3",
+              "16",
+              "5.3",
+              "0",
+              "6"
+            ]
+          },
+          {
+            "id": "534289",
+            "name": "Bri'onte Dunn",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "1",
+              "12",
+              "12.0",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "10",
+              "10.0",
+              "0",
+              "10"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "3",
+              "79",
+              "26.3",
+              "1",
+              "54"
+            ]
+          },
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "2",
+              "46",
+              "23.0",
+              "1",
+              "26"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "2",
+              "32",
+              "16.0",
+              "1",
+              "24"
+            ]
+          },
+          {
+            "id": "3121413",
+            "name": "Johnnie Dixon",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "1",
+              "29",
+              "29.0",
+              "0",
+              "29"
+            ]
+          },
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "2",
+              "16",
+              "8.0",
+              "0",
+              "10"
+            ]
+          },
+          {
+            "id": "514185",
+            "name": "Nick Vannett",
+            "position": null,
+            "jersey": "81",
+            "stats": [
+              "1",
+              "11",
+              "11.0",
+              "0",
+              "11"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "534303",
+            "name": "Tyvis Powell",
+            "position": null,
+            "jersey": "23",
+            "stats": [
+              "1",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "2",
+              "13",
+              "6.5",
+              "10",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "530278",
+            "name": "Jack Willoughby",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "0/1",
+              "0.0",
+              "0",
+              "6/6",
+              "6"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "3",
+              "116",
+              "38.7",
+              "0",
+              "0",
+              "45"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "514481",
+            "name": "Michael Brewer",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "11/16",
+              "156",
+              "9.8",
+              "2",
+              "0",
+              "94.0"
+            ]
+          },
+          {
+            "id": "530541",
+            "name": "Brenden Motley",
+            "position": null,
+            "jersey": "9",
+            "stats": [
+              "4/9",
+              "36",
+              "4.0",
+              "1",
+              "1",
+              "49.0"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "530522",
+            "name": "J.C. Coleman",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "12",
+              "43",
+              "3.6",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "3124074",
+            "name": "Travon McMillian",
+            "position": null,
+            "jersey": "34",
+            "stats": [
+              "6",
+              "26",
+              "4.3",
+              "0",
+              "15"
+            ]
+          },
+          {
+            "id": "547028",
+            "name": "Sam Rogers",
+            "position": null,
+            "jersey": "45",
+            "stats": [
+              "3",
+              "23",
+              "7.7",
+              "0",
+              "16"
+            ]
+          },
+          {
+            "id": "530531",
+            "name": "Trey Edmunds",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "11",
+              "23",
+              "2.1",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "530541",
+            "name": "Brenden Motley",
+            "position": null,
+            "jersey": "9",
+            "stats": [
+              "7",
+              "17",
+              "2.4",
+              "0",
+              "14"
+            ]
+          },
+          {
+            "id": "514481",
+            "name": "Michael Brewer",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "4",
+              "0",
+              "0.0",
+              "0",
+              "6"
+            ]
+          },
+          {
+            "id": "3124086",
+            "name": "Greg Stroman Jr.",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "1",
+              "-4",
+              "-4.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "547028",
+            "name": "Sam Rogers",
+            "position": null,
+            "jersey": "45",
+            "stats": [
+              "3",
+              "66",
+              "22.0",
+              "1",
+              "51"
+            ]
+          },
+          {
+            "id": "3124069",
+            "name": "Isaiah Ford",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "3",
+              "61",
+              "20.3",
+              "1",
+              "36"
+            ]
+          },
+          {
+            "id": "515567",
+            "name": "Ryan Malleck",
+            "position": null,
+            "jersey": "88",
+            "stats": [
+              "4",
+              "48",
+              "12.0",
+              "1",
+              "25"
+            ]
+          },
+          {
+            "id": "530531",
+            "name": "Trey Edmunds",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "1",
+              "8",
+              "8.0",
+              "0",
+              "8"
+            ]
+          },
+          {
+            "id": "3124074",
+            "name": "Travon McMillian",
+            "position": null,
+            "jersey": "34",
+            "stats": [
+              "2",
+              "5",
+              "2.5",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "3124079",
+            "name": "Cam Phillips",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "2",
+              "4",
+              "2.0",
+              "0",
+              "3"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "530533",
+            "name": "Desmond Frye",
+            "position": null,
+            "jersey": "26",
+            "stats": [
+              "1",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3124074",
+            "name": "Travon McMillian",
+            "position": null,
+            "jersey": "34",
+            "stats": [
+              "3",
+              "57",
+              "19.0",
+              "24",
+              "0"
+            ]
+          },
+          {
+            "id": "530534",
+            "name": "Der'Woun Greene",
+            "position": null,
+            "jersey": "23",
+            "stats": [
+              "1",
+              "18",
+              "18.0",
+              "18",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3124086",
+            "name": "Greg Stroman Jr.",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "1",
+              "0",
+              "0.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "3124084",
+            "name": "Joey Slye",
+            "position": null,
+            "jersey": "46",
+            "stats": [
+              "1/2",
+              "50.0",
+              "46",
+              "3/3",
+              "6"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "535627",
+            "name": "A.J. Hughes",
+            "position": null,
+            "jersey": "27",
+            "stats": [
+              "7",
+              "302",
+              "43.1",
+              "0",
+              "0",
+              "59"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "400763505": {
+    "eventId": "400763505",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "12/18",
+              "111",
+              "6.2",
+              "0",
+              "0",
+              "18.4"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "8/15",
+              "70",
+              "4.7",
+              "0",
+              "0",
+              "25.4"
+            ]
+          },
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "0/1",
+              "0",
+              "0.0",
+              "0",
+              "0",
+              "0.2"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "27",
+              "101",
+              "3.7",
+              "3",
+              "13"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "8",
+              "57",
+              "7.1",
+              "0",
+              "14"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "9",
+              "9.0",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "1",
+              "7",
+              "7.0",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "534280",
+            "name": "Warren Ball",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "3",
+              "7",
+              "2.3",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "534289",
+            "name": "Bri'onte Dunn",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "1",
+              "5",
+              "5.0",
+              "1",
+              "5"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "6",
+              "5",
+              "0.8",
+              "0",
+              "24"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "7",
+              "53",
+              "7.6",
+              "0",
+              "13"
+            ]
+          },
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "5",
+              "52",
+              "10.4",
+              "0",
+              "19"
+            ]
+          },
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "3",
+              "40",
+              "13.3",
+              "0",
+              "24"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "2",
+              "16",
+              "8.0",
+              "0",
+              "8"
+            ]
+          },
+          {
+            "id": "514185",
+            "name": "Nick Vannett",
+            "position": null,
+            "jersey": "81",
+            "stats": [
+              "1",
+              "12",
+              "12.0",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "549827",
+            "name": "Corey Smith",
+            "position": null,
+            "jersey": "84",
+            "stats": [
+              "1",
+              "8",
+              "8.0",
+              "0",
+              "8"
+            ]
+          },
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "1",
+              "0",
+              "0.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549807",
+            "name": "Vonn Bell",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "549810",
+            "name": "Gareon Conley",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "1",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "25",
+              "25.0",
+              "25",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "3",
+              "45",
+              "15.0",
+              "32",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "530278",
+            "name": "Jack Willoughby",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "1/1",
+              "100.0",
+              "20",
+              "5/5",
+              "8"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "5",
+              "218",
+              "43.6",
+              "0",
+              "0",
+              "57"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "513330",
+            "name": "Max Wittek",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "7/24",
+              "67",
+              "2.8",
+              "0",
+              "2",
+              "12.2"
+            ]
+          },
+          {
+            "id": "532976",
+            "name": "Ikaika Woolsey",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "1/2",
+              "18",
+              "9.0",
+              "0",
+              "0",
+              "2.3"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3914919",
+            "name": "Paul Harris",
+            "position": null,
+            "jersey": "29",
+            "stats": [
+              "14",
+              "46",
+              "3.3",
+              "0",
+              "11"
+            ]
+          },
+          {
+            "id": "3933063",
+            "name": "Mel Davis",
+            "position": null,
+            "jersey": "33",
+            "stats": [
+              "9",
+              "35",
+              "3.9",
+              "0",
+              "11"
+            ]
+          },
+          {
+            "id": "3154545",
+            "name": "Pereese Joas",
+            "position": null,
+            "jersey": "20",
+            "stats": [
+              "2",
+              "2",
+              "1.0",
+              "0",
+              "3"
+            ]
+          },
+          {
+            "id": "532976",
+            "name": "Ikaika Woolsey",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "3",
+              "-1",
+              "-0.3",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "513330",
+            "name": "Max Wittek",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "7",
+              "-2",
+              "-0.3",
+              "0",
+              "17"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "536118",
+            "name": "Dylan Collie",
+            "position": null,
+            "jersey": "23",
+            "stats": [
+              "1",
+              "29",
+              "29.0",
+              "0",
+              "29"
+            ]
+          },
+          {
+            "id": "536261",
+            "name": "Harold Moleni",
+            "position": null,
+            "jersey": "87",
+            "stats": [
+              "1",
+              "18",
+              "18.0",
+              "0",
+              "18"
+            ]
+          },
+          {
+            "id": "3933067",
+            "name": "Isaiah Bernard",
+            "position": null,
+            "jersey": "84",
+            "stats": [
+              "3",
+              "18",
+              "6.0",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "555425",
+            "name": "Davasyia Hagger",
+            "position": null,
+            "jersey": "82",
+            "stats": [
+              "1",
+              "13",
+              "13.0",
+              "0",
+              "13"
+            ]
+          },
+          {
+            "id": "3124580",
+            "name": "Metuisela 'Unga",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "1",
+              "4",
+              "4.0",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "547195",
+            "name": "Marcus Kemp",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "1",
+              "3",
+              "3.0",
+              "0",
+              "3"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "547170",
+            "name": "Keelan Ewaliko",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "3",
+              "47",
+              "15.7",
+              "22",
+              "0"
+            ]
+          },
+          {
+            "id": "3914919",
+            "name": "Paul Harris",
+            "position": null,
+            "jersey": "29",
+            "stats": [
+              "1",
+              "11",
+              "11.0",
+              "11",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3124574",
+            "name": "Nick Nelson",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "2",
+              "8",
+              "4.0",
+              "6",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": []
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3914922",
+            "name": "Rigoberto Sanchez",
+            "position": null,
+            "jersey": "43",
+            "stats": [
+              "8",
+              "289",
+              "36.1",
+              "0",
+              "0",
+              "52"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "400763514": {
+    "eventId": "400763514",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "11/19",
+              "97",
+              "5.1",
+              "1",
+              "1",
+              "17.8"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "4/9",
+              "36",
+              "4.0",
+              "0",
+              "2",
+              "8.5"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1/1",
+              "3",
+              "3.0",
+              "0",
+              "0",
+              "42.2"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "23",
+              "108",
+              "4.7",
+              "0",
+              "13"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "3",
+              "20",
+              "6.7",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "3",
+              "18",
+              "6.0",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "2",
+              "11",
+              "5.5",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "4",
+              "7",
+              "1.8",
+              "0",
+              "8"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "3",
+              "60",
+              "20.0",
+              "1",
+              "25"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "2",
+              "24",
+              "12.0",
+              "0",
+              "16"
+            ]
+          },
+          {
+            "id": "549830",
+            "name": "Dontre Wilson",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "3",
+              "20",
+              "6.7",
+              "0",
+              "15"
+            ]
+          },
+          {
+            "id": "514185",
+            "name": "Nick Vannett",
+            "position": null,
+            "jersey": "81",
+            "stats": [
+              "4",
+              "16",
+              "4.0",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "549827",
+            "name": "Corey Smith",
+            "position": null,
+            "jersey": "84",
+            "stats": [
+              "1",
+              "7",
+              "7.0",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "2",
+              "6",
+              "3.0",
+              "0",
+              "8"
+            ]
+          },
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "1",
+              "3",
+              "3.0",
+              "0",
+              "3"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549817",
+            "name": "Darron Lee",
+            "position": null,
+            "jersey": "43",
+            "stats": [
+              "1",
+              "41",
+              "1"
+            ]
+          },
+          {
+            "id": "545623",
+            "name": "Eli Apple",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "1",
+              "8",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549830",
+            "name": "Dontre Wilson",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "1",
+              "25",
+              "25.0",
+              "25",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "1",
+              "26",
+              "26.0",
+              "26",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "530278",
+            "name": "Jack Willoughby",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "2/2",
+              "100.0",
+              "31",
+              "2/2",
+              "8"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "6",
+              "313",
+              "52.2",
+              "0",
+              "0",
+              "63"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "532480",
+            "name": "Drew Hare",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "14/31",
+              "80",
+              "2.6",
+              "0",
+              "2",
+              "18.9"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "547843",
+            "name": "Joel Bouagnon",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "21",
+              "78",
+              "3.7",
+              "0",
+              "13"
+            ]
+          },
+          {
+            "id": "532480",
+            "name": "Drew Hare",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "13",
+              "23",
+              "1.8",
+              "0",
+              "15"
+            ]
+          },
+          {
+            "id": "547867",
+            "name": "Aregeros Turner",
+            "position": null,
+            "jersey": "22",
+            "stats": [
+              "4",
+              "12",
+              "3.0",
+              "1",
+              "5"
+            ]
+          },
+          {
+            "id": "547854",
+            "name": "Jordan Huff",
+            "position": null,
+            "jersey": "23",
+            "stats": [
+              "3",
+              "5",
+              "1.7",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "511603",
+            "name": "Tommylee Lewis",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "1",
+              "0",
+              "0.0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "3921987",
+            "name": "Jacob Ambrose",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "1",
+              "-8",
+              "-8.0",
+              "0",
+              "2"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "547867",
+            "name": "Aregeros Turner",
+            "position": null,
+            "jersey": "22",
+            "stats": [
+              "3",
+              "37",
+              "12.3",
+              "0",
+              "17"
+            ]
+          },
+          {
+            "id": "533961",
+            "name": "Kenny Golladay",
+            "position": null,
+            "jersey": "19",
+            "stats": [
+              "3",
+              "19",
+              "6.3",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "511603",
+            "name": "Tommylee Lewis",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "4",
+              "13",
+              "3.3",
+              "0",
+              "6"
+            ]
+          },
+          {
+            "id": "547843",
+            "name": "Joel Bouagnon",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "3",
+              "8",
+              "2.7",
+              "0",
+              "3"
+            ]
+          },
+          {
+            "id": "532488",
+            "name": "Desroy Maxwell",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "1",
+              "3",
+              "3.0",
+              "0",
+              "3"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3126023",
+            "name": "Shawun Lurry",
+            "position": null,
+            "jersey": "19",
+            "stats": [
+              "2",
+              "45",
+              "0"
+            ]
+          },
+          {
+            "id": "547851",
+            "name": "Sean Folliard",
+            "position": null,
+            "jersey": "40",
+            "stats": [
+              "1",
+              "19",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "547867",
+            "name": "Aregeros Turner",
+            "position": null,
+            "jersey": "22",
+            "stats": [
+              "1",
+              "18",
+              "18.0",
+              "18",
+              "0"
+            ]
+          },
+          {
+            "id": "511604",
+            "name": "Paris Logan",
+            "position": null,
+            "jersey": "29",
+            "stats": [
+              "1",
+              "17",
+              "17.0",
+              "17",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "3126014",
+            "name": "Christian Hagan",
+            "position": null,
+            "jersey": "34",
+            "stats": [
+              "2/2",
+              "100.0",
+              "38",
+              "1/1",
+              "7"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3921987",
+            "name": "Jacob Ambrose",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "10",
+              "449",
+              "44.9",
+              "0",
+              "0",
+              "61"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "400763524": {
+    "eventId": "400763524",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "19/33",
+              "288",
+              "8.7",
+              "2",
+              "1",
+              "68.7"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "1/3",
+              "0",
+              "0.0",
+              "0",
+              "1",
+              "1.6"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "16",
+              "124",
+              "7.8",
+              "1",
+              "26"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "2",
+              "55",
+              "27.5",
+              "1",
+              "40"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "10",
+              "32",
+              "3.2",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "4",
+              "11",
+              "2.8",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "534289",
+            "name": "Bri'onte Dunn",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "1",
+              "2",
+              "2.0",
+              "0",
+              "2"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "1",
+              "-1",
+              "-1.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "6",
+              "80",
+              "13.3",
+              "1",
+              "38"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "2",
+              "49",
+              "24.5",
+              "0",
+              "40"
+            ]
+          },
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "2",
+              "48",
+              "24.0",
+              "1",
+              "37"
+            ]
+          },
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "3",
+              "29",
+              "9.7",
+              "0",
+              "19"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "2",
+              "27",
+              "13.5",
+              "0",
+              "16"
+            ]
+          },
+          {
+            "id": "549827",
+            "name": "Corey Smith",
+            "position": null,
+            "jersey": "84",
+            "stats": [
+              "2",
+              "25",
+              "12.5",
+              "0",
+              "16"
+            ]
+          },
+          {
+            "id": "514185",
+            "name": "Nick Vannett",
+            "position": null,
+            "jersey": "81",
+            "stats": [
+              "1",
+              "16",
+              "16.0",
+              "0",
+              "16"
+            ]
+          },
+          {
+            "id": "549830",
+            "name": "Dontre Wilson",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "1",
+              "14",
+              "14.0",
+              "0",
+              "14"
+            ]
+          },
+          {
+            "id": "534289",
+            "name": "Bri'onte Dunn",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "1",
+              "0",
+              "0.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "534312",
+            "name": "Adolphus Washington",
+            "position": null,
+            "jersey": "92",
+            "stats": [
+              "1",
+              "20",
+              "1"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "25",
+              "25.0",
+              "25",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "2",
+              "8",
+              "4.0",
+              "6",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "530278",
+            "name": "Jack Willoughby",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "1/1",
+              "100.0",
+              "30",
+              "5/5",
+              "8"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "4",
+              "206",
+              "51.5",
+              "0",
+              "0",
+              "67"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "532645",
+            "name": "Zach Terrell",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "18/33",
+              "169",
+              "5.1",
+              "2",
+              "1",
+              "46.3"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3129454",
+            "name": "Jamauri Bogan",
+            "position": null,
+            "jersey": "32",
+            "stats": [
+              "23",
+              "93",
+              "4.0",
+              "0",
+              "17"
+            ]
+          },
+          {
+            "id": "3129453",
+            "name": "Jarvion Franklin",
+            "position": null,
+            "jersey": "31",
+            "stats": [
+              "12",
+              "68",
+              "5.7",
+              "0",
+              "18"
+            ]
+          },
+          {
+            "id": "3916721",
+            "name": "LeVante Bellamy",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "2",
+              "11",
+              "5.5",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "532645",
+            "name": "Zach Terrell",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "4",
+              "-3",
+              "-0.8",
+              "0",
+              "5"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "532661",
+            "name": "Daniel Braverman",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "10",
+              "123",
+              "12.3",
+              "1",
+              "55"
+            ]
+          },
+          {
+            "id": "545923",
+            "name": "Corey Davis",
+            "position": null,
+            "jersey": "84",
+            "stats": [
+              "6",
+              "42",
+              "7.0",
+              "0",
+              "13"
+            ]
+          },
+          {
+            "id": "545927",
+            "name": "Fabian Johnson",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "1",
+              "3",
+              "3.0",
+              "0",
+              "3"
+            ]
+          },
+          {
+            "id": "3126122",
+            "name": "Jeremiah Mullinax",
+            "position": null,
+            "jersey": "36",
+            "stats": [
+              "1",
+              "1",
+              "1.0",
+              "1",
+              "1"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "545930",
+            "name": "Darius Phillips",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "2",
+              "4",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "545930",
+            "name": "Darius Phillips",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "3",
+              "55",
+              "18.3",
+              "28",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "518031",
+            "name": "Andrew Haldeman",
+            "position": null,
+            "jersey": "45",
+            "stats": [
+              "0/2",
+              "0.0",
+              "0",
+              "0/1",
+              "0"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "532655",
+            "name": "J. Schroeder",
+            "position": null,
+            "jersey": "37",
+            "stats": [
+              "6",
+              "262",
+              "43.7",
+              "0",
+              "0",
+              "55"
+            ]
+          },
+          {
+            "id": "3163844",
+            "name": "Derrick Mitchell",
+            "position": null,
+            "jersey": "39",
+            "stats": [
+              "1",
+              "39",
+              "39.0",
+              "0",
+              "0",
+              "39"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "400763529": {
+    "eventId": "400763529",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "18/27",
+              "245",
+              "9.1",
+              "1",
+              "1",
+              "12.8"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "23",
+              "274",
+              "11.9",
+              "3",
+              "75"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "14",
+              "14.0",
+              "0",
+              "14"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "4",
+              "4.0",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "9",
+              "-20",
+              "-2.2",
+              "0",
+              "4"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "6",
+              "110",
+              "18.3",
+              "0",
+              "34"
+            ]
+          },
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "4",
+              "54",
+              "13.5",
+              "1",
+              "23"
+            ]
+          },
+          {
+            "id": "514185",
+            "name": "Nick Vannett",
+            "position": null,
+            "jersey": "81",
+            "stats": [
+              "2",
+              "33",
+              "16.5",
+              "0",
+              "26"
+            ]
+          },
+          {
+            "id": "549830",
+            "name": "Dontre Wilson",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "2",
+              "23",
+              "11.5",
+              "0",
+              "21"
+            ]
+          },
+          {
+            "id": "549827",
+            "name": "Corey Smith",
+            "position": null,
+            "jersey": "84",
+            "stats": [
+              "1",
+              "22",
+              "22.0",
+              "0",
+              "22"
+            ]
+          },
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "2",
+              "12",
+              "6.0",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "-9",
+              "-9.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549830",
+            "name": "Dontre Wilson",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "3",
+              "74",
+              "24.7",
+              "25",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "6",
+              "76",
+              "12.7",
+              "38",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "530278",
+            "name": "Jack Willoughby",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "2/3",
+              "66.7",
+              "26",
+              "4/4",
+              "10"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "7",
+              "304",
+              "43.4",
+              "0",
+              "0",
+              "61"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "535825",
+            "name": "Nate Sudfeld",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "10/21",
+              "134",
+              "6.4",
+              "0",
+              "0",
+              "70.9"
+            ]
+          },
+          {
+            "id": "3128254",
+            "name": "Zander Diamont",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "6/14",
+              "76",
+              "5.4",
+              "0",
+              "0",
+              "71.8"
+            ]
+          },
+          {
+            "id": "535819",
+            "name": "Mitchell Paige",
+            "position": null,
+            "jersey": "87",
+            "stats": [
+              "1/1",
+              "16",
+              "16.0",
+              "0",
+              "0",
+              "100.0"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3128254",
+            "name": "Zander Diamont",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "7",
+              "98",
+              "14.0",
+              "1",
+              "79"
+            ]
+          },
+          {
+            "id": "3128267",
+            "name": "Devine Redding",
+            "position": null,
+            "jersey": "34",
+            "stats": [
+              "30",
+              "45",
+              "1.5",
+              "2",
+              "11"
+            ]
+          },
+          {
+            "id": "552904",
+            "name": "Jordan Howard",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "14",
+              "34",
+              "2.4",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "535825",
+            "name": "Nate Sudfeld",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "2",
+              "3",
+              "1.5",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "521589",
+            "name": "Erich Toth",
+            "position": null,
+            "jersey": "36",
+            "stats": [
+              "1",
+              "-3",
+              "-3.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3128251",
+            "name": "Simmie Cobbs",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "4",
+              "68",
+              "17.0",
+              "0",
+              "28"
+            ]
+          },
+          {
+            "id": "535803",
+            "name": "Anthony Corsaro",
+            "position": null,
+            "jersey": "88",
+            "stats": [
+              "2",
+              "47",
+              "23.5",
+              "0",
+              "38"
+            ]
+          },
+          {
+            "id": "535812",
+            "name": "Ricky Jones",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "3",
+              "35",
+              "11.7",
+              "0",
+              "18"
+            ]
+          },
+          {
+            "id": "3128267",
+            "name": "Devine Redding",
+            "position": null,
+            "jersey": "34",
+            "stats": [
+              "2",
+              "21",
+              "10.5",
+              "0",
+              "21"
+            ]
+          },
+          {
+            "id": "3128254",
+            "name": "Zander Diamont",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "1",
+              "16",
+              "16.0",
+              "0",
+              "16"
+            ]
+          },
+          {
+            "id": "552904",
+            "name": "Jordan Howard",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "2",
+              "16",
+              "8.0",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "541620",
+            "name": "Damon Graham",
+            "position": null,
+            "jersey": "38",
+            "stats": [
+              "2",
+              "12",
+              "6.0",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "535819",
+            "name": "Mitchell Paige",
+            "position": null,
+            "jersey": "87",
+            "stats": [
+              "1",
+              "11",
+              "11.0",
+              "0",
+              "11"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3128268",
+            "name": "Tegray Scales",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "1",
+              "32",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3858265",
+            "name": "Ricky Brookins",
+            "position": null,
+            "jersey": "33",
+            "stats": [
+              "3",
+              "49",
+              "16.3",
+              "18",
+              "0"
+            ]
+          },
+          {
+            "id": "3929786",
+            "name": "Donavan Hale",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "2",
+              "22",
+              "11.0",
+              "11",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "535819",
+            "name": "Mitchell Paige",
+            "position": null,
+            "jersey": "87",
+            "stats": [
+              "1",
+              "2",
+              "2.0",
+              "2",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "553473",
+            "name": "Griffin Oakes",
+            "position": null,
+            "jersey": "92",
+            "stats": [
+              "2/2",
+              "100.0",
+              "34",
+              "3/3",
+              "9"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "521589",
+            "name": "Erich Toth",
+            "position": null,
+            "jersey": "36",
+            "stats": [
+              "10",
+              "419",
+              "41.9",
+              "0",
+              "0",
+              "51"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "400763537": {
+    "eventId": "400763537",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "21/28",
+              "291",
+              "10.4",
+              "2",
+              "0",
+              "78.6"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "2/2",
+              "26",
+              "13.0",
+              "0",
+              "0",
+              "84.6"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "21",
+              "106",
+              "5.0",
+              "2",
+              "19"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "12",
+              "62",
+              "5.2",
+              "3",
+              "23"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "6",
+              "19",
+              "3.2",
+              "0",
+              "8"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "3",
+              "11",
+              "3.7",
+              "0",
+              "8"
+            ]
+          },
+          {
+            "id": "534289",
+            "name": "Bri'onte Dunn",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "1",
+              "10",
+              "10.0",
+              "0",
+              "10"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "1",
+              "1.0",
+              "0",
+              "1"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "7",
+              "107",
+              "15.3",
+              "0",
+              "31"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "5",
+              "79",
+              "15.8",
+              "1",
+              "33"
+            ]
+          },
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "4",
+              "78",
+              "19.5",
+              "1",
+              "48"
+            ]
+          },
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "6",
+              "47",
+              "7.8",
+              "0",
+              "11"
+            ]
+          },
+          {
+            "id": "549830",
+            "name": "Dontre Wilson",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "1",
+              "6",
+              "6.0",
+              "0",
+              "6"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "534303",
+            "name": "Tyvis Powell",
+            "position": null,
+            "jersey": "23",
+            "stats": [
+              "1",
+              "25",
+              "0"
+            ]
+          },
+          {
+            "id": "3121416",
+            "name": "Sam Hubbard",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "1",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549830",
+            "name": "Dontre Wilson",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "3",
+              "68",
+              "22.7",
+              "25",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "1",
+              "28",
+              "28.0",
+              "28",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "530278",
+            "name": "Jack Willoughby",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "0/1",
+              "0.0",
+              "0",
+              "7/7",
+              "7"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "3",
+              "164",
+              "54.7",
+              "0",
+              "0",
+              "65"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "534317",
+            "name": "Perry Hills",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "10/27",
+              "133",
+              "4.9",
+              "1",
+              "2",
+              "83.6"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "534317",
+            "name": "Perry Hills",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "25",
+              "170",
+              "6.8",
+              "2",
+              "75"
+            ]
+          },
+          {
+            "id": "534242",
+            "name": "Wes Brown",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "5",
+              "30",
+              "6.0",
+              "1",
+              "10"
+            ]
+          },
+          {
+            "id": "516321",
+            "name": "Brandon Ross",
+            "position": null,
+            "jersey": "45",
+            "stats": [
+              "7",
+              "29",
+              "4.1",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "534318",
+            "name": "Levern Jacobs",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "1",
+              "9",
+              "9.0",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "3915416",
+            "name": "DJ Moore",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "9",
+              "9.0",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "546565",
+            "name": "William Likely",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "8",
+              "8.0",
+              "0",
+              "8"
+            ]
+          },
+          {
+            "id": "3915411",
+            "name": "Ty Johnson",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "2",
+              "-2",
+              "-1.0",
+              "0",
+              "1"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3915416",
+            "name": "DJ Moore",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "3",
+              "64",
+              "21.3",
+              "1",
+              "52"
+            ]
+          },
+          {
+            "id": "534318",
+            "name": "Levern Jacobs",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "4",
+              "26",
+              "6.5",
+              "0",
+              "10"
+            ]
+          },
+          {
+            "id": "550809",
+            "name": "DeAndre Lane",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "1",
+              "16",
+              "16.0",
+              "0",
+              "16"
+            ]
+          },
+          {
+            "id": "3915409",
+            "name": "Avery Edwards",
+            "position": null,
+            "jersey": "82",
+            "stats": [
+              "1",
+              "14",
+              "14.0",
+              "0",
+              "14"
+            ]
+          },
+          {
+            "id": "556878",
+            "name": "Taivon Jacobs",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "1",
+              "13",
+              "13.0",
+              "0",
+              "13"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "546565",
+            "name": "William Likely",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "3",
+              "48",
+              "16.0",
+              "28",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "546565",
+            "name": "William Likely",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "2",
+              "25",
+              "12.5",
+              "14",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "534244",
+            "name": "Brad Craddock",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "0/0",
+              "0.0",
+              "0",
+              "4/4",
+              "4"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3892690",
+            "name": "Nicolas Pritchard",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "6",
+              "265",
+              "44.2",
+              "0",
+              "0",
+              "55"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "400763545": {
+    "eventId": "400763545",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "9/15",
+              "84",
+              "5.6",
+              "0",
+              "0",
+              "32.1"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "4/4",
+              "30",
+              "7.5",
+              "2",
+              "0",
+              "100.0"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "27",
+              "153",
+              "5.7",
+              "1",
+              "19"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "11",
+              "102",
+              "9.3",
+              "2",
+              "27"
+            ]
+          },
+          {
+            "id": "534289",
+            "name": "Bri'onte Dunn",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "3",
+              "31",
+              "10.3",
+              "0",
+              "19"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "4",
+              "30",
+              "7.5",
+              "0",
+              "15"
+            ]
+          },
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "1",
+              "15",
+              "15.0",
+              "0",
+              "15"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "4",
+              "-16",
+              "-4.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "3",
+              "34",
+              "11.3",
+              "1",
+              "20"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "4",
+              "33",
+              "8.3",
+              "1",
+              "17"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "21",
+              "21.0",
+              "0",
+              "21"
+            ]
+          },
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "4",
+              "21",
+              "5.3",
+              "0",
+              "11"
+            ]
+          },
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "1",
+              "5",
+              "5.0",
+              "0",
+              "5"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "2",
+              "46",
+              "23.0",
+              "27",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "2",
+              "17",
+              "8.5",
+              "16",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "530278",
+            "name": "Jack Willoughby",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "1/1",
+              "100.0",
+              "39",
+              "5/5",
+              "8"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "5",
+              "208",
+              "41.6",
+              "0",
+              "0",
+              "56"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "552329",
+            "name": "Christian Hackenberg",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "7/13",
+              "120",
+              "9.2",
+              "1",
+              "0",
+              "10.4"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3929630",
+            "name": "Saquon Barkley",
+            "position": null,
+            "jersey": "26",
+            "stats": [
+              "26",
+              "194",
+              "7.5",
+              "0",
+              "56"
+            ]
+          },
+          {
+            "id": "535604",
+            "name": "Akeel Lynch",
+            "position": null,
+            "jersey": "22",
+            "stats": [
+              "4",
+              "12",
+              "3.0",
+              "0",
+              "11"
+            ]
+          },
+          {
+            "id": "3929652",
+            "name": "Brandon Polk",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "1",
+              "6",
+              "6.0",
+              "0",
+              "6"
+            ]
+          },
+          {
+            "id": "3116179",
+            "name": "Nick Scott",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "1",
+              "3",
+              "3.0",
+              "0",
+              "3"
+            ]
+          },
+          {
+            "id": "552329",
+            "name": "Christian Hackenberg",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "7",
+              "-16",
+              "-2.3",
+              "0",
+              "4"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3116165",
+            "name": "Chris Godwin Jr.",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "3",
+              "103",
+              "34.3",
+              "0",
+              "56"
+            ]
+          },
+          {
+            "id": "552330",
+            "name": "DaeSean Hamilton",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "2",
+              "13",
+              "6.5",
+              "1",
+              "8"
+            ]
+          },
+          {
+            "id": "3929652",
+            "name": "Brandon Polk",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "1",
+              "4",
+              "4.0",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "535604",
+            "name": "Akeel Lynch",
+            "position": null,
+            "jersey": "22",
+            "stats": [
+              "1",
+              "0",
+              "0.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3929652",
+            "name": "Brandon Polk",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "4",
+              "79",
+              "19.8",
+              "30",
+              "0"
+            ]
+          },
+          {
+            "id": "3116179",
+            "name": "Nick Scott",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "3",
+              "38",
+              "12.7",
+              "19",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "3116168",
+            "name": "Joey Julius",
+            "position": null,
+            "jersey": "99",
+            "stats": [
+              "1/1",
+              "100.0",
+              "33",
+              "1/1",
+              "4"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "552328",
+            "name": "Chris Gulla",
+            "position": null,
+            "jersey": "37",
+            "stats": [
+              "4",
+              "145",
+              "36.3",
+              "0",
+              "0",
+              "46"
+            ]
+          },
+          {
+            "id": "3116176",
+            "name": "Daniel Pasquariello",
+            "position": null,
+            "jersey": "92",
+            "stats": [
+              "3",
+              "106",
+              "35.3",
+              "0",
+              "0",
+              "47"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "400763551": {
+    "eventId": "400763551",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "14/18",
+              "223",
+              "12.4",
+              "3",
+              "0",
+              "88.9"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "3/3",
+              "24",
+              "8.0",
+              "0",
+              "0",
+              "65.7"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "19",
+              "142",
+              "7.5",
+              "2",
+              "55"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "13",
+              "101",
+              "7.8",
+              "2",
+              "39"
+            ]
+          },
+          {
+            "id": "534289",
+            "name": "Bri'onte Dunn",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "5",
+              "21",
+              "4.2",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "16",
+              "16.0",
+              "0",
+              "16"
+            ]
+          },
+          {
+            "id": "534280",
+            "name": "Warren Ball",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "4",
+              "5",
+              "1.3",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "3",
+              "4",
+              "1.3",
+              "0",
+              "2"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "1",
+              "-2",
+              "-2.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "5",
+              "103",
+              "20.6",
+              "1",
+              "50"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "2",
+              "55",
+              "27.5",
+              "0",
+              "45"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "30",
+              "30.0",
+              "1",
+              "30"
+            ]
+          },
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "3",
+              "29",
+              "9.7",
+              "0",
+              "13"
+            ]
+          },
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "4",
+              "17",
+              "4.3",
+              "1",
+              "11"
+            ]
+          },
+          {
+            "id": "513724",
+            "name": "Jeff Greene",
+            "position": null,
+            "jersey": "89",
+            "stats": [
+              "1",
+              "10",
+              "10.0",
+              "0",
+              "10"
+            ]
+          },
+          {
+            "id": "534280",
+            "name": "Warren Ball",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "1",
+              "3",
+              "3.0",
+              "0",
+              "3"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549810",
+            "name": "Gareon Conley",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "1",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "20",
+              "20.0",
+              "20",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "2",
+              "28",
+              "14.0",
+              "29",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "530278",
+            "name": "Jack Willoughby",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "0/0",
+              "0.0",
+              "0",
+              "7/7",
+              "7"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "1",
+              "29",
+              "29.0",
+              "0",
+              "0",
+              "29"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "547549",
+            "name": "Chris Laviano",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "10/20",
+              "117",
+              "5.9",
+              "0",
+              "1",
+              "42.7"
+            ]
+          },
+          {
+            "id": "545874",
+            "name": "Hayden Rettig",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "3/7",
+              "72",
+              "10.3",
+              "1",
+              "0",
+              "96.8"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "518349",
+            "name": "Paul James",
+            "position": null,
+            "jersey": "34",
+            "stats": [
+              "10",
+              "56",
+              "5.6",
+              "0",
+              "25"
+            ]
+          },
+          {
+            "id": "3127374",
+            "name": "Robert Martin",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "6",
+              "43",
+              "7.2",
+              "0",
+              "19"
+            ]
+          },
+          {
+            "id": "3127369",
+            "name": "Josh Hicks",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "6",
+              "19",
+              "3.2",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "547541",
+            "name": "Justin Goodwin",
+            "position": null,
+            "jersey": "32",
+            "stats": [
+              "2",
+              "0",
+              "0.0",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "547549",
+            "name": "Chris Laviano",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "4",
+              "-12",
+              "-3.0",
+              "0",
+              "4"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "537318",
+            "name": "Carlton Agudosi",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "2",
+              "76",
+              "38.0",
+              "0",
+              "58"
+            ]
+          },
+          {
+            "id": "537313",
+            "name": "Leonte Carroo",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "3",
+              "55",
+              "18.3",
+              "0",
+              "33"
+            ]
+          },
+          {
+            "id": "547556",
+            "name": "Andre Patton",
+            "position": null,
+            "jersey": "88",
+            "stats": [
+              "4",
+              "33",
+              "8.3",
+              "1",
+              "11"
+            ]
+          },
+          {
+            "id": "547533",
+            "name": "Nick Arcidiacono",
+            "position": null,
+            "jersey": "42",
+            "stats": [
+              "1",
+              "22",
+              "22.0",
+              "0",
+              "22"
+            ]
+          },
+          {
+            "id": "547541",
+            "name": "Justin Goodwin",
+            "position": null,
+            "jersey": "32",
+            "stats": [
+              "1",
+              "4",
+              "4.0",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "547542",
+            "name": "Janarion Grant",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "0",
+              "0.0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "3127374",
+            "name": "Robert Martin",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "1",
+              "-1",
+              "-1.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "547542",
+            "name": "Janarion Grant",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "5",
+              "64",
+              "12.8",
+              "19",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "537311",
+            "name": "Kyle Federico",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "0/1",
+              "0.0",
+              "0",
+              "1/1",
+              "1"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3930052",
+            "name": "Joey Roth",
+            "position": null,
+            "jersey": "96",
+            "stats": [
+              "7",
+              "275",
+              "39.3",
+              "0",
+              "0",
+              "46"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "400763562": {
+    "eventId": "400763562",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "12/22",
+              "187",
+              "8.5",
+              "1",
+              "0",
+              "76.3"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "26",
+              "114",
+              "4.4",
+              "1",
+              "15"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "12",
+              "65",
+              "5.4",
+              "1",
+              "38"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "5",
+              "11",
+              "2.2",
+              "0",
+              "13"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "2",
+              "56",
+              "28.0",
+              "0",
+              "44"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "45",
+              "45.0",
+              "0",
+              "45"
+            ]
+          },
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "4",
+              "39",
+              "9.8",
+              "1",
+              "12"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "2",
+              "26",
+              "13.0",
+              "0",
+              "15"
+            ]
+          },
+          {
+            "id": "514185",
+            "name": "Nick Vannett",
+            "position": null,
+            "jersey": "81",
+            "stats": [
+              "2",
+              "12",
+              "6.0",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "1",
+              "9",
+              "9.0",
+              "0",
+              "9"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549807",
+            "name": "Vonn Bell",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "1",
+              "16",
+              "1"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "21",
+              "21.0",
+              "21",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "5",
+              "64",
+              "12.8",
+              "33",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "530278",
+            "name": "Jack Willoughby",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "0/1",
+              "0.0",
+              "0",
+              "4/4",
+              "4"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "7",
+              "282",
+              "40.3",
+              "0",
+              "0",
+              "53"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "530731",
+            "name": "Mitch Leidner",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "27/44",
+              "281",
+              "6.4",
+              "2",
+              "1",
+              "75.5"
+            ]
+          },
+          {
+            "id": "3728285",
+            "name": "Demry Croft",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "0/1",
+              "0",
+              "0.0",
+              "0",
+              "0",
+              "0.8"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3728275",
+            "name": "Shannon Brooks",
+            "position": null,
+            "jersey": "27",
+            "stats": [
+              "11",
+              "27",
+              "2.5",
+              "0",
+              "13"
+            ]
+          },
+          {
+            "id": "530746",
+            "name": "Rodrick Williams Jr",
+            "position": null,
+            "jersey": "35",
+            "stats": [
+              "5",
+              "9",
+              "1.8",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "3116074",
+            "name": "Rodney Smith",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "6",
+              "9",
+              "1.5",
+              "0",
+              "10"
+            ]
+          },
+          {
+            "id": "530733",
+            "name": "K.J. Maye",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "1",
+              "1.0",
+              "0",
+              "1"
+            ]
+          },
+          {
+            "id": "530731",
+            "name": "Mitch Leidner",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "3",
+              "-13",
+              "-4.3",
+              "0",
+              "3"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "530733",
+            "name": "K.J. Maye",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "10",
+              "116",
+              "11.6",
+              "1",
+              "57"
+            ]
+          },
+          {
+            "id": "3116064",
+            "name": "Brandon Lingen",
+            "position": null,
+            "jersey": "86",
+            "stats": [
+              "4",
+              "50",
+              "12.5",
+              "0",
+              "25"
+            ]
+          },
+          {
+            "id": "530746",
+            "name": "Rodrick Williams Jr",
+            "position": null,
+            "jersey": "35",
+            "stats": [
+              "2",
+              "44",
+              "22.0",
+              "0",
+              "31"
+            ]
+          },
+          {
+            "id": "3728274",
+            "name": "Rashad Still",
+            "position": null,
+            "jersey": "88",
+            "stats": [
+              "6",
+              "41",
+              "6.8",
+              "1",
+              "10"
+            ]
+          },
+          {
+            "id": "545480",
+            "name": "Drew Wolitarsky",
+            "position": null,
+            "jersey": "82",
+            "stats": [
+              "2",
+              "12",
+              "6.0",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "3728275",
+            "name": "Shannon Brooks",
+            "position": null,
+            "jersey": "27",
+            "stats": [
+              "2",
+              "11",
+              "5.5",
+              "0",
+              "10"
+            ]
+          },
+          {
+            "id": "545481",
+            "name": "Nate Wozniak",
+            "position": null,
+            "jersey": "80",
+            "stats": [
+              "1",
+              "7",
+              "7.0",
+              "0",
+              "7"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "545469",
+            "name": "Jalen Myrick",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "1",
+              "23",
+              "23.0",
+              "23",
+              "0"
+            ]
+          },
+          {
+            "id": "530733",
+            "name": "K.J. Maye",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "15",
+              "15.0",
+              "15",
+              "0"
+            ]
+          },
+          {
+            "id": "530723",
+            "name": "Tyler Hartmann",
+            "position": null,
+            "jersey": "43",
+            "stats": [
+              "1",
+              "10",
+              "10.0",
+              "10",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3728295",
+            "name": "KiAnte Hardin",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "1",
+              "11",
+              "11.0",
+              "11",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "545475",
+            "name": "Ryan Santoso",
+            "position": null,
+            "jersey": "18",
+            "stats": [
+              "0/1",
+              "0.0",
+              "0",
+              "2/2",
+              "2"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "512754",
+            "name": "Peter Mortell",
+            "position": null,
+            "jersey": "37",
+            "stats": [
+              "8",
+              "352",
+              "44.0",
+              "0",
+              "0",
+              "53"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "400763564": {
+    "eventId": "400763564",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "15/23",
+              "150",
+              "6.5",
+              "1",
+              "1",
+              "83.0"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "2/2",
+              "7",
+              "3.5",
+              "0",
+              "0",
+              "50.2"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "27",
+              "181",
+              "6.7",
+              "2",
+              "17"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "16",
+              "74",
+              "4.6",
+              "1",
+              "18"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "4",
+              "18",
+              "4.5",
+              "0",
+              "8"
+            ]
+          },
+          {
+            "id": "534289",
+            "name": "Bri'onte Dunn",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "2",
+              "10",
+              "5.0",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "534294",
+            "name": "Cardale Jones",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "1",
+              "0",
+              "0.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "6",
+              "76",
+              "12.7",
+              "1",
+              "24"
+            ]
+          },
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "4",
+              "38",
+              "9.5",
+              "0",
+              "23"
+            ]
+          },
+          {
+            "id": "514185",
+            "name": "Nick Vannett",
+            "position": null,
+            "jersey": "81",
+            "stats": [
+              "3",
+              "31",
+              "10.3",
+              "0",
+              "18"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "11",
+              "11.0",
+              "0",
+              "11"
+            ]
+          },
+          {
+            "id": "549806",
+            "name": "Marcus Baugh",
+            "position": null,
+            "jersey": "85",
+            "stats": [
+              "1",
+              "5",
+              "5.0",
+              "0",
+              "5"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "2",
+              "-4",
+              "-2.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "1",
+              "1",
+              "1.0",
+              "1",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "3121425",
+            "name": "Sean Nuernberger",
+            "position": null,
+            "jersey": "96",
+            "stats": [
+              "0/1",
+              "0.0",
+              "0",
+              "4/4",
+              "4"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "5",
+              "222",
+              "44.4",
+              "0",
+              "0",
+              "54"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "534652",
+            "name": "Wes Lunt",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "23/47",
+              "241",
+              "5.1",
+              "0",
+              "0",
+              "41.5"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "515457",
+            "name": "Josh Ferguson",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "12",
+              "49",
+              "4.1",
+              "0",
+              "27"
+            ]
+          },
+          {
+            "id": "3917636",
+            "name": "Desmond Cain",
+            "position": null,
+            "jersey": "86",
+            "stats": [
+              "1",
+              "5",
+              "5.0",
+              "0",
+              "5"
+            ]
+          },
+          {
+            "id": "530672",
+            "name": "Cameron Tucker",
+            "position": null,
+            "jersey": "26",
+            "stats": [
+              "2",
+              "-1",
+              "-0.5",
+              "0",
+              "2"
+            ]
+          },
+          {
+            "id": "3917612",
+            "name": "Ke'Shawn Vaughn",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "6",
+              "-4",
+              "-0.7",
+              "0",
+              "2"
+            ]
+          },
+          {
+            "id": "530634",
+            "name": "Ryan Frain",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "1",
+              "-7",
+              "-7.0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "534652",
+            "name": "Wes Lunt",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "3",
+              "-22",
+              "-7.3",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3917636",
+            "name": "Desmond Cain",
+            "position": null,
+            "jersey": "86",
+            "stats": [
+              "10",
+              "102",
+              "10.2",
+              "0",
+              "37"
+            ]
+          },
+          {
+            "id": "3115928",
+            "name": "Malik Turner",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "5",
+              "61",
+              "12.2",
+              "0",
+              "22"
+            ]
+          },
+          {
+            "id": "3115913",
+            "name": "Geronimo Allison",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "1",
+              "38",
+              "38.0",
+              "0",
+              "38"
+            ]
+          },
+          {
+            "id": "515457",
+            "name": "Josh Ferguson",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "5",
+              "26",
+              "5.2",
+              "0",
+              "25"
+            ]
+          },
+          {
+            "id": "546073",
+            "name": "Nathan Echard",
+            "position": null,
+            "jersey": "39",
+            "stats": [
+              "1",
+              "7",
+              "7.0",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "546076",
+            "name": "Tim Clary",
+            "position": null,
+            "jersey": "47",
+            "stats": [
+              "1",
+              "7",
+              "7.0",
+              "0",
+              "7"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "546058",
+            "name": "Caleb Day",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "1",
+              "19",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "530630",
+            "name": "V'Angelo Bentley",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "3",
+              "59",
+              "19.7",
+              "21",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "530630",
+            "name": "V'Angelo Bentley",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "2",
+              "12",
+              "6.0",
+              "12",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "515464",
+            "name": "Taylor Zalewski",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "1/2",
+              "50.0",
+              "46",
+              "0/0",
+              "3"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "530634",
+            "name": "Ryan Frain",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "5",
+              "221",
+              "44.2",
+              "0",
+              "0",
+              "72"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "400763573": {
+    "eventId": "400763573",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "9/16",
+              "46",
+              "2.9",
+              "1",
+              "0",
+              "33.5"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "15",
+              "44",
+              "2.9",
+              "0",
+              "10"
+            ]
+          },
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "12",
+              "33",
+              "2.8",
+              "1",
+              "7"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "2",
+              "9",
+              "4.5",
+              "0",
+              "5"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "2",
+              "22",
+              "11.0",
+              "1",
+              "16"
+            ]
+          },
+          {
+            "id": "514185",
+            "name": "Nick Vannett",
+            "position": null,
+            "jersey": "81",
+            "stats": [
+              "3",
+              "9",
+              "3.0",
+              "0",
+              "5"
+            ]
+          },
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "2",
+              "8",
+              "4.0",
+              "0",
+              "5"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "4",
+              "4.0",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "3",
+              "3.0",
+              "0",
+              "3"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "1",
+              "13",
+              "13.0",
+              "13",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "3121425",
+            "name": "Sean Nuernberger",
+            "position": null,
+            "jersey": "96",
+            "stats": [
+              "0/0",
+              "0.0",
+              "0",
+              "2/2",
+              "2"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "8",
+              "307",
+              "38.4",
+              "0",
+              "0",
+              "53"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "535578",
+            "name": "Tyler O'Connor",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "7/12",
+              "89",
+              "7.4",
+              "1",
+              "0",
+              "93.4"
+            ]
+          },
+          {
+            "id": "550477",
+            "name": "Damion Terry",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "1/4",
+              "2",
+              "0.5",
+              "0",
+              "0",
+              "42.4"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "550468",
+            "name": "Gerald Holmes",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "14",
+              "65",
+              "4.6",
+              "1",
+              "14"
+            ]
+          },
+          {
+            "id": "3929828",
+            "name": "LJ Scott",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "13",
+              "58",
+              "4.5",
+              "0",
+              "20"
+            ]
+          },
+          {
+            "id": "535578",
+            "name": "Tyler O'Connor",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "8",
+              "25",
+              "3.1",
+              "0",
+              "11"
+            ]
+          },
+          {
+            "id": "550477",
+            "name": "Damion Terry",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "8",
+              "25",
+              "3.1",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "550476",
+            "name": "R.J. Shelton",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "2",
+              "21",
+              "10.5",
+              "0",
+              "19"
+            ]
+          },
+          {
+            "id": "550478",
+            "name": "Delton Williams",
+            "position": null,
+            "jersey": "22",
+            "stats": [
+              "2",
+              "7",
+              "3.5",
+              "0",
+              "5"
+            ]
+          },
+          {
+            "id": "3134678",
+            "name": "Madre London",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "2",
+              "4",
+              "2.0",
+              "0",
+              "3"
+            ]
+          },
+          {
+            "id": "535869",
+            "name": "Macgarrett Kings Jr.",
+            "position": null,
+            "jersey": "85",
+            "stats": [
+              "1",
+              "0",
+              "0.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "535857",
+            "name": "Aaron Burbridge",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "4",
+              "62",
+              "15.5",
+              "0",
+              "36"
+            ]
+          },
+          {
+            "id": "512719",
+            "name": "Trevon Pendleton",
+            "position": null,
+            "jersey": "37",
+            "stats": [
+              "1",
+              "12",
+              "12.0",
+              "1",
+              "12"
+            ]
+          },
+          {
+            "id": "535869",
+            "name": "Macgarrett Kings Jr.",
+            "position": null,
+            "jersey": "85",
+            "stats": [
+              "1",
+              "8",
+              "8.0",
+              "0",
+              "8"
+            ]
+          },
+          {
+            "id": "550478",
+            "name": "Delton Williams",
+            "position": null,
+            "jersey": "22",
+            "stats": [
+              "1",
+              "7",
+              "7.0",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "3929828",
+            "name": "LJ Scott",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "1",
+              "2",
+              "2.0",
+              "0",
+              "2"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "535869",
+            "name": "Macgarrett Kings Jr.",
+            "position": null,
+            "jersey": "85",
+            "stats": [
+              "3",
+              "-15",
+              "-5.0",
+              "4",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "550465",
+            "name": "Michael Geiger",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1/2",
+              "50.0",
+              "41",
+              "2/2",
+              "5"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3134676",
+            "name": "Jake Hartbarger",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "5",
+              "202",
+              "40.4",
+              "0",
+              "0",
+              "51"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "400763578": {
+    "eventId": "400763578",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "9/15",
+              "113",
+              "7.5",
+              "1",
+              "0",
+              "95.9"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "30",
+              "214",
+              "7.1",
+              "2",
+              "66"
+            ]
+          },
+          {
+            "id": "545624",
+            "name": "J.T. Barrett",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "19",
+              "139",
+              "7.3",
+              "3",
+              "25"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "11",
+              "11.0",
+              "0",
+              "11"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "3",
+              "7",
+              "2.3",
+              "0",
+              "6"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "534311",
+            "name": "Michael Thomas",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "2",
+              "50",
+              "25.0",
+              "0",
+              "38"
+            ]
+          },
+          {
+            "id": "549819",
+            "name": "Jalin Marshall",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "2",
+              "31",
+              "15.5",
+              "1",
+              "25"
+            ]
+          },
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "12",
+              "12.0",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "514185",
+            "name": "Nick Vannett",
+            "position": null,
+            "jersey": "81",
+            "stats": [
+              "1",
+              "8",
+              "8.0",
+              "0",
+              "8"
+            ]
+          },
+          {
+            "id": "549811",
+            "name": "Ezekiel Elliott",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "2",
+              "7",
+              "3.5",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "512838",
+            "name": "Braxton Miller",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "5",
+              "5.0",
+              "0",
+              "5"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "549808",
+            "name": "Joey Bosa",
+            "position": null,
+            "jersey": "97",
+            "stats": [
+              "1",
+              "28",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "3121427",
+            "name": "Curtis Samuel",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "18",
+              "18.0",
+              "18",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "3121425",
+            "name": "Sean Nuernberger",
+            "position": null,
+            "jersey": "96",
+            "stats": [
+              "0/0",
+              "0.0",
+              "0",
+              "6/6",
+              "6"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "549816",
+            "name": "Cameron Johnston",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "1",
+              "56",
+              "56.0",
+              "0",
+              "0",
+              "56"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "518380",
+            "name": "Jake Rudock",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "19/32",
+              "263",
+              "8.2",
+              "1",
+              "0",
+              "89.8"
+            ]
+          },
+          {
+            "id": "3115966",
+            "name": "Wilton Speight",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "6/14",
+              "44",
+              "3.1",
+              "0",
+              "1",
+              "1.2"
+            ]
+          },
+          {
+            "id": "3115962",
+            "name": "Jabrill Peppers",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "0/1",
+              "0",
+              "0.0",
+              "0",
+              "0",
+              "5.0"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3115962",
+            "name": "Jabrill Peppers",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "7",
+              "29",
+              "4.1",
+              "0",
+              "8"
+            ]
+          },
+          {
+            "id": "546705",
+            "name": "De'Veon Smith",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "10",
+              "23",
+              "2.3",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "535150",
+            "name": "Sione Houma",
+            "position": null,
+            "jersey": "39",
+            "stats": [
+              "3",
+              "12",
+              "4.0",
+              "0",
+              "5"
+            ]
+          },
+          {
+            "id": "535147",
+            "name": "Drake Johnson",
+            "position": null,
+            "jersey": "20",
+            "stats": [
+              "1",
+              "1",
+              "1.0",
+              "0",
+              "1"
+            ]
+          },
+          {
+            "id": "518380",
+            "name": "Jake Rudock",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "4",
+              "-8",
+              "-2.0",
+              "0",
+              "3"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "535167",
+            "name": "Jehu Chesson",
+            "position": null,
+            "jersey": "86",
+            "stats": [
+              "8",
+              "111",
+              "13.9",
+              "1",
+              "21"
+            ]
+          },
+          {
+            "id": "535165",
+            "name": "Amara Darboh",
+            "position": null,
+            "jersey": "82",
+            "stats": [
+              "4",
+              "68",
+              "17.0",
+              "0",
+              "39"
+            ]
+          },
+          {
+            "id": "546731",
+            "name": "Jake Butt",
+            "position": null,
+            "jersey": "88",
+            "stats": [
+              "5",
+              "54",
+              "10.8",
+              "0",
+              "22"
+            ]
+          },
+          {
+            "id": "546705",
+            "name": "De'Veon Smith",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "3",
+              "31",
+              "10.3",
+              "0",
+              "24"
+            ]
+          },
+          {
+            "id": "3115962",
+            "name": "Jabrill Peppers",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "2",
+              "25",
+              "12.5",
+              "0",
+              "13"
+            ]
+          },
+          {
+            "id": "535147",
+            "name": "Drake Johnson",
+            "position": null,
+            "jersey": "20",
+            "stats": [
+              "1",
+              "13",
+              "13.0",
+              "0",
+              "13"
+            ]
+          },
+          {
+            "id": "3929923",
+            "name": "Grant Perry",
+            "position": null,
+            "jersey": "9",
+            "stats": [
+              "2",
+              "5",
+              "2.5",
+              "0",
+              "3"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "546713",
+            "name": "Jourdan Lewis",
+            "position": null,
+            "jersey": "26",
+            "stats": [
+              "6",
+              "123",
+              "20.5",
+              "24",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "546732",
+            "name": "Kenny Allen",
+            "position": null,
+            "jersey": "91",
+            "stats": [
+              "2/2",
+              "100.0",
+              "27",
+              "1/1",
+              "7"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "3139065",
+            "name": "Blake O'Neill",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "4",
+              "157",
+              "39.3",
+              "0",
+              "0",
+              "46"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

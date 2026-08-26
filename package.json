@@ -1,0 +1,12 @@
+{
+  "name": "ohio-state-football-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ohio State Buckeyes 2026 season stats site",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape.js",
+    "scrape:all": "node scripts/scrape-all.js",
+    "serve": "node scripts/server.js"
+  }
+}

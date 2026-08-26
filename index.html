@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ohio State Football — 2026 Schedule</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="header"></div>
+  <main>
+    <h1 class="page-title">2026 Schedule</h1>
+    <p class="page-sub">Game-by-game results for the Ohio State Buckeyes.</p>
+    <div class="card">
+      <h2>Regular Season</h2>
+      <ul class="schedule-list" id="schedule"></ul>
+    </div>
+  </main>
+  <footer class="site-footer">Data via ESPN API · Updated by local scraper</footer>
+
+  <script type="module">
+    import { loadJSON, fmtDate, fmtTime } from "./js/data.js";
+    import { initScrapeButton } from "./js/scrape.js";
+    import { initYearSelect } from "./js/year.js";
+
+    document.getElementById("header").innerHTML = await (await fetch("partials/header.html")).text();
+    document.querySelector('[data-nav="index"]').classList.add("active");
+    initScrapeButton();
+    await initYearSelect();
+
+    const year = new URLSearchParams(location.search).get("year") || "2026";
+    const games = await loadJSON(`data/${year}/schedule.json`);
+    const list = document.getElementById("schedule");
+
+    for (const g of games) {
+      const li = document.createElement("li");
+
+      const week = document.createElement("div");
+      week.className = "schedule-week";
+      week.textContent = `Wk ${g.week}`;
+
+      const date = document.createElement("div");
+      date.className = "schedule-date";
+      date.textContent = `${fmtDate(g.date)} · ${fmtTime(g.date)}`;
+
+      const opp = document.createElement("div");
+      opp.className = "schedule-opp";
+      const at = document.createElement("span");
+      at.className = "at";
+      at.textContent = g.homeAway === "home" ? "vs " : "@ ";
+      opp.appendChild(at);
+      opp.appendChild(document.createTextNode(g.opponent));
+
+      const venue = document.createElement("div");
+      venue.className = "schedule-venue";
+      venue.textContent = g.venue || "";
+
+      const score = document.createElement("div");
+      score.className = "schedule-score";
+      if (g.status === "final") {
+        const win = g.osuScore > g.oppScore;
+        score.classList.add(win ? "win" : "loss");
+        score.textContent = `${g.osuScore}–${g.oppScore}`;
+      } else {
+        score.textContent = "";
+      }
+
+      const status = document.createElement("div");
+      status.className = "schedule-status" + (g.status === "final" ? " final" : "");
+      status.textContent = g.status === "final" ? "Final" : "Upcoming";
+
+      li.append(week, date, opp, venue, score, status);
+      list.appendChild(li);
+    }
+  </script>
+</body>
+</html>

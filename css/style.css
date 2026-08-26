@@ -1,0 +1,363 @@
+:root {
+  --scarlet: #ba0c2f;
+  --scarlet-dark: #8a0a24;
+  --gray: #a8adb4;
+  --gray-light: #eef0f2;
+  --black: #000000;
+  --white: #ffffff;
+  --ink: #1a1a1a;
+  --muted: #6b7280;
+  --border: #d9dce0;
+  --font-head: "Oswald", "Arial Narrow", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--white);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Header ---------- */
+.site-header {
+  background: var(--scarlet);
+  color: var(--white);
+  border-bottom: 6px solid var(--black);
+}
+.site-header .inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.header-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.year-select {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 9px 12px;
+  border: 2px solid var(--white);
+  background: transparent;
+  color: var(--white);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.year-select option { color: var(--ink); background: var(--white); }
+.year-select:focus { outline: none; background: var(--white); color: var(--scarlet); }
+.scrape-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 9px 16px;
+  border: 2px solid var(--white);
+  background: transparent;
+  color: var(--white);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.scrape-btn:hover { background: var(--white); color: var(--scarlet); }
+.scrape-btn:disabled { opacity: 0.7; cursor: default; }
+.scrape-btn.scraping .scrape-icon { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.site-header .logo {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--white);
+  color: var(--scarlet);
+  display: grid;
+  place-items: center;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  flex: none;
+}
+.site-header h1 {
+  margin: 0;
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+.site-header .sub {
+  font-size: 12px;
+  opacity: 0.85;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* ---------- Nav ---------- */
+.site-nav {
+  background: var(--black);
+}
+.site-nav .inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+}
+.site-nav a {
+  color: var(--white);
+  text-decoration: none;
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding: 12px 16px;
+  white-space: nowrap;
+  border-bottom: 3px solid transparent;
+}
+.site-nav a:hover { background: #1a1a1a; }
+.site-nav a.active {
+  border-bottom-color: var(--scarlet);
+  background: #1a1a1a;
+}
+
+/* ---------- Layout ---------- */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 28px 20px 60px;
+}
+.page-title {
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 4px;
+}
+.page-sub {
+  color: var(--muted);
+  margin: 0 0 24px;
+  font-size: 14px;
+}
+
+/* ---------- Cards / schedule ---------- */
+.card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card + .card { margin-top: 20px; }
+.card h2 {
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--gray-light);
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-head);
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.schedule-list { list-style: none; margin: 0; padding: 0; }
+.schedule-list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.schedule-list li:last-child { border-bottom: none; }
+.schedule-list li:hover { background: var(--gray-light); }
+.schedule-week {
+  font-family: var(--font-head);
+  font-weight: 600;
+  color: var(--scarlet);
+  min-width: 64px;
+  font-size: 14px;
+}
+.schedule-date {
+  color: var(--muted);
+  font-size: 13px;
+  min-width: 120px;
+}
+.schedule-opp {
+  font-weight: 600;
+  flex: 1;
+  min-width: 160px;
+}
+.schedule-opp .at { color: var(--muted); font-weight: 400; }
+.schedule-venue { color: var(--muted); font-size: 13px; }
+.schedule-score {
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.schedule-score .win { color: var(--scarlet); }
+.schedule-score .loss { color: var(--muted); }
+.schedule-status {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--gray-light);
+  color: var(--muted);
+}
+.schedule-status.final { background: var(--scarlet); color: var(--white); }
+
+/* ---------- Filters ---------- */
+.filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.filters button {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  background: var(--white);
+  color: var(--ink);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.filters button:hover { border-color: var(--scarlet); color: var(--scarlet); }
+.filters button.active {
+  background: var(--scarlet);
+  border-color: var(--scarlet);
+  color: var(--white);
+}
+.pos-select {
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--ink);
+  cursor: pointer;
+}
+.pos-select:focus { outline: 2px solid var(--scarlet); outline-offset: 1px; }
+
+/* ---------- Tables ---------- */
+.table-wrap { overflow-x: auto; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+thead th {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 10px 12px;
+  text-align: right;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  position: sticky;
+  top: 0;
+}
+thead th:first-child { text-align: left; }
+thead th:hover { background: #1a1a1a; }
+thead th .arrow { opacity: 0.4; margin-left: 4px; }
+thead th.sorted .arrow { opacity: 1; color: var(--scarlet); }
+tbody td {
+  padding: 9px 12px;
+  text-align: right;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+tbody td:first-child { text-align: left; }
+tbody tr:hover { background: var(--gray-light); }
+tbody tr:nth-child(even) { background: #fafbfc; }
+tbody tr:nth-child(even):hover { background: var(--gray-light); }
+td.num { font-variant-numeric: tabular-nums; }
+td.name { font-weight: 600; }
+td.jersey {
+  font-family: var(--font-head);
+  color: var(--scarlet);
+  font-weight: 600;
+}
+
+/* ---------- Stat grid (team page) ---------- */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+  padding: 16px;
+}
+.stat-tile {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+.stat-tile .val {
+  font-family: var(--font-head);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--scarlet);
+}
+.stat-tile .lbl {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ---------- Empty state ---------- */
+.empty {
+  padding: 40px 16px;
+  text-align: center;
+  color: var(--muted);
+}
+.empty .big { font-family: var(--font-head); font-size: 20px; color: var(--ink); }
+
+@media (max-width: 600px) {
+  .site-header h1 { font-size: 20px; }
+  .schedule-week { min-width: 48px; }
+  .schedule-date { min-width: 0; }
+}
