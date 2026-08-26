@@ -8,13 +8,14 @@
   --ink: #1a1a1a;
   --muted: #6b7280;
   --border: #d9dce0;
+  --row-stripe: #fafbfc;
   --font-head: "Oswald", "Arial Narrow", sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }
 
-html, body { margin: 0; padding: 0; }
+html, body { margin: 0; padding: 0; height: 100%; }
 
 body {
   font-family: var(--font-body);
@@ -22,6 +23,29 @@ body {
   background: var(--white);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main { flex: 1; }
+
+/* ---------- Skip link ---------- */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--scarlet);
+  color: var(--white);
+  padding: 10px 16px;
+  font-weight: 600;
+  text-decoration: none;
+  z-index: 1000;
+}
+.skip-link:focus {
+  top: 0;
+  outline: 2px solid var(--white);
+  outline-offset: -2px;
 }
 
 /* ---------- Header ---------- */
@@ -52,7 +76,8 @@ body {
   letter-spacing: 1px;
   font-size: 13px;
   font-weight: 600;
-  padding: 9px 12px;
+  min-height: 44px;
+  padding: 11px 12px;
   border: 2px solid var(--white);
   background: transparent;
   color: var(--white);
@@ -60,7 +85,7 @@ body {
   cursor: pointer;
 }
 .year-select option { color: var(--ink); background: var(--white); }
-.year-select:focus { outline: none; background: var(--white); color: var(--scarlet); }
+.year-select:focus-visible { outline: 2px solid var(--white); outline-offset: 2px; background: var(--white); color: var(--scarlet); }
 .scrape-btn {
   display: inline-flex;
   align-items: center;
@@ -70,7 +95,8 @@ body {
   letter-spacing: 1px;
   font-size: 13px;
   font-weight: 600;
-  padding: 9px 16px;
+  min-height: 44px;
+  padding: 11px 16px;
   border: 2px solid var(--white);
   background: transparent;
   color: var(--white);
@@ -82,6 +108,9 @@ body {
 .scrape-btn:disabled { opacity: 0.7; cursor: default; }
 .scrape-btn.scraping .scrape-icon { animation: spin 1s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .scrape-btn.scraping .scrape-icon { animation: none; }
+}
 .site-header .logo {
   width: 46px;
   height: 46px;
@@ -96,7 +125,7 @@ body {
   letter-spacing: 1px;
   flex: none;
 }
-.site-header h1 {
+.site-header .site-title {
   margin: 0;
   font-family: var(--font-head);
   font-weight: 600;
@@ -135,10 +164,10 @@ body {
   white-space: nowrap;
   border-bottom: 3px solid transparent;
 }
-.site-nav a:hover { background: #1a1a1a; }
+.site-nav a:hover { background: var(--ink); }
 .site-nav a.active {
   border-bottom-color: var(--scarlet);
-  background: #1a1a1a;
+  background: var(--ink);
 }
 
 /* ---------- Layout ---------- */
@@ -225,7 +254,7 @@ main {
   padding: 3px 8px;
   border-radius: 4px;
   background: var(--gray-light);
-  color: var(--muted);
+  color: var(--ink);
 }
 .schedule-status.final { background: var(--scarlet); color: var(--white); }
 .schedule-link {
@@ -251,7 +280,8 @@ main {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 13px;
-  padding: 8px 14px;
+  min-height: 44px;
+  padding: 12px 14px;
   border: 1px solid var(--border);
   background: var(--white);
   color: var(--ink);
@@ -269,7 +299,8 @@ main {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 13px;
-  padding: 8px 12px;
+  min-height: 44px;
+  padding: 12px;
   border: 1px solid var(--border);
   border-radius: 6px;
   background: var(--white);
@@ -292,7 +323,8 @@ thead th {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 12px;
-  padding: 10px 12px;
+  min-height: 44px;
+  padding: 14px 12px;
   text-align: right;
   white-space: nowrap;
   cursor: pointer;
@@ -301,7 +333,7 @@ thead th {
   top: 0;
 }
 thead th:first-child { text-align: left; }
-thead th:hover { background: #1a1a1a; }
+thead th:hover { background: var(--ink); }
 thead th .arrow { opacity: 0.4; margin-left: 4px; }
 thead th.sorted .arrow { opacity: 1; color: var(--scarlet); }
 tbody td {
@@ -312,7 +344,7 @@ tbody td {
 }
 tbody td:first-child { text-align: left; }
 tbody tr:hover { background: var(--gray-light); }
-tbody tr:nth-child(even) { background: #fafbfc; }
+tbody tr:nth-child(even) { background: var(--row-stripe); }
 tbody tr:nth-child(even):hover { background: var(--gray-light); }
 td.num { font-variant-numeric: tabular-nums; }
 td.name { font-weight: 600; }
@@ -382,7 +414,7 @@ td.jersey {
 .game-score-divider {
   font-family: var(--font-head);
   font-size: 26px;
-  color: var(--gray);
+  color: var(--muted);
   font-weight: 600;
 }
 .game-meta { text-align: center; padding: 12px 24px 20px; color: var(--muted); font-size: 13px; }

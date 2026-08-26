@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ohio State Buckeyes team statistics by category for the selected season." />
   <title>Ohio State Football — Team Stats</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <div id="header"></div>
-  <main>
+  <main id="main-content" tabindex="-1">
     <h1 class="page-title" id="page-title">Team Stats</h1>
     <p class="page-sub" id="page-sub">2026 season totals for the Ohio State Buckeyes.</p>
     <div id="stats"></div>
@@ -22,8 +25,9 @@
     import { loadJSON } from "./js/data.js";
     import { initScrapeButton } from "./js/scrape.js";
     import { initYearSelect } from "./js/year.js";
+    import { loadPartial, emptyState } from "./js/dom.js";
 
-    document.getElementById("header").innerHTML = await (await fetch("partials/header.html")).text();
+    await loadPartial("header", "partials/header.html");
     document.querySelector('[data-nav="team"]').classList.add("active");
     initScrapeButton();
     await initYearSelect();
@@ -38,10 +42,7 @@
     const container = document.getElementById("stats");
 
     if (!Object.keys(cats).length) {
-      const empty = document.createElement("div");
-      empty.className = "empty";
-      empty.innerHTML = '<div class="big">No team stats yet</div>Team stats will appear once the season begins.';
-      container.appendChild(empty);
+      container.appendChild(emptyState("No team stats yet", "Team stats will appear once the season begins."));
     }
 
     const CAT_LABELS = {

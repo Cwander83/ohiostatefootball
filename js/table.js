@@ -19,17 +19,23 @@ export function makeSortableTable(container, { columns, rows, initialSort, initi
     const tr = document.createElement("tr");
     for (const col of columns) {
       const th = document.createElement("th");
+      th.scope = "col";
       th.textContent = col.label;
       th.dataset.key = col.key;
-      if (col.key === sortKey) {
+      th.tabIndex = 0;
+      th.setAttribute("role", "button");
+      th.setAttribute("aria-label", `Sort by ${col.label}`);
+      const isSorted = col.key === sortKey;
+      th.setAttribute("aria-sort", isSorted ? (sortDir === "asc" ? "ascending" : "descending") : "none");
+      if (isSorted) {
         th.classList.add("sorted");
-        th.querySelector(".arrow")?.remove();
         const arrow = document.createElement("span");
         arrow.className = "arrow";
+        arrow.setAttribute("aria-hidden", "true");
         arrow.textContent = sortDir === "asc" ? "▲" : "▼";
         th.appendChild(arrow);
       }
-      th.addEventListener("click", () => {
+      const sort = () => {
         if (col.key === sortKey) {
           sortDir = sortDir === "asc" ? "desc" : "asc";
         } else {
@@ -37,6 +43,13 @@ export function makeSortableTable(container, { columns, rows, initialSort, initi
           sortDir = col.defaultDir || "desc";
         }
         render();
+      };
+      th.addEventListener("click", sort);
+      th.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          sort();
+        }
       });
       tr.appendChild(th);
     }
@@ -60,7 +73,7 @@ export function makeSortableTable(container, { columns, rows, initialSort, initi
       tbody.appendChild(r);
     }
 
-    container.innerHTML = "";
+    container.replaceChildren();
     const wrap = document.createElement("div");
     wrap.className = "table-wrap";
     const table = document.createElement("table");

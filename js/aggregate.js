@@ -17,10 +17,9 @@ function parseComposite(v) {
 }
 
 // Determine the "count" column (attempts/carries/receptions/returns) for a group.
+// The count is always the first stats column for these groups.
 function countColumn(labels) {
-  const first = labels[0];
-  if (first === "C/ATT") return 0; // attempts are the denominator of C/ATT
-  return 0; // CAR, REC, NO are all first columns
+  return 0;
 }
 
 // Determine the "primary" (yards) column for AVG computation.

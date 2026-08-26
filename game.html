@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Detailed Ohio State Buckeyes game recap with scoring drives, leaders, win probability, and odds." />
   <title>Ohio State Football — Game</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <div id="header"></div>
-  <main>
+  <main id="main-content" tabindex="-1">
     <a class="back-link" href="index.html" id="back-link">← Back to Schedule</a>
     <div id="game"></div>
   </main>
@@ -21,14 +24,17 @@
     import { loadJSON, fmtDate, fmtTime } from "./js/data.js";
     import { initScrapeButton } from "./js/scrape.js";
     import { initYearSelect } from "./js/year.js";
+    import { loadPartial, emptyState } from "./js/dom.js";
 
-    document.getElementById("header").innerHTML = await (await fetch("partials/header.html")).text();
+    await loadPartial("header", "partials/header.html");
     initScrapeButton();
     await initYearSelect();
 
     const params = new URLSearchParams(location.search);
     const year = params.get("year") || "2026";
     const eventId = params.get("event");
+
+    document.getElementById("back-link").href = `index.html?year=${year}`;
     const game = document.getElementById("game");
 
     const card = (title) => {
@@ -44,12 +50,12 @@
     };
 
     if (!eventId) {
-      game.innerHTML = '<div class="empty"><div class="big">No game selected</div>Pick a game from the schedule.</div>';
+      game.appendChild(emptyState("No game selected", "Pick a game from the schedule."));
     } else {
       const box = await loadJSON(`data/${year}/boxscores.json`);
       const bs = box[eventId];
       if (!bs) {
-        game.innerHTML = '<div class="empty"><div class="big">Game not found</div>No boxscore available for this game.</div>';
+        game.appendChild(emptyState("Game not found", "No boxscore available for this game."));
       } else {
         const schedule = await loadJSON(`data/${year}/schedule.json`);
         const sched = schedule.find((g) => g.id === eventId) || {};
@@ -57,27 +63,30 @@
         const win = (sched.osuScore ?? 0) > (sched.oppScore ?? 0);
         const opp = sched.opponent || "Opponent";
 
+        function el(tag, cls, text) {
+          const e = document.createElement(tag);
+          if (cls) e.className = cls;
+          if (text != null) e.textContent = text;
+          return e;
+        }
+
         // Header
         const header = card();
-        header.innerHTML = `
-          <div class="game-header">
-            <div class="game-teams">
-              <div class="team-name">Ohio State</div>
-              <div class="team-score ${win ? "win" : "loss"}">${sched.osuScore ?? "–"}</div>
-            </div>
-            <div class="game-score-divider">–</div>
-            <div class="game-teams">
-              <div class="team-name">${opp}</div>
-              <div class="team-score ${win ? "loss" : "win"}">${sched.oppScore ?? "–"}</div>
-            </div>
-          </div>
-          <div class="game-meta">
-            <div class="meta-badge ${win ? "" : "loss"}">${sched.status === "final" ? (win ? "W" : "L") : "Upcoming"}</div>
-            <div>${sched.week ? `Week ${sched.week} · ` : ""}${fmtDate(sched.date)}${sched.date ? ` · ${fmtTime(sched.date)}` : ""}</div>
-            <div>${sched.venue || ""}</div>
-            <div>${bs.attendance ? `Attendance: ${bs.attendance.toLocaleString()}` : ""}</div>
-          </div>
-        `;
+        const gameHeader = el("div", "game-header");
+        const osuTeams = el("div", "game-teams");
+        osuTeams.append(el("div", "team-name", "Ohio State"), el("div", `team-score ${win ? "win" : "loss"}`, sched.osuScore ?? "–"));
+        const oppTeams = el("div", "game-teams");
+        oppTeams.append(el("div", "team-name", opp), el("div", `team-score ${win ? "loss" : "win"}`, sched.oppScore ?? "–"));
+        gameHeader.append(osuTeams, el("div", "game-score-divider", "–"), oppTeams);
+        const gameMeta = el("div", "game-meta");
+        const badge = el("div", `meta-badge ${win ? "" : "loss"}`, sched.status === "final" ? (win ? "W" : "L") : "Upcoming");
+        const metaParts = [sched.week ? `Week ${sched.week} · ${fmtDate(sched.date)}` : fmtDate(sched.date)];
+        if (sched.date) metaParts.push(fmtTime(sched.date));
+        const metaLine = el("div", "", metaParts.join(" · "));
+        const venueLine = el("div", "", sched.venue || "");
+        const attendanceLine = el("div", "", bs.attendance ? `Attendance: ${bs.attendance.toLocaleString()}` : "");
+        gameMeta.append(badge, metaLine, venueLine, attendanceLine);
+        header.append(gameHeader, gameMeta);
 
         // Game leaders
         if (bs.leaders && Object.keys(bs.leaders).length) {
@@ -92,13 +101,8 @@
             totalTackles: "Tackles",
           };
           for (const [cat, l] of Object.entries(bs.leaders)) {
-            const div = document.createElement("div");
-            div.className = "leader-card";
-            div.innerHTML = `
-              <div class="cat">${LABELS[cat] || cat}</div>
-              <div class="name">${l.name || "—"}</div>
-              <div class="stat">${l.displayValue || ""}</div>
-            `;
+            const div = el("div", "leader-card");
+            div.append(el("div", "cat", LABELS[cat] || cat), el("div", "name", l.name || "—"), el("div", "stat", l.displayValue || ""));
             grid.appendChild(div);
           }
           leadersCard.appendChild(grid);
@@ -115,11 +119,11 @@
             const awayScored = (p.awayScore ?? prevAway) > prevAway;
             const homeScored = (p.homeScore ?? prevHome) > prevHome;
             const isOsu = homeIsOsu ? homeScored : awayScored;
-            li.innerHTML = `
-              <div class="time">Q${p.period} ${p.clock}</div>
-              <div class="text">${isOsu ? "OSU " : ""}${p.text}</div>
-              <div class="score">${p.awayScore}–${p.homeScore}</div>
-            `;
+            li.append(
+              el("div", "time", `Q${p.period} ${p.clock}`),
+              el("div", "text", `${isOsu ? "OSU " : ""}${p.text || ""}`),
+              el("div", "score", `${p.awayScore ?? prevAway}–${p.homeScore ?? prevHome}`)
+            );
             ul.appendChild(li);
             prevAway = p.awayScore ?? prevAway;
             prevHome = p.homeScore ?? prevHome;
@@ -142,22 +146,24 @@
           const ys = (v) => H - PAD - ((v - min) / range) * (H - 2 * PAD);
           const line = pts.map((v, i) => `${i === 0 ? "M" : "L"}${xs(i).toFixed(1)},${ys(v).toFixed(1)}`).join(" ");
           const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+          svg.setAttribute("role", "img");
+          svg.setAttribute("aria-label", `Win probability chart: ranged from ${Math.round(min)}% to ${Math.round(max)}% for Ohio State`);
           svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
           const area = document.createElementNS("http://www.w3.org/2000/svg", "path");
           area.setAttribute("d", `${line} L${xs(n - 1).toFixed(1)},${H} L${xs(0).toFixed(1)},${H} Z`);
-          area.setAttribute("fill", "#ba0c2f");
+          area.style.fill = "var(--scarlet)";
           area.setAttribute("opacity", "0.12");
           svg.appendChild(area);
           const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
           path.setAttribute("d", line);
           path.setAttribute("fill", "none");
-          path.setAttribute("stroke", "#ba0c2f");
+          path.style.stroke = "var(--scarlet)";
           path.setAttribute("stroke-width", "2.5");
           svg.appendChild(path);
           wrap.appendChild(svg);
           const axis = document.createElement("div");
           axis.className = "wp-axis";
-          axis.innerHTML = "<span>0%</span><span>50%</span><span>100%</span>";
+          axis.append(el("span", "", "0%"), el("span", "", "50%"), el("span", "", "100%"));
           wrap.appendChild(axis);
           wpCard.appendChild(wrap);
         }
@@ -169,12 +175,12 @@
           ul.className = "drive-list";
           for (const dr of bs.scoringDrives) {
             const li = document.createElement("li");
-            li.innerHTML = `
-              <div class="drive-team">${dr.teamAbbr || dr.team}</div>
-              <div class="drive-desc">${dr.description || ""}</div>
-              <div class="drive-result">${dr.result || "Score"}</div>
-              <div class="drive-plays">${(dr.plays || []).map((p) => p.text).join(" · ")}</div>
-            `;
+            li.append(
+              el("div", "drive-team", dr.teamAbbr || dr.team),
+              el("div", "drive-desc", dr.description || ""),
+              el("div", "drive-result", dr.result || "Score"),
+              el("div", "drive-plays", (dr.plays || []).map((p) => p.text).join(" · "))
+            );
             ul.appendChild(li);
           }
           driveCard.appendChild(ul);
@@ -185,24 +191,15 @@
           const oddsCard = card("Betting");
           const wrap = document.createElement("div");
           wrap.className = "stat-grid";
-          if (bs.odds.details) {
+          function statTile(val, lbl) {
             const tile = document.createElement("div");
             tile.className = "stat-tile";
-            tile.innerHTML = `<div class="val">${bs.odds.details}</div><div class="lbl">Line</div>`;
-            wrap.appendChild(tile);
+            tile.append(el("div", "val", val), el("div", "lbl", lbl));
+            return tile;
           }
-          for (const sp of bs.odds.spread) {
-            const tile = document.createElement("div");
-            tile.className = "stat-tile";
-            tile.innerHTML = `<div class="val">${sp.spread ?? "—"}</div><div class="lbl">${sp.team}</div>`;
-            wrap.appendChild(tile);
-          }
-          if (bs.odds.overUnder) {
-            const tile = document.createElement("div");
-            tile.className = "stat-tile";
-            tile.innerHTML = `<div class="val">${bs.odds.overUnder}</div><div class="lbl">O/U</div>`;
-            wrap.appendChild(tile);
-          }
+          if (bs.odds.details) wrap.appendChild(statTile(bs.odds.details, "Line"));
+          for (const sp of bs.odds.spread) wrap.appendChild(statTile(sp.spread ?? "—", sp.team));
+          if (bs.odds.overUnder) wrap.appendChild(statTile(bs.odds.overUnder, "O/U"));
           oddsCard.appendChild(wrap);
         }
       }

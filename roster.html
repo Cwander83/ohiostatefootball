@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ohio State Buckeyes football roster with player profiles and position filters for the selected season." />
   <title>Ohio State Football — Roster</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <div id="header"></div>
-  <main>
+  <main id="main-content" tabindex="-1">
     <h1 class="page-title" id="page-title">Roster</h1>
     <p class="page-sub" id="page-sub">Full 2026 roster. Click a column header to sort.</p>
     <div class="filters" id="filters"></div>
@@ -27,8 +30,9 @@
     import { makeSortableTable } from "./js/table.js";
     import { initScrapeButton } from "./js/scrape.js";
     import { initYearSelect } from "./js/year.js";
+    import { loadPartial, emptyState } from "./js/dom.js";
 
-    document.getElementById("header").innerHTML = await (await fetch("partials/header.html")).text();
+    await loadPartial("header", "partials/header.html");
     document.querySelector('[data-nav="roster"]').classList.add("active");
     initScrapeButton();
     await initYearSelect();
@@ -45,12 +49,9 @@
     const posfilters = document.getElementById("posfilters");
 
     if (!roster.length) {
-      filters.innerHTML = "";
-      posfilters.innerHTML = "";
-      const empty = document.createElement("div");
-      empty.className = "empty";
-      empty.innerHTML = '<div class="big">No roster for this season</div>Rosters are only available for the current season.';
-      container.appendChild(empty);
+      filters.replaceChildren();
+      posfilters.replaceChildren();
+      container.appendChild(emptyState("No roster for this season", "Rosters are only available for the current season."));
     } else {
       initRoster(roster, container, filters, posfilters);
     }
@@ -77,7 +78,7 @@
     }
 
     function renderFilters() {
-      filters.innerHTML = "";
+      filters.replaceChildren();
       for (const g of groups) {
         const b = document.createElement("button");
         b.textContent = g;
@@ -88,11 +89,12 @@
     }
 
     function renderPosFilters() {
-      posfilters.innerHTML = "";
+      posfilters.replaceChildren();
       const positions = positionsForGroup();
       const sel = document.createElement("select");
       sel.className = "pos-select";
       sel.name = "position";
+      sel.setAttribute("aria-label", "Filter by position");
       const allOpt = document.createElement("option");
       allOpt.value = "All";
       allOpt.textContent = "All Positions";
@@ -109,7 +111,7 @@
     }
 
     function renderTable() {
-      container.innerHTML = "";
+      container.replaceChildren();
       let rows = roster;
       if (active === "Offense") rows = roster.filter((p) => p.positionGroup === "offense");
       else if (active === "Defense") rows = roster.filter((p) => p.positionGroup === "defense");

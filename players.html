@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ohio State Buckeyes player stats, season totals, and sortable leaderboards for the selected season." />
   <title>Ohio State Football — Player Stats</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <div id="header"></div>
-  <main>
+  <main id="main-content" tabindex="-1">
     <h1 class="page-title">Player Stats</h1>
     <p class="page-sub">Season totals by position. Click a column header to sort.</p>
     <div class="filters" id="filters"></div>
@@ -27,8 +30,9 @@
     import { initScrapeButton } from "./js/scrape.js";
     import { initYearSelect } from "./js/year.js";
     import { aggregateBoxscores } from "./js/aggregate.js";
+    import { loadPartial, emptyState } from "./js/dom.js";
 
-    document.getElementById("header").innerHTML = await (await fetch("partials/header.html")).text();
+    await loadPartial("header", "partials/header.html");
     document.querySelector('[data-nav="players"]').classList.add("active");
     initScrapeButton();
     await initYearSelect();
@@ -65,7 +69,7 @@
     let activeGroup = groupKeys[0] || null;
 
     function renderFilters() {
-      filters.innerHTML = "";
+      filters.replaceChildren();
       for (const key of groupKeys) {
         const b = document.createElement("button");
         b.textContent = GROUP_LABELS[key] || key;
@@ -76,12 +80,9 @@
     }
 
     function renderTable() {
-      container.innerHTML = "";
+      container.replaceChildren();
       if (!activeGroup) {
-        const empty = document.createElement("div");
-        empty.className = "empty";
-        empty.innerHTML = '<div class="big">No game data yet</div>Run the scraper after games are played to populate player stats.';
-        container.appendChild(empty);
+        container.appendChild(emptyState("No game data yet", "Run the scraper after games are played to populate player stats."));
         return;
       }
       const g = groups[activeGroup];
