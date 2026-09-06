@@ -9,10 +9,10 @@
     "opponentAbbr": "BALL",
     "venue": "Ohio Stadium",
     "neutralSite": false,
-    "osuScore": null,
-    "oppScore": null,
-    "status": "upcoming",
-    "boxscoreAvailable": false
+    "osuScore": 56,
+    "oppScore": 3,
+    "status": "final",
+    "boxscoreAvailable": true
   },
   {
     "id": "401856682",
