@@ -24,10 +24,10 @@
     "opponentAbbr": "TEX",
     "venue": "DKR-Texas Memorial Stadium",
     "neutralSite": false,
-    "osuScore": null,
-    "oppScore": null,
-    "status": "upcoming",
-    "boxscoreAvailable": false
+    "osuScore": 23,
+    "oppScore": 24,
+    "status": "final",
+    "boxscoreAvailable": true
   },
   {
     "id": "401858454",
@@ -47,7 +47,7 @@
   {
     "id": "401858465",
     "week": 4,
-    "date": "2026-09-26T04:00Z",
+    "date": "2026-09-26T16:00Z",
     "name": "Illinois Fighting Illini at Ohio State Buckeyes",
     "homeAway": "home",
     "opponent": "Illinois Fighting Illini",
