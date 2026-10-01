@@ -57,7 +57,7 @@
               "8.7",
               "1",
               "1",
-              "88.3"
+              "91.7"
             ]
           }
         ]
@@ -415,7 +415,7 @@
             "jersey": "94",
             "stats": [
               "3",
-              "1",
+              "0",
               "0",
               "0",
               "0",
@@ -461,6 +461,21 @@
             "stats": [
               "1",
               "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4703062",
+            "name": "Beau Atkinson",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "1",
+              "0",
               "0",
               "0",
               "0",
@@ -529,10 +544,10 @@
             ]
           },
           {
-            "id": "5150711",
-            "name": "Brennen Schramm",
+            "id": "5150713",
+            "name": "Ryan Rudzinski",
             "position": null,
-            "jersey": "34",
+            "jersey": "46",
             "stats": [
               "1",
               "0",
@@ -687,7 +702,7 @@
               "5.3",
               "1",
               "1",
-              "83.0"
+              "80.6"
             ]
           }
         ]
@@ -885,17 +900,6 @@
             "stats": [
               "1",
               "1",
-              "0"
-            ]
-          },
-          {
-            "id": "4871053",
-            "name": "Hollywood Smothers",
-            "position": null,
-            "jersey": "2",
-            "stats": [
-              "1",
-              "0",
               "0"
             ]
           },
@@ -1139,7 +1143,7 @@
               "1",
               "0",
               "0",
-              "0",
+              "1",
               "0",
               "0"
             ]
@@ -1230,21 +1234,6 @@
               "0",
               "0",
               "0",
-              "0",
-              "0"
-            ]
-          },
-          {
-            "id": "5150773",
-            "name": "Rett Andersen",
-            "position": null,
-            "jersey": "35",
-            "stats": [
-              "0",
-              "0",
-              "0",
-              "0",
-              "1",
               "0",
               "0"
             ]
@@ -3145,7 +3134,7 @@
               "12.8",
               "3",
               "0",
-              "97.8"
+              "96.5"
             ]
           },
           {
@@ -3159,7 +3148,7 @@
               "10.3",
               "1",
               "1",
-              "25.0"
+              "16.4"
             ]
           },
           {
@@ -3173,7 +3162,7 @@
               "8.7",
               "1",
               "0",
-              "33.4"
+              "24.9"
             ]
           }
         ]
@@ -4109,7 +4098,7 @@
               "2.7",
               "0",
               "1",
-              "29.6"
+              "30.3"
             ]
           },
           {
@@ -4123,7 +4112,7 @@
               "7.8",
               "0",
               "0",
-              "96.7"
+              "96.5"
             ]
           }
         ]
@@ -4378,6 +4367,21 @@
         ],
         "rows": [
           {
+            "id": "5157389",
+            "name": "Sterling Smith",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "6",
+              "5",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
             "id": "5210561",
             "name": "Lucas Szymborski",
             "position": null,
@@ -4399,21 +4403,6 @@
             "jersey": "33",
             "stats": [
               "6",
-              "4",
-              "0",
-              "0",
-              "0",
-              "0",
-              "0"
-            ]
-          },
-          {
-            "id": "5157389",
-            "name": "Sterling Smith",
-            "position": null,
-            "jersey": "1",
-            "stats": [
-              "5",
               "4",
               "0",
               "0",
@@ -4492,6 +4481,21 @@
               "2",
               "0",
               "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5141979",
+            "name": "Ameir Glenn",
+            "position": null,
+            "jersey": "56",
+            "stats": [
+              "2",
+              "2",
+              "0",
+              "1",
               "0",
               "0",
               "0"
@@ -4678,21 +4682,6 @@
             ]
           },
           {
-            "id": "5141979",
-            "name": "Ameir Glenn",
-            "position": null,
-            "jersey": "56",
-            "stats": [
-              "1",
-              "1",
-              "0",
-              "1",
-              "0",
-              "0",
-              "0"
-            ]
-          },
-          {
             "id": "5147222",
             "name": "Cedric Franklin II",
             "position": null,
@@ -4708,40 +4697,10 @@
             ]
           },
           {
-            "id": "5161691",
-            "name": "Keilan Smith",
-            "position": null,
-            "jersey": "95",
-            "stats": [
-              "1",
-              "1",
-              "0",
-              "0",
-              "0",
-              "0",
-              "0"
-            ]
-          },
-          {
             "id": "5167698",
             "name": "Jamar Birden",
             "position": null,
             "jersey": "91",
-            "stats": [
-              "1",
-              "1",
-              "0",
-              "0",
-              "0",
-              "0",
-              "0"
-            ]
-          },
-          {
-            "id": "5191056",
-            "name": "Donovan Hamilton",
-            "position": null,
-            "jersey": "1",
             "stats": [
               "1",
               "1",
@@ -6378,6 +6337,6294 @@
       }
     ],
     "attendance": 101120,
+    "broadcast": [],
+    "odds": {
+      "details": null,
+      "overUnder": null,
+      "spread": [],
+      "winner": null
+    }
+  },
+  "401858454": {
+    "eventId": "401858454",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "5079712",
+            "name": "Julian Sayin",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "18/22",
+              "241",
+              "11.0",
+              "2",
+              "0",
+              "73.5"
+            ]
+          },
+          {
+            "id": "5214646",
+            "name": "Luke Fahey",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "4/5",
+              "141",
+              "28.2",
+              "1",
+              "1",
+              "90.1"
+            ]
+          },
+          {
+            "id": "5146824",
+            "name": "Tavien St. Clair",
+            "position": null,
+            "jersey": "9",
+            "stats": [
+              "0/1",
+              "0",
+              "0.0",
+              "0",
+              "1",
+              "0.0"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5141517",
+            "name": "Bo Jackson",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "11",
+              "73",
+              "6.6",
+              "1",
+              "17"
+            ]
+          },
+          {
+            "id": "5151892",
+            "name": "Ja'Kobi Jackson",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "8",
+              "47",
+              "5.9",
+              "2",
+              "14"
+            ]
+          },
+          {
+            "id": "5244752",
+            "name": "Favour Akih",
+            "position": null,
+            "jersey": "29",
+            "stats": [
+              "8",
+              "13",
+              "1.6",
+              "0",
+              "5"
+            ]
+          },
+          {
+            "id": "5141701",
+            "name": "Isaiah West",
+            "position": null,
+            "jersey": "32",
+            "stats": [
+              "6",
+              "10",
+              "1.7",
+              "1",
+              "8"
+            ]
+          },
+          {
+            "id": "5226888",
+            "name": "Stanley Jackson Jr.",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "2",
+              "8",
+              "4.0",
+              "0",
+              "5"
+            ]
+          },
+          {
+            "id": "5182122",
+            "name": "Legend Bey",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "1",
+              "0",
+              "0.0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5079712",
+            "name": "Julian Sayin",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "2",
+              "-6",
+              "-3.0",
+              "0",
+              "1"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5079720",
+            "name": "Jeremiah Smith",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "5",
+              "85",
+              "17.0",
+              "0",
+              "23"
+            ]
+          },
+          {
+            "id": "4870835",
+            "name": "Brandon Inniss",
+            "position": null,
+            "jersey": "0",
+            "stats": [
+              "4",
+              "78",
+              "19.5",
+              "1",
+              "49"
+            ]
+          },
+          {
+            "id": "5159009",
+            "name": "Chris Henry Jr.",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "1",
+              "75",
+              "75.0",
+              "1",
+              "75"
+            ]
+          },
+          {
+            "id": "5161804",
+            "name": "Brock Boyd",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "4",
+              "66",
+              "16.5",
+              "0",
+              "39"
+            ]
+          },
+          {
+            "id": "5141384",
+            "name": "Phillip Bell",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "3",
+              "37",
+              "12.3",
+              "0",
+              "20"
+            ]
+          },
+          {
+            "id": "5076952",
+            "name": "Devin McCuin",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "2",
+              "29",
+              "14.5",
+              "0",
+              "22"
+            ]
+          },
+          {
+            "id": "5141656",
+            "name": "Nate Roberts",
+            "position": null,
+            "jersey": "83",
+            "stats": [
+              "2",
+              "12",
+              "6.0",
+              "1",
+              "6"
+            ]
+          },
+          {
+            "id": "5141517",
+            "name": "Bo Jackson",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "1",
+              "0",
+              "0.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "fumbles": {
+        "labels": [
+          "FUM",
+          "LOST",
+          "REC"
+        ],
+        "rows": [
+          {
+            "id": "5079667",
+            "name": "Payton Pierce",
+            "position": null,
+            "jersey": "26",
+            "stats": [
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          {
+            "id": "5282572",
+            "name": "Jamir Perez",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "0",
+              "0",
+              "1"
+            ]
+          }
+        ]
+      },
+      "defensive": {
+        "labels": [
+          "TOT",
+          "SOLO",
+          "SACKS",
+          "TFL",
+          "PD",
+          "QB HUR",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "4870950",
+            "name": "Jason Moore",
+            "position": null,
+            "jersey": "94",
+            "stats": [
+              "5",
+              "2",
+              "0.5",
+              "0.5",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4915838",
+            "name": "Will Smith Jr.",
+            "position": null,
+            "jersey": "53",
+            "stats": [
+              "5",
+              "2",
+              "0.5",
+              "0.5",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4869820",
+            "name": "Terry Moore",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "3",
+              "3",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5209313",
+            "name": "Cincere Johnson",
+            "position": null,
+            "jersey": "20",
+            "stats": [
+              "3",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5079518",
+            "name": "Jaylen McClain",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "3",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5120968",
+            "name": "Christian Alliegro",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "3",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5141630",
+            "name": "Riley Pettijohn",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "3",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5291777",
+            "name": "Braxton Rembert",
+            "position": null,
+            "jersey": "41",
+            "stats": [
+              "2",
+              "2",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5079667",
+            "name": "Payton Pierce",
+            "position": null,
+            "jersey": "26",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5150251",
+            "name": "Qua Russaw",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5150710",
+            "name": "Jermaine Mathews Jr.",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5245135",
+            "name": "Damari Simeon",
+            "position": null,
+            "jersey": "90",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4685437",
+            "name": "Earl Little Jr.",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "2",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5282572",
+            "name": "Jamir Perez",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "2",
+              "0",
+              "0",
+              "0",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          {
+            "id": "4703062",
+            "name": "Beau Atkinson",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5156154",
+            "name": "Epi Sitanilei",
+            "position": null,
+            "jersey": "44",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5158967",
+            "name": "Blaine Bradford",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5159079",
+            "name": "Jordan Thomas",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5160481",
+            "name": "Simeon Caldwell",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5176115",
+            "name": "Leroy Roker III",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5179136",
+            "name": "Deshawn Stewart",
+            "position": null,
+            "jersey": "29",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5226888",
+            "name": "Stanley Jackson Jr.",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5276976",
+            "name": "Jay Timmons",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "1",
+              "1",
+              "0"
+            ]
+          },
+          {
+            "id": "4870969",
+            "name": "James Smith",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4871055",
+            "name": "John Walker",
+            "position": null,
+            "jersey": "55",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          },
+          {
+            "id": "5081821",
+            "name": "Kenyatta Jackson Jr.",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5159030",
+            "name": "Darryus McKinley",
+            "position": null,
+            "jersey": "91",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5245509",
+            "name": "Dre Quinn",
+            "position": null,
+            "jersey": "97",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5141355",
+            "name": "Tarvos Alford",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5141630",
+            "name": "Riley Pettijohn",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "1",
+              "8",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5141384",
+            "name": "Phillip Bell",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "3",
+              "21",
+              "7.0",
+              "10",
+              "0"
+            ]
+          },
+          {
+            "id": "5141494",
+            "name": "De'Zie Jones",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "2",
+              "9",
+              "4.5",
+              "9",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "5156433",
+            "name": "Connor Hawkins",
+            "position": null,
+            "jersey": "96",
+            "stats": [
+              "1/1",
+              "100.0",
+              "31",
+              "8/8",
+              "11"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5159957",
+            "name": "Joe McGuire",
+            "position": null,
+            "jersey": "42",
+            "stats": [
+              "1",
+              "47",
+              "47.0",
+              "1",
+              "0",
+              "47"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "5119841",
+            "name": "Dru DeShields",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "6/15",
+              "35",
+              "2.3",
+              "0",
+              "1",
+              "35.0"
+            ]
+          },
+          {
+            "id": "5295590",
+            "name": "Da'Realyst Clark",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "1/1",
+              "29",
+              "29.0",
+              "0",
+              "0",
+              "--"
+            ]
+          },
+          {
+            "id": "5222633",
+            "name": "Nolan Good",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "0/1",
+              "0",
+              "0.0",
+              "0",
+              "0",
+              "0.4"
+            ]
+          },
+          {
+            "id": "5388310",
+            "name": "Ethan Thanthanavong",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "0/1",
+              "0",
+              "0.0",
+              "0",
+              "0",
+              "--"
+            ]
+          },
+          {
+            "id": "5141625",
+            "name": "Deante Ruffin",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "1/3",
+              "-1",
+              "-0.3",
+              "0",
+              "0",
+              "38.6"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5327601",
+            "name": "Brandon White",
+            "position": null,
+            "jersey": "22",
+            "stats": [
+              "5",
+              "21",
+              "4.2",
+              "0",
+              "7"
+            ]
+          },
+          {
+            "id": "5150825",
+            "name": "Donovan Delaney Jr.",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "9",
+              "20",
+              "2.2",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "4875755",
+            "name": "Mason King",
+            "position": null,
+            "jersey": "0",
+            "stats": [
+              "3",
+              "11",
+              "3.7",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "5146972",
+            "name": "Ayden Harris",
+            "position": null,
+            "jersey": "33",
+            "stats": [
+              "3",
+              "8",
+              "2.7",
+              "0",
+              "5"
+            ]
+          },
+          {
+            "id": "5141625",
+            "name": "Deante Ruffin",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "2",
+              "7",
+              "3.5",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "5119841",
+            "name": "Dru DeShields",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "2",
+              "6",
+              "3.0",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "5126524",
+            "name": "Jakorion Caffey",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "3",
+              "5",
+              "1.7",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "5222633",
+            "name": "Nolan Good",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "3",
+              "5",
+              "1.7",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "5083407",
+            "name": "Hunter Hopperton",
+            "position": null,
+            "jersey": "18",
+            "stats": [
+              "3",
+              "2",
+              "0.7",
+              "0",
+              "2"
+            ]
+          },
+          {
+            "id": "5388310",
+            "name": "Ethan Thanthanavong",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "1",
+              "-14",
+              "-14.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5147053",
+            "name": "Wayne Harris",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "2",
+              "29",
+              "14.5",
+              "0",
+              "29"
+            ]
+          },
+          {
+            "id": "5295590",
+            "name": "Da'Realyst Clark",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "1",
+              "14",
+              "14.0",
+              "0",
+              "14"
+            ]
+          },
+          {
+            "id": "5027432",
+            "name": "Ardell Banks",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "13",
+              "13.0",
+              "0",
+              "13"
+            ]
+          },
+          {
+            "id": "5126524",
+            "name": "Jakorion Caffey",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "1",
+              "4",
+              "4.0",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "5088143",
+            "name": "Terik Mulder",
+            "position": null,
+            "jersey": "89",
+            "stats": [
+              "1",
+              "3",
+              "3.0",
+              "0",
+              "3"
+            ]
+          },
+          {
+            "id": "4875755",
+            "name": "Mason King",
+            "position": null,
+            "jersey": "0",
+            "stats": [
+              "1",
+              "1",
+              "1.0",
+              "0",
+              "1"
+            ]
+          },
+          {
+            "id": "5263587",
+            "name": "Matthew Maxey",
+            "position": null,
+            "jersey": "86",
+            "stats": [
+              "1",
+              "-1",
+              "-1.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "fumbles": {
+        "labels": [
+          "FUM",
+          "LOST",
+          "REC"
+        ],
+        "rows": [
+          {
+            "id": "5222633",
+            "name": "Nolan Good",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "1",
+              "1",
+              "0"
+            ]
+          },
+          {
+            "id": "5388310",
+            "name": "Ethan Thanthanavong",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "1",
+              "1",
+              "0"
+            ]
+          }
+        ]
+      },
+      "defensive": {
+        "labels": [
+          "TOT",
+          "SOLO",
+          "SACKS",
+          "TFL",
+          "PD",
+          "QB HUR",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5211905",
+            "name": "Joel Cordoba",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "7",
+              "4",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5227117",
+            "name": "Quan Rhodes-McKee",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "7",
+              "2",
+              "0",
+              "2",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5151679",
+            "name": "Sayed Abuhamdeh",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "5",
+              "4",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5082292",
+            "name": "A'tiq Muhammad",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "5",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5295594",
+            "name": "Derrick Jackson III",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "4",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5089863",
+            "name": "Norey Johnson",
+            "position": null,
+            "jersey": "18",
+            "stats": [
+              "3",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5146577",
+            "name": "Davion Pritchard",
+            "position": null,
+            "jersey": "22",
+            "stats": [
+              "3",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5193532",
+            "name": "Martell Buchanan",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "3",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5215187",
+            "name": "Trey Rubinstein",
+            "position": null,
+            "jersey": "32",
+            "stats": [
+              "3",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5222396",
+            "name": "Clinton Robinson",
+            "position": null,
+            "jersey": "38",
+            "stats": [
+              "3",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5302915",
+            "name": "Lionel Burns III",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "3",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5082969",
+            "name": "Rocco Nicholl",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "3",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5147050",
+            "name": "Josue Cordoba",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "3",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5086981",
+            "name": "Angelo Stockstill",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "2",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5222598",
+            "name": "Bryce Griffin",
+            "position": null,
+            "jersey": "90",
+            "stats": [
+              "2",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5258332",
+            "name": "Garrett Long",
+            "position": null,
+            "jersey": "83",
+            "stats": [
+              "2",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5222390",
+            "name": "Aiden Burgess",
+            "position": null,
+            "jersey": "52",
+            "stats": [
+              "2",
+              "1",
+              "1",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5215184",
+            "name": "Rafael Terrero Jr.",
+            "position": null,
+            "jersey": "20",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5243578",
+            "name": "Darian Blachewicz",
+            "position": null,
+            "jersey": "0",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5122047",
+            "name": "Jared Kelley",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5154316",
+            "name": "Thomas Aden",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5222389",
+            "name": "Antonio Bottiggi",
+            "position": null,
+            "jersey": "44",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5295589",
+            "name": "Ezekiel Castex",
+            "position": null,
+            "jersey": "23",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5326065",
+            "name": "Zymir Reed",
+            "position": null,
+            "jersey": "81",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5227192",
+            "name": "Camdon Wilborn",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5312159",
+            "name": "Matthew Sollberger",
+            "position": null,
+            "jersey": "30",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5388314",
+            "name": "Cade Romanini",
+            "position": null,
+            "jersey": "29",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5258022",
+            "name": "Tanner Mintz",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "1",
+              "48",
+              "0"
+            ]
+          },
+          {
+            "id": "5089863",
+            "name": "Norey Johnson",
+            "position": null,
+            "jersey": "18",
+            "stats": [
+              "1",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5291801",
+            "name": "Brendyn Smith",
+            "position": null,
+            "jersey": "85",
+            "stats": [
+              "2",
+              "27",
+              "13.5",
+              "16",
+              "0"
+            ]
+          },
+          {
+            "id": "5295590",
+            "name": "Da'Realyst Clark",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "1",
+              "5",
+              "5.0",
+              "5",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "5258331",
+            "name": "Sean Leonard",
+            "position": null,
+            "jersey": "96",
+            "stats": [
+              "1/1",
+              "100.0",
+              "30",
+              "0/0",
+              "3"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5295596",
+            "name": "Jake Stoeckel",
+            "position": null,
+            "jersey": "97",
+            "stats": [
+              "5",
+              "214",
+              "42.8",
+              "0",
+              "0",
+              "49"
+            ]
+          },
+          {
+            "id": "5388317",
+            "name": "Kolten Ford",
+            "position": null,
+            "jersey": "42",
+            "stats": [
+              "3",
+              "113",
+              "37.7",
+              "0",
+              "0",
+              "48"
+            ]
+          }
+        ]
+      }
+    },
+    "leaders": {
+      "passingYards": {
+        "name": "Julian Sayin",
+        "id": "5079712",
+        "position": "QB",
+        "jersey": "10",
+        "displayValue": "18/22, 241 YDS, 2 TD",
+        "value": 241
+      },
+      "rushingYards": {
+        "name": "Bo Jackson",
+        "id": "5141517",
+        "position": "RB",
+        "jersey": "25",
+        "displayValue": "11 CAR, 73 YDS, 1 TD",
+        "value": 73
+      },
+      "receivingYards": {
+        "name": "Jeremiah Smith",
+        "id": "5079720",
+        "position": "WR",
+        "jersey": "4",
+        "displayValue": "5 REC, 85 YDS",
+        "value": 85
+      },
+      "sacks": {
+        "name": "Jason Moore",
+        "id": "4870950",
+        "position": "DT",
+        "jersey": "94",
+        "displayValue": "0.5",
+        "value": 0.5
+      },
+      "totalTackles": {
+        "name": "Jason Moore",
+        "id": "4870950",
+        "position": "DT",
+        "jersey": "94",
+        "displayValue": "5",
+        "value": 5
+      }
+    },
+    "scoringPlays": [
+      {
+        "type": "Rushing Touchdown",
+        "text": "Ja'Kobi Jackson 11 Yd Run (Connor Hawkins Kick)",
+        "awayScore": 0,
+        "homeScore": 7,
+        "period": 1,
+        "clock": "12:07"
+      },
+      {
+        "type": "Passing Touchdown",
+        "text": "Nate Roberts 6 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "awayScore": 0,
+        "homeScore": 14,
+        "period": 1,
+        "clock": "6:42"
+      },
+      {
+        "type": "Rushing Touchdown",
+        "text": "Isaiah West 4 Yd Run (Connor Hawkins Kick)",
+        "awayScore": 0,
+        "homeScore": 21,
+        "period": 1,
+        "clock": "0:44"
+      },
+      {
+        "type": "Rush",
+        "text": "Bo Jackson 1 Yd Run (Connor Hawkins Kick)",
+        "awayScore": 0,
+        "homeScore": 28,
+        "period": 2,
+        "clock": "9:29"
+      },
+      {
+        "type": "Passing Touchdown",
+        "text": "Brandon Inniss 49 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "awayScore": 0,
+        "homeScore": 35,
+        "period": 2,
+        "clock": "0:00"
+      },
+      {
+        "type": "Rushing Touchdown",
+        "text": "Ja'Kobi Jackson 1 Yd Run (Connor Hawkins Kick)",
+        "awayScore": 0,
+        "homeScore": 42,
+        "period": 3,
+        "clock": "10:57"
+      },
+      {
+        "type": "Passing Touchdown",
+        "text": "Chris Henry Jr. 75 Yd pass from Luke Fahey (Connor Hawkins Kick)",
+        "awayScore": 0,
+        "homeScore": 49,
+        "period": 4,
+        "clock": "14:27"
+      },
+      {
+        "type": "Fumble Return Touchdown",
+        "text": "Jamir Perez 11 Yd Fumble Return (Connor Hawkins Kick)",
+        "awayScore": 0,
+        "homeScore": 56,
+        "period": 4,
+        "clock": "14:19"
+      },
+      {
+        "type": "Field Goal Good",
+        "text": "Connor Hawkins 31 Yd Field Goal ",
+        "awayScore": 0,
+        "homeScore": 59,
+        "period": 4,
+        "clock": "7:22"
+      },
+      {
+        "type": "Field Goal Good",
+        "text": "Sean Leonard 30 Yd Field Goal ",
+        "awayScore": 3,
+        "homeScore": 59,
+        "period": 4,
+        "clock": "1:56"
+      }
+    ],
+    "scoringDrives": [
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "7 plays, 65 yards, 2:53",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#49 M.Diomede kickoff 65 yards to the KentSt00, Touchback",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "#96 S.Leonard kickoff 23 yards to the KentSt12, out of bounds at KentSt12",
+            "awayScore": 0,
+            "homeScore": 21,
+            "period": 1,
+            "clock": "0:00"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #0 B.Inniss caught at OhioSt40, for 9 yards to the OhioSt44 (#7 A.Stockstill), out of bounds",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "#25 B.Jackson rush right for 10 yards gain to the KentSt46 (#38 C.Robinson; #1 A.Muhammad), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #0 B.Inniss caught at KentSt44, for 8 yards to the KentSt38 (#7 A.Stockstill), out of bounds",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 8 yards gain to the KentSt30 (#44 A.Bottiggi), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "No Huddle-Shotgun #10 J.Sayin pass complete short right to #4 J.Smith caught at KentSt32, for 13 yards to the KentSt17 (#38 C.Robinson), out of bounds, 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 6 yards gain to the KentSt11 (#1 A.Muhammad)",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "#24 J.Jackson rush middle for 11 yards gain to the KentSt00 TOUCHDOWN, clock 12:07, 1ST DOWN #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "12:07"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "5 plays, 62 yards, 2:33",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #3 D.McCuin caught at OhioSt35, for 7 yards to the OhioSt45 (#3 D.Jackson III)",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "9:15"
+          },
+          {
+            "text": "#10 J.Sayin pass complete deep right to #3 D.McCuin caught at KentSt34, for 22 yards to the KentSt33 (#2 J.Cordoba), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "9:15"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short middle to #4 J.Smith caught at KentSt22, for 23 yards to the KentSt10 (#3 D.Jackson III), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "9:15"
+          },
+          {
+            "text": "#25 B.Jackson rush middle for 4 yards gain to the KentSt06 (#2 J.Cordoba; #8 J.Cordoba)",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "9:15"
+          },
+          {
+            "text": "#10 J.Sayin pass complete short left to #83 N.Roberts caught at KentSt03, for 6 yards to the KentSt00 TOUCHDOWN, clock 06:42, 1ST DOWN #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "6:42"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "5 plays, 46 yards, 2:22",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#25 B.Jackson rush middle for 8 yards gain to the KentSt38 (#5 T.Aden)",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:06"
+          },
+          {
+            "text": "#25 B.Jackson rush middle for 6 yards gain to the KentSt32 (#15 S.Abuhamdeh; #0 D.Blachewicz), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:06"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete deep right to #4 J.Smith caught at KentSt12, for 20 yards to the KentSt12 (#18 N.Johnson), out of bounds, 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:06"
+          },
+          {
+            "text": "Shotgun #32 I.West rush right for 8 yards gain to the KentSt04 (#18 N.Johnson), out of bounds",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:06"
+          },
+          {
+            "text": "#32 I.West rush middle for 4 yards gain to the KentSt00 TOUCHDOWN, clock 00:44, 1ST DOWN #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 0,
+            "homeScore": 21,
+            "period": 1,
+            "clock": "0:44"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "10 plays, 64 yards, 5:18",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#10 J.Sayin pass complete short right to #4 J.Smith caught at OhioSt46, for 14 yards to the OhioSt50 (#2 J.Cordoba), out of bounds, 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #2 L.Bey rush right for 0 yards to the OhioSt50 (#32 T.Rubinstein)",
+            "awayScore": 0,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #0 B.Inniss caught at KentSt45, for 12 yards to the KentSt38 (#15 S.Abuhamdeh), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "#25 B.Jackson rush left for 17 yards gain to the KentSt21 (#4 R.Nicholl; #2 J.Cordoba), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 8 yards gain to the KentSt13 (#15 S.Abuhamdeh)",
+            "awayScore": 0,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #11 B.Boyd caught at KentSt16, for 6 yards to the KentSt07 (#12 L.Burns III), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin rush right for 1 yard gain to the KentSt06 (#83 G.Long), out of bounds",
+            "awayScore": 0,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "#25 B.Jackson rush middle for 3 yards gain to the KentSt03 (#8 J.Cordoba; #18 N.Johnson)",
+            "awayScore": 0,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "#25 B.Jackson rush middle for 2 yards gain to the KentSt01 (#8 J.Cordoba)",
+            "awayScore": 0,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "#25 B.Jackson rush middle for 1 yard gain to the KentSt00 TOUCHDOWN, clock 09:29 #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 0,
+            "homeScore": 28,
+            "period": 2,
+            "clock": "9:29"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "4 plays, 85 yards, 0:20",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #83 N.Roberts caught at OhioSt20, for 6 yards to the OhioSt21, out of bounds at OhioSt21 PENALTY KentSt Roughing The Passer (#2 J.Cordoba) 15 yards from OhioSt21 to OhioSt36, 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 28,
+            "period": 2,
+            "clock": "0:20"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete short left to #11 B.Boyd thrown to OhioSt49",
+            "awayScore": 0,
+            "homeScore": 28,
+            "period": 2,
+            "clock": "0:20"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #4 J.Smith caught at OhioSt50, for 15 yards to the KentSt49 (#1 A.Muhammad), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 28,
+            "period": 2,
+            "clock": "0:20"
+          },
+          {
+            "text": "Timeout Ohio State, clock 00:03",
+            "awayScore": 0,
+            "homeScore": 28,
+            "period": 2,
+            "clock": "0:03"
+          },
+          {
+            "text": "Timeout Kent State, clock 00:03",
+            "awayScore": 0,
+            "homeScore": 28,
+            "period": 2,
+            "clock": "0:03"
+          },
+          {
+            "text": "Brandon Inniss 49 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+            "awayScore": 0,
+            "homeScore": 35,
+            "period": 2,
+            "clock": "0:00"
+          },
+          {
+            "text": "End of 2nd quarter.",
+            "awayScore": 0,
+            "homeScore": 35,
+            "period": 2,
+            "clock": "0:00"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "7 plays, 43 yards, 3:16",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 9 yards gain to the KentSt34 (#2 J.Cordoba)",
+            "awayScore": 0,
+            "homeScore": 35,
+            "period": 3,
+            "clock": "14:13"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 14 yards gain to the KentSt20 (#15 S.Abuhamdeh), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 35,
+            "period": 3,
+            "clock": "14:13"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #11 B.Boyd caught at KentSt09, for 12 yards to the KentSt08 (#2 J.Cordoba), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 35,
+            "period": 3,
+            "clock": "14:13"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush left for 3 yards gain to the KentSt05 (#13 Q.Rhodes-McKee; #30 M.Sollberger)",
+            "awayScore": 0,
+            "homeScore": 35,
+            "period": 3,
+            "clock": "14:13"
+          },
+          {
+            "text": "#24 J.Jackson rush middle for 3 yards gain to the KentSt02 (#3 D.Jackson III; #11 C.Wilborn)",
+            "awayScore": 0,
+            "homeScore": 35,
+            "period": 3,
+            "clock": "14:13"
+          },
+          {
+            "text": "#24 J.Jackson rush middle for 1 yard gain to the KentSt01 (#15 S.Abuhamdeh)",
+            "awayScore": 0,
+            "homeScore": 35,
+            "period": 3,
+            "clock": "14:13"
+          },
+          {
+            "text": "#24 J.Jackson rush middle for 1 yard gain to the KentSt00 TOUCHDOWN, clock 10:57 #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 0,
+            "homeScore": 42,
+            "period": 3,
+            "clock": "10:57"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "1 play, 75 yards, 0:14",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "Chris Henry Jr. 75 Yd pass from Luke Fahey (Connor Hawkins Kick)",
+            "awayScore": 0,
+            "homeScore": 49,
+            "period": 4,
+            "clock": "14:27"
+          }
+        ]
+      },
+      {
+        "team": "Kent State Golden Flashes",
+        "teamAbbr": "KENT",
+        "description": "1 play, -14 yards, 0:08",
+        "result": "FUMBLE RETURN TD",
+        "plays": [
+          {
+            "text": "#49 M.Diomede kickoff 65 yards to the KentSt00, Touchback",
+            "awayScore": 0,
+            "homeScore": 49,
+            "period": 4,
+            "clock": "14:27"
+          },
+          {
+            "text": "Timeout Ohio State, clock 14:27",
+            "awayScore": 0,
+            "homeScore": 49,
+            "period": 4,
+            "clock": "14:27"
+          },
+          {
+            "text": "Jamir Perez 11 Yd Fumble Return (Connor Hawkins Kick)",
+            "awayScore": 0,
+            "homeScore": 56,
+            "period": 4,
+            "clock": "14:19"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "6 plays, 48 yards, 3:22",
+        "result": "FG",
+        "plays": [
+          {
+            "text": "#29 F.Akih rush middle for 4 yards gain to the OhioSt43 (#52 A.Burgess; #13 Q.Rhodes-McKee)",
+            "awayScore": 0,
+            "homeScore": 56,
+            "period": 4,
+            "clock": "10:44"
+          },
+          {
+            "text": "Shotgun #13 L.Fahey pass complete deep left to #11 B.Boyd caught at KentSt18, for 39 yards to the KentSt18, out of bounds at KentSt18, 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 56,
+            "period": 4,
+            "clock": "10:44"
+          },
+          {
+            "text": "#28 S.Jackson Jr. rush middle for 3 yards gain to the KentSt15 (#25 M.Buchanan; #13 Q.Rhodes-McKee)",
+            "awayScore": 0,
+            "homeScore": 56,
+            "period": 4,
+            "clock": "10:44"
+          },
+          {
+            "text": "#29 F.Akih rush left for 3 yards loss to the KentSt18 (#20 R.Terrero Jr.)",
+            "awayScore": 0,
+            "homeScore": 56,
+            "period": 4,
+            "clock": "10:44"
+          },
+          {
+            "text": "Shotgun #28 S.Jackson Jr. rush middle for 5 yards gain to the KentSt13 (#23 E.Castex)",
+            "awayScore": 0,
+            "homeScore": 56,
+            "period": 4,
+            "clock": "10:44"
+          },
+          {
+            "text": "Connor Hawkins 31 Yd Field Goal ",
+            "awayScore": 0,
+            "homeScore": 59,
+            "period": 4,
+            "clock": "7:22"
+          }
+        ]
+      },
+      {
+        "team": "Kent State Golden Flashes",
+        "teamAbbr": "KENT",
+        "description": "4 plays, 2 yards, 1:37",
+        "result": "FG",
+        "plays": [
+          {
+            "text": "Shotgun #14 D.Ruffin rush left for 4 yards gain to the OhioSt01 (#11 T.Moore)",
+            "awayScore": 0,
+            "homeScore": 59,
+            "period": 4,
+            "clock": "3:33"
+          },
+          {
+            "text": "PENALTY KentSt False Start (#70 H.Chasko) 5 yards from OhioSt01 to OhioSt06. NO PLAY",
+            "awayScore": 0,
+            "homeScore": 59,
+            "period": 4,
+            "clock": "3:33"
+          },
+          {
+            "text": "Shotgun #14 D.Ruffin pass incomplete short left to #80 T.Hunter thrown to OhioSt00",
+            "awayScore": 0,
+            "homeScore": 59,
+            "period": 4,
+            "clock": "3:33"
+          },
+          {
+            "text": "Shotgun #14 D.Ruffin rush middle for 3 yards gain to the OhioSt03 (#11 T.Moore)",
+            "awayScore": 0,
+            "homeScore": 59,
+            "period": 4,
+            "clock": "3:33"
+          },
+          {
+            "text": "Sean Leonard 30 Yd Field Goal ",
+            "awayScore": 3,
+            "homeScore": 59,
+            "period": 4,
+            "clock": "1:56"
+          },
+          {
+            "text": "Timeout Kent State, clock 02:00",
+            "awayScore": 0,
+            "homeScore": 59,
+            "period": 4,
+            "clock": "2:00"
+          }
+        ]
+      }
+    ],
+    "winProbability": [
+      {
+        "homeWinPercentage": 0.9987,
+        "playId": "4018584542"
+      },
+      {
+        "homeWinPercentage": 0.9986,
+        "playId": "4018584543"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454778"
+      },
+      {
+        "homeWinPercentage": 0.9989,
+        "playId": "40185845418"
+      },
+      {
+        "homeWinPercentage": 0.9989,
+        "playId": "40185845423"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845427"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845432"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845436"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845441"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845445"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845452"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845457"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845461"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845466"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845471"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845475"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845479"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845484"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845489"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845494"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "40185845498"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454106"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454109"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454113"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454118"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454122"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454127"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454130"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454136"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454140"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454145"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454149"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454153"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454158"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454162"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454169"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454172"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454175"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454178"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454192"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454196"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454203"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454208"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454212"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454217"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454221"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454225"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454230"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454234"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454238"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454242"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454252"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454255"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454260"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454263"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454266"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454271"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454277"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454280"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454284"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454287"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454292"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454296"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454299"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454302"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454307"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454310"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454314"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454317"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454321"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454326"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454329"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454336"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454340"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454345"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454350"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454357"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454355"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454362"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454363"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454367"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454373"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454371"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454377"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454383"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454389"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454387"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454391"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454395"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454401"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454404"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454411"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454412"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454409"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454428"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454432"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454435"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454485"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454451"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454455"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454459"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454464"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454468"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454472"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454476"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454483"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454492"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454496"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454500"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454503"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454506"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454512"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454516"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454521"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454525"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454529"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454533"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454539"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454537"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454542"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454546"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454554"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454552"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454559"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454563"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454568"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454588"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454591"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454595"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454582"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454599"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454604"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454610"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454618"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454627"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454681"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454636"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454642"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454646"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454650"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454654"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454658"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454663"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454666"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454672"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454690"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454696"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454700"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454704"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454709"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454712"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454717"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454721"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454726"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454730"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454735"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454741"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454745"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454749"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454755"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454759"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454762"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454765"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454769"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454773"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454776"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858454783"
+      },
+      {
+        "homeWinPercentage": 1,
+        "playId": "401858454787"
+      },
+      {
+        "homeWinPercentage": 1,
+        "playId": "401858454793"
+      }
+    ],
+    "attendance": 100009,
+    "broadcast": [],
+    "odds": {
+      "details": null,
+      "overUnder": null,
+      "spread": [],
+      "winner": null
+    }
+  },
+  "401858465": {
+    "eventId": "401858465",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "5079712",
+            "name": "Julian Sayin",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "27/36",
+              "367",
+              "10.2",
+              "4",
+              "0",
+              "95.2"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5151892",
+            "name": "Ja'Kobi Jackson",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "10",
+              "56",
+              "5.6",
+              "1",
+              "15"
+            ]
+          },
+          {
+            "id": "5141517",
+            "name": "Bo Jackson",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "11",
+              "53",
+              "4.8",
+              "0",
+              "10"
+            ]
+          },
+          {
+            "id": "5079712",
+            "name": "Julian Sayin",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "7",
+              "29",
+              "4.1",
+              "1",
+              "8"
+            ]
+          },
+          {
+            "id": "5141701",
+            "name": "Isaiah West",
+            "position": null,
+            "jersey": "32",
+            "stats": [
+              "2",
+              "15",
+              "7.5",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "-7014",
+            "name": " Team",
+            "position": null,
+            "jersey": null,
+            "stats": [
+              "2",
+              "-2",
+              "-1.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5079720",
+            "name": "Jeremiah Smith",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "12",
+              "217",
+              "18.1",
+              "4",
+              "72"
+            ]
+          },
+          {
+            "id": "5141656",
+            "name": "Nate Roberts",
+            "position": null,
+            "jersey": "83",
+            "stats": [
+              "4",
+              "36",
+              "9.0",
+              "0",
+              "20"
+            ]
+          },
+          {
+            "id": "5076952",
+            "name": "Devin McCuin",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "4",
+              "34",
+              "8.5",
+              "0",
+              "14"
+            ]
+          },
+          {
+            "id": "5141384",
+            "name": "Phillip Bell",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "1",
+              "23",
+              "23.0",
+              "0",
+              "23"
+            ]
+          },
+          {
+            "id": "5161804",
+            "name": "Brock Boyd",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "1",
+              "22",
+              "22.0",
+              "0",
+              "22"
+            ]
+          },
+          {
+            "id": "5141517",
+            "name": "Bo Jackson",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "3",
+              "16",
+              "5.3",
+              "0",
+              "9"
+            ]
+          },
+          {
+            "id": "5159009",
+            "name": "Chris Henry Jr.",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "1",
+              "15",
+              "15.0",
+              "0",
+              "15"
+            ]
+          },
+          {
+            "id": "4431009",
+            "name": "Hunter Welcing",
+            "position": null,
+            "jersey": "84",
+            "stats": [
+              "1",
+              "4",
+              "4.0",
+              "0",
+              "4"
+            ]
+          }
+        ]
+      },
+      "fumbles": {
+        "labels": [
+          "FUM",
+          "LOST",
+          "REC"
+        ],
+        "rows": []
+      },
+      "defensive": {
+        "labels": [
+          "TOT",
+          "SOLO",
+          "SACKS",
+          "TFL",
+          "PD",
+          "QB HUR",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5079518",
+            "name": "Jaylen McClain",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "8",
+              "5",
+              "0",
+              "0",
+              "4",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5141635",
+            "name": "Devin Sanchez",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "7",
+              "5",
+              "0",
+              "0",
+              "3",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5150710",
+            "name": "Jermaine Mathews Jr.",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "7",
+              "3",
+              "0",
+              "0",
+              "2",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4685437",
+            "name": "Earl Little Jr.",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "6",
+              "3",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5079667",
+            "name": "Payton Pierce",
+            "position": null,
+            "jersey": "26",
+            "stats": [
+              "6",
+              "2",
+              "0.5",
+              "0.5",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5120968",
+            "name": "Christian Alliegro",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "6",
+              "2",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5141630",
+            "name": "Riley Pettijohn",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "3",
+              "3",
+              "1",
+              "2",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4871055",
+            "name": "John Walker",
+            "position": null,
+            "jersey": "55",
+            "stats": [
+              "3",
+              "3",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5141355",
+            "name": "Tarvos Alford",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "3",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5176115",
+            "name": "Leroy Roker III",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "3",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5081821",
+            "name": "Kenyatta Jackson Jr.",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "2",
+              "2",
+              "1",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5160481",
+            "name": "Simeon Caldwell",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4703062",
+            "name": "Beau Atkinson",
+            "position": null,
+            "jersey": "12",
+            "stats": [
+              "2",
+              "0",
+              "0.5",
+              "0.5",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5150251",
+            "name": "Qua Russaw",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4870950",
+            "name": "Jason Moore",
+            "position": null,
+            "jersey": "94",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4915838",
+            "name": "Will Smith Jr.",
+            "position": null,
+            "jersey": "53",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4923052",
+            "name": "Cam Calhoun",
+            "position": null,
+            "jersey": "18",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5081811",
+            "name": "Brenten Jones",
+            "position": null,
+            "jersey": "21",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5159079",
+            "name": "Jordan Thomas",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5276976",
+            "name": "Jay Timmons",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4870969",
+            "name": "James Smith",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5079485",
+            "name": "Eddrick Houston",
+            "position": null,
+            "jersey": "96",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5276572",
+            "name": "Khary Wilder",
+            "position": null,
+            "jersey": "34",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5076952",
+            "name": "Devin McCuin",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "1",
+              "20",
+              "20.0",
+              "20",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "5156433",
+            "name": "Connor Hawkins",
+            "position": null,
+            "jersey": "96",
+            "stats": [
+              "0/0",
+              "0.0",
+              "0",
+              "6/6",
+              "6"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5159957",
+            "name": "Joe McGuire",
+            "position": null,
+            "jersey": "42",
+            "stats": [
+              "2",
+              "87",
+              "43.5",
+              "0",
+              "1",
+              "50"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "4795295",
+            "name": "Katin Houser",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "21/37",
+              "263",
+              "7.1",
+              "1",
+              "0",
+              "89.8"
+            ]
+          },
+          {
+            "id": "-6210",
+            "name": " Team",
+            "position": null,
+            "jersey": null,
+            "stats": [
+              "0/1",
+              "0",
+              "0.0",
+              "0",
+              "0",
+              "--"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "4827047",
+            "name": "Aidan Laughery",
+            "position": null,
+            "jersey": "21",
+            "stats": [
+              "11",
+              "113",
+              "10.3",
+              "0",
+              "37"
+            ]
+          },
+          {
+            "id": "5106299",
+            "name": "Ca'Lil Valentine",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "10",
+              "47",
+              "4.7",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "4826636",
+            "name": "Jordan Anderson",
+            "position": null,
+            "jersey": "23",
+            "stats": [
+              "2",
+              "20",
+              "10.0",
+              "1",
+              "22"
+            ]
+          },
+          {
+            "id": "4795295",
+            "name": "Katin Houser",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "7",
+              "14",
+              "2.0",
+              "0",
+              "25"
+            ]
+          },
+          {
+            "id": "5203604",
+            "name": "Javari Barnett",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "2",
+              "4",
+              "2.0",
+              "0",
+              "3"
+            ]
+          },
+          {
+            "id": "5217444",
+            "name": "Jershaun Newton",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "1",
+              "1",
+              "1.0",
+              "0",
+              "1"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5100582",
+            "name": "Hudson Clement",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "5",
+              "87",
+              "17.4",
+              "0",
+              "27"
+            ]
+          },
+          {
+            "id": "4923226",
+            "name": "Collin Dixon",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "5",
+              "63",
+              "12.6",
+              "0",
+              "21"
+            ]
+          },
+          {
+            "id": "4689721",
+            "name": "Ty Robinson",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "4",
+              "45",
+              "11.3",
+              "1",
+              "27"
+            ]
+          },
+          {
+            "id": "5106299",
+            "name": "Ca'Lil Valentine",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "1",
+              "33",
+              "33.0",
+              "0",
+              "33"
+            ]
+          },
+          {
+            "id": "5211769",
+            "name": "Brayden Trimble",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "4",
+              "28",
+              "7.0",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "5076651",
+            "name": "Christian Abney",
+            "position": null,
+            "jersey": "86",
+            "stats": [
+              "1",
+              "6",
+              "6.0",
+              "0",
+              "6"
+            ]
+          },
+          {
+            "id": "4827047",
+            "name": "Aidan Laughery",
+            "position": null,
+            "jersey": "21",
+            "stats": [
+              "1",
+              "1",
+              "1.0",
+              "0",
+              "1"
+            ]
+          }
+        ]
+      },
+      "fumbles": {
+        "labels": [
+          "FUM",
+          "LOST",
+          "REC"
+        ],
+        "rows": []
+      },
+      "defensive": {
+        "labels": [
+          "TOT",
+          "SOLO",
+          "SACKS",
+          "TFL",
+          "PD",
+          "QB HUR",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "4915710",
+            "name": "Matthew Bailey",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "14",
+              "7",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5077284",
+            "name": "Juice Clarke",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "7",
+              "6",
+              "0",
+              "0",
+              "2",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5125740",
+            "name": "Mac Resetich",
+            "position": null,
+            "jersey": "0",
+            "stats": [
+              "7",
+              "5",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4917004",
+            "name": "Xavier Scott",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "6",
+              "3",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5214494",
+            "name": "Tywan Cox",
+            "position": null,
+            "jersey": "32",
+            "stats": [
+              "4",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5294102",
+            "name": "Ismael Kante",
+            "position": null,
+            "jersey": "26",
+            "stats": [
+              "4",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5158882",
+            "name": "Robert Edmonson",
+            "position": null,
+            "jersey": "45",
+            "stats": [
+              "2",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4923255",
+            "name": "Pat Farrell",
+            "position": null,
+            "jersey": "52",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5369891",
+            "name": "Jakwon Morris",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4912120",
+            "name": "James Kreutz",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5146952",
+            "name": "Demetrius John",
+            "position": null,
+            "jersey": "54",
+            "stats": [
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5220661",
+            "name": "Will Holmes",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5148652",
+            "name": "Grant Beerman",
+            "position": null,
+            "jersey": "33",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5153131",
+            "name": "Darrell Prater",
+            "position": null,
+            "jersey": "96",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5294103",
+            "name": "Des Straughton",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5084423",
+            "name": "Carter Janki",
+            "position": null,
+            "jersey": "90",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5146980",
+            "name": "Joe Barna",
+            "position": null,
+            "jersey": "43",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5160470",
+            "name": "Cameron Thomas",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5196972",
+            "name": "Tanner Heckel",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5369903",
+            "name": "Ean Rhea",
+            "position": null,
+            "jersey": "40",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "4827047",
+            "name": "Aidan Laughery",
+            "position": null,
+            "jersey": "21",
+            "stats": [
+              "1",
+              "11",
+              "11.0",
+              "11",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5125740",
+            "name": "Mac Resetich",
+            "position": null,
+            "jersey": "0",
+            "stats": [
+              "1",
+              "13",
+              "13.0",
+              "13",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "4870578",
+            "name": "Ethan Moczulski",
+            "position": null,
+            "jersey": "37",
+            "stats": [
+              "2/2",
+              "100.0",
+              "44",
+              "1/1",
+              "7"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5220917",
+            "name": "Lars Rau",
+            "position": null,
+            "jersey": "81",
+            "stats": [
+              "2",
+              "95",
+              "47.5",
+              "0",
+              "2",
+              "53"
+            ]
+          }
+        ]
+      }
+    },
+    "leaders": {
+      "passingYards": {
+        "name": "Julian Sayin",
+        "id": "5079712",
+        "position": "QB",
+        "jersey": "10",
+        "displayValue": "27/36, 367 YDS, 4 TD",
+        "value": 367
+      },
+      "rushingYards": {
+        "name": "Ja'Kobi Jackson",
+        "id": "5151892",
+        "position": "RB",
+        "jersey": "24",
+        "displayValue": "10 CAR, 56 YDS, 1 TD",
+        "value": 56
+      },
+      "receivingYards": {
+        "name": "Jeremiah Smith",
+        "id": "5079720",
+        "position": "WR",
+        "jersey": "4",
+        "displayValue": "12 REC, 217 YDS, 4 TD",
+        "value": 217
+      },
+      "sacks": {
+        "name": "Kenyatta Jackson Jr.",
+        "id": "5081821",
+        "position": "DE",
+        "jersey": "2",
+        "displayValue": "1",
+        "value": 1
+      },
+      "totalTackles": {
+        "name": "Jaylen McClain",
+        "id": "5079518",
+        "position": "S",
+        "jersey": "8",
+        "displayValue": "8",
+        "value": 8
+      }
+    },
+    "scoringPlays": [
+      {
+        "type": "Passing Touchdown",
+        "text": "Jeremiah Smith 7 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "awayScore": 0,
+        "homeScore": 7,
+        "period": 1,
+        "clock": "9:34"
+      },
+      {
+        "type": "Passing Touchdown",
+        "text": "Jeremiah Smith 72 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "awayScore": 0,
+        "homeScore": 14,
+        "period": 1,
+        "clock": "3:39"
+      },
+      {
+        "type": "Rushing Touchdown",
+        "text": "Jordan Anderson 22 Yd Run (Ethan Moczulski Kick)",
+        "awayScore": 7,
+        "homeScore": 14,
+        "period": 1,
+        "clock": "1:04"
+      },
+      {
+        "type": "Passing Touchdown",
+        "text": "Jeremiah Smith 9 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "awayScore": 7,
+        "homeScore": 21,
+        "period": 2,
+        "clock": "4:12"
+      },
+      {
+        "type": "Field Goal Good",
+        "text": "Ethan Moczulski 43 Yd Field Goal  ",
+        "awayScore": 10,
+        "homeScore": 21,
+        "period": 2,
+        "clock": "1:32"
+      },
+      {
+        "type": "Rushing Touchdown",
+        "text": "Julian Sayin 7 Yd Run (Connor Hawkins Kick)",
+        "awayScore": 10,
+        "homeScore": 28,
+        "period": 2,
+        "clock": "0:15"
+      },
+      {
+        "type": "Field Goal Good",
+        "text": "Ethan Moczulski 44 Yd Field Goal  ",
+        "awayScore": 13,
+        "homeScore": 28,
+        "period": 3,
+        "clock": "9:35"
+      },
+      {
+        "type": "Passing Touchdown",
+        "text": "Jeremiah Smith 26 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "awayScore": 13,
+        "homeScore": 35,
+        "period": 4,
+        "clock": "10:07"
+      },
+      {
+        "type": "Passing Touchdown",
+        "text": "Ty Robinson 27 Yd pass from Katin Houser (Two-Point Pass Conversion Failed)",
+        "awayScore": 19,
+        "homeScore": 35,
+        "period": 4,
+        "clock": "6:02"
+      },
+      {
+        "type": "Rushing Touchdown",
+        "text": "Ja'Kobi Jackson 2 Yd Run (Connor Hawkins Kick)",
+        "awayScore": 19,
+        "homeScore": 42,
+        "period": 4,
+        "clock": "2:36"
+      }
+    ],
+    "scoringDrives": [
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "9 plays, 75 yards, 5:26",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#37 E.Moczulski kickoff 65 yards to the OhioSt00, Touchback",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #25 B.Jackson caught at OhioSt21, for 9 yards to the OhioSt34 (#0 M.Resetich), out of bounds",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush right for 8 yards gain to the OhioSt42 (#5 J.Morris; #0 M.Resetich), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #25 B.Jackson caught at OhioSt36, for 5 yards to the OhioSt47 (#7 M.Bailey; #10 J.Kreutz)",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 4 yards gain to the Illini49 (#26 I.Kante)",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 5 yards gain to the Illini44 (#0 M.Resetich), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush left for 1 yard gain to the Illini43 (#54 D.John; #90 C.Janki)",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "PENALTY Illini Offside (#90 C.Janki) 5 yards from Illini43 to Illini38. NO PLAY",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "PENALTY OhioSt False Start (#76 J.Cook) 5 yards from Illini38 to Illini43. NO PLAY",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete deep right to #4 J.Smith caught at Illini15, for 31 yards to the Illini12 (#1 X.Scott; #16 T.Heckel), out of bounds, 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 5 yards gain to the Illini07 (#0 M.Resetich; #7 M.Bailey)",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "15:00"
+          },
+          {
+            "text": "Jeremiah Smith 7 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "9:34"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "4 plays, 93 yards, 1:48",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#24 J.Jackson rush left for 3 yards gain to the OhioSt10 (#32 T.Cox)",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "5:27"
+          },
+          {
+            "text": "No Huddle-Shotgun #10 J.Sayin pass complete short left to #3 D.McCuin caught at OhioSt15, for 5 yards to the OhioSt15, End Of Play",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "5:27"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #4 J.Smith caught at OhioSt22, for 13 yards to the OhioSt28 (#6 J.Clarke), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "5:27"
+          },
+          {
+            "text": "Jeremiah Smith 72 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:39"
+          }
+        ]
+      },
+      {
+        "team": "Illinois Fighting Illini",
+        "teamAbbr": "ILL",
+        "description": "6 plays, 75 yards, 2:35",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#49 M.Diomede kickoff 65 yards to the Illini00, Touchback",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:39"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass complete short left to #11 B.Trimble caught at Illini23, for 5 yards to the Illini30 (#7 J.Mathews Jr.; #14 C.Alliegro), out of bounds",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:39"
+          },
+          {
+            "text": "Shotgun #21 A.Laughery rush middle for 37 yards gain to the OhioSt33 (#7 J.Mathews Jr.; #8 J.McClain), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:39"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass complete short right to #21 A.Laughery caught at OhioSt34, for 4 yards to the OhioSt29 (#6 D.Sanchez; #2 K.Jackson Jr.) PENALTY Illini Holding (#52 C.Smith) 10 yards from OhioSt33 to OhioSt43. NO PLAY",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:39"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass incomplete deep right to #11 B.Trimble thrown to OhioSt08 broken up by #25 J.Timmons",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:39"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass complete short left to #17 C.Dixon caught at OhioSt32, for 21 yards to the OhioSt22 (#6 D.Sanchez), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:39"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass incomplete deep left to #13 H.Clement thrown to OhioSt01 broken up by #8 J.McClain",
+            "awayScore": 0,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:39"
+          },
+          {
+            "text": "Shotgun #23 J.Anderson rush right for 22 yards gain to the OhioSt00 TOUCHDOWN, clock 01:04, 1ST DOWN #37 E.Moczulski kick attempt good (H: #81 L.Rau, LS: #44 P.Mahoney III)",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "1:04"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "19 plays, 96 yards, 8:31",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #15 C.Henry Jr. caught at OhioSt16, for 15 yards to the OhioSt19 (#6 J.Clarke), 1ST DOWN",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "12:43"
+          },
+          {
+            "text": "Shotgun #32 I.West rush middle for 12 yards gain to the OhioSt31 (#0 M.Resetich), 1ST DOWN",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "12:43"
+          },
+          {
+            "text": "Shotgun #32 I.West rush middle for 3 yards gain to the OhioSt34 (#96 D.Prater)",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "12:43"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete deep left to #4 J.Smith thrown to Illini41 broken up by #6 J.Clarke",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "12:43"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin rush right for 8 yards gain to the OhioSt42, out of bounds at OhioSt42, 1ST DOWN",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "12:43"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #84 H.Welcing caught at OhioSt46, for 4 yards to the OhioSt46 (#1 X.Scott)",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "12:43"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 5 yards gain to the Illini49 (#10 J.Kreutz; #40 E.Rhea)",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "12:43"
+          },
+          {
+            "text": "No Huddle #10 J.Sayin rush middle for 4 yards gain to the Illini45 (#52 P.Farrell), 1ST DOWN",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "12:43"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete deep middle to #4 J.Smith thrown to Illini02 broken up by #0 M.Resetich",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "12:43"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #3 D.McCuin caught at Illini35, for 9 yards to the Illini36 (#33 G.Beerman)",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "12:43"
+          },
+          {
+            "text": "No Huddle #10 J.Sayin rush middle for 2 yards gain to the Illini34 (#45 R.Edmonson), 1ST DOWN",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "12:43"
+          },
+          {
+            "text": "Timeout Illinois, clock 07:54",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "7:54"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #4 J.Smith caught at Illini34, for 0 yards to the Illini34 (#32 T.Cox)",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "7:54"
+          },
+          {
+            "text": "#25 B.Jackson rush right for 7 yards gain to the Illini27 (#7 M.Bailey)",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "7:54"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin rush left for 1 yard gain to the Illini26 (#7 M.Bailey; #24 W.Holmes)",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "7:54"
+          },
+          {
+            "text": "PENALTY OhioSt False Start (#67 A.Siereveld) 5 yards from Illini26 to Illini31. NO PLAY",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "7:54"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #83 N.Roberts caught at Illini23, for 8 yards to the Illini23 (#0 M.Resetich), 1ST DOWN",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "7:54"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete short right to #4 J.Smith thrown to Illini10",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "7:54"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete short right to #25 B.Jackson thrown to Illini28 broken up by #52 P.Farrell",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "7:54"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #3 D.McCuin caught at Illini09, for 14 yards to the Illini09 (#6 J.Clarke), 1ST DOWN",
+            "awayScore": 7,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "7:54"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #4 J.Smith caught at Illini00, for 9 yards to the Illini00 TOUCHDOWN, clock 04:12. The previous play is under automatic review - \"Pass completion\". CALL UPHELD #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "4:12"
+          }
+        ]
+      },
+      {
+        "team": "Illinois Fighting Illini",
+        "teamAbbr": "ILL",
+        "description": "8 plays, 50 yards, 2:40",
+        "result": "FG",
+        "plays": [
+          {
+            "text": "#49 M.Diomede kickoff 65 yards to the Illini00, Touchback",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "4:12"
+          },
+          {
+            "text": "Shotgun #24 J.Barnett rush middle for 1 yard gain to the Illini26 (#14 C.Alliegro; #12 B.Atkinson)",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "4:12"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass complete short left to #10 T.Robinson caught at Illini31, for 10 yards to the Illini36 (#1 E.Little Jr.), 1ST DOWN",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "4:12"
+          },
+          {
+            "text": "Shotgun #24 J.Barnett rush middle for 3 yards gain to the Illini39 (#26 P.Pierce; #4 Q.Russaw)",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "4:12"
+          },
+          {
+            "text": "Timeout Illinois, clock 02:00",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "2:00"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass complete short left to #5 C.Valentine caught at Illini43, for 33 yards to the OhioSt28 (#8 J.McClain), out of bounds, 1ST DOWN",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "2:00"
+          },
+          {
+            "text": "Shotgun #4 K.Houser rush left for 3 yards gain to the OhioSt25 (#14 C.Alliegro)",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "2:00"
+          },
+          {
+            "text": "Timeout Ohio State, clock 01:47",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:47"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass complete short left to #17 C.Dixon caught at OhioSt28, for 0 yards to the OhioSt25 (#7 J.Mathews Jr.)",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:47"
+          },
+          {
+            "text": "Timeout Ohio State, clock 01:41",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:41"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass incomplete deep middle to #11 B.Trimble thrown to OhioSt02",
+            "awayScore": 7,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:41"
+          },
+          {
+            "text": "#37 E.Moczulski field goal attempt from 43 yards GOOD (H: #81 L.Rau, LS: #44 P.Mahoney III), clock 01:32",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:32"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "10 plays, 75 yards, 1:17",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#37 E.Moczulski kickoff 59 yards to the OhioSt06 fair catch by #3 D.McCuin at OhioSt06",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:32"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #4 J.Smith caught at OhioSt35, for 10 yards to the OhioSt35 (#5 J.Morris), out of bounds, 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:32"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 4 yards gain to the OhioSt39 (#24 W.Holmes; #8 C.Thomas)",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:32"
+          },
+          {
+            "text": "No Huddle-Shotgun #10 J.Sayin pass complete short left to #83 N.Roberts caught at OhioSt46, for 7 yards to the OhioSt46, out of bounds at OhioSt46, 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:32"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin rush right for 4 yards gain to the OhioSt50 (#1 X.Scott), out of bounds",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:32"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #4 J.Smith caught at Illini42, for 8 yards to the Illini42 (#6 J.Clarke), out of bounds, 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:32"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #25 B.Jackson caught at Illini43, for 2 yards to the Illini40 (#7 M.Bailey; #0 M.Resetich) PENALTY OhioSt Holding (#86 M.Williams) 10 yards from Illini40 to Illini50",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "1:32"
+          },
+          {
+            "text": "Timeout Ohio State, clock 00:46",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "0:46"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short middle to #83 N.Roberts caught at Illini38, for 20 yards to the Illini30 (#26 I.Kante), 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "0:46"
+          },
+          {
+            "text": "No Huddle-Shotgun #10 J.Sayin pass complete deep left to #7 P.Bell caught at Illini10, for 23 yards to the Illini07 (#7 M.Bailey), 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "0:46"
+          },
+          {
+            "text": "Timeout Illinois, clock 00:28",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "0:28"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete short left to #0 B.Inniss thrown to Illini00",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "0:28"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin rush left for 7 yards gain to the Illini00 TOUCHDOWN, clock 00:15 #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 2,
+            "clock": "0:15"
+          },
+          {
+            "text": "PENALTY OhioSt False Start (#96 C.Hawkins) 5 yards from Illini03 to Illini08. NO PLAY",
+            "awayScore": 10,
+            "homeScore": 27,
+            "period": 2,
+            "clock": "0:15"
+          }
+        ]
+      },
+      {
+        "team": "Illinois Fighting Illini",
+        "teamAbbr": "ILL",
+        "description": "13 plays, 49 yards, 5:25",
+        "result": "FG",
+        "plays": [
+          {
+            "text": "#49 M.Diomede kickoff 65 yards to the Illini00 fair catch by #21 A.Laughery at Illini00",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #21 A.Laughery rush middle for 9 yards gain to the Illini34 (#7 J.Mathews Jr.; #8 J.McClain), out of bounds",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #21 A.Laughery rush middle for 4 yards gain to the Illini38 (#14 C.Alliegro), 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass incomplete short middle to #17 C.Dixon thrown to Illini48 broken up by #7 J.Mathews Jr.",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass complete short left to #86 C.Abney caught at Illini38, for 6 yards to the Illini44 (#1 E.Little Jr.)",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #4 K.Houser rush left for 5 yards gain to the Illini49 (#14 C.Alliegro; #7 J.Mathews Jr.), out of bounds, 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass incomplete deep left to #13 H.Clement thrown to OhioSt30 PENALTY OhioSt Pass Interference (#6 D.Sanchez) 15 yards from Illini49 to OhioSt36, 1ST DOWN. NO PLAY",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass complete short right to #21 A.Laughery caught at OhioSt38, for 1 yard to the OhioSt35 (#5 R.Pettijohn)",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #21 A.Laughery rush middle for 6 yards gain to the OhioSt29 (#1 E.Little Jr.; #96 E.Houston)",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #6 J.Newton rush middle for 1 yard gain to the OhioSt28 (#14 C.Alliegro; #3 J.Smith)",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #4 K.Houser rush right for 5 yards gain to the OhioSt23 (#14 C.Alliegro; #55 J.Walker) PENALTY Illini Holding (#78 E.Tuerk) 10 yards from OhioSt28 to OhioSt38. NO PLAY",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass complete short right to #17 C.Dixon caught at OhioSt26, for 12 yards to the OhioSt26 (#7 J.Mathews Jr.), out of bounds, 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "No Huddle-Shotgun #4 K.Houser pass incomplete deep left to #13 H.Clement thrown to OhioSt00 broken up by #6 D.Sanchez",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass incomplete short right to #83 K.Feagin thrown to OhioSt26 broken up by #14 C.Alliegro",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass incomplete short middle to #88 D.Stoffel thrown to OhioSt15 QB hurried by #34 K.Wilder",
+            "awayScore": 10,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "15:00"
+          },
+          {
+            "text": "#37 E.Moczulski field goal attempt from 44 yards GOOD (H: #81 L.Rau, LS: #44 P.Mahoney III), clock 09:35",
+            "awayScore": 13,
+            "homeScore": 28,
+            "period": 3,
+            "clock": "9:35"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "8 plays, 80 yards, 4:02",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 10 yards gain to the OhioSt30 (#0 M.Resetich), 1ST DOWN",
+            "awayScore": 13,
+            "homeScore": 28,
+            "period": 4,
+            "clock": "14:09"
+          },
+          {
+            "text": "#10 J.Sayin pass complete short right to #4 J.Smith caught at OhioSt29, for 13 yards to the OhioSt43 (#6 J.Clarke), out of bounds, 1ST DOWN",
+            "awayScore": 13,
+            "homeScore": 28,
+            "period": 4,
+            "clock": "14:09"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 3 yards loss to the OhioSt40 (#7 M.Bailey)",
+            "awayScore": 13,
+            "homeScore": 28,
+            "period": 4,
+            "clock": "14:09"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #11 B.Boyd caught at OhioSt48, for 22 yards to the Illini38 (#7 M.Bailey), out of bounds, 1ST DOWN",
+            "awayScore": 13,
+            "homeScore": 28,
+            "period": 4,
+            "clock": "14:09"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 9 yards gain to the Illini29 (#6 J.Clarke)",
+            "awayScore": 13,
+            "homeScore": 28,
+            "period": 4,
+            "clock": "14:09"
+          },
+          {
+            "text": "#25 B.Jackson rush middle for 0 yards to the Illini29 (#7 M.Bailey)",
+            "awayScore": 13,
+            "homeScore": 28,
+            "period": 4,
+            "clock": "14:09"
+          },
+          {
+            "text": "#10 J.Sayin rush middle for 3 yards gain to the Illini26 (#43 J.Barna; #52 P.Farrell), 1ST DOWN",
+            "awayScore": 13,
+            "homeScore": 28,
+            "period": 4,
+            "clock": "14:09"
+          },
+          {
+            "text": "Jeremiah Smith 26 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "10:07"
+          }
+        ]
+      },
+      {
+        "team": "Illinois Fighting Illini",
+        "teamAbbr": "ILL",
+        "description": "9 plays, 75 yards, 4:05",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#49 M.Diomede kickoff 65 yards to the Illini00, Touchback",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "10:07"
+          },
+          {
+            "text": "Shotgun #5 C.Valentine rush right for 2 yards loss to the Illini23 (#5 R.Pettijohn)",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "10:07"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass complete short left to #10 T.Robinson caught at Illini21, for 5 yards to the Illini28 (#6 D.Sanchez)",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "10:07"
+          },
+          {
+            "text": "Shotgun #4 K.Houser rush right for 25 yards gain to the OhioSt47 (#8 J.McClain), 1ST DOWN",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "10:07"
+          },
+          {
+            "text": "Timeout Illinois, clock 08:30",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "8:30"
+          },
+          {
+            "text": "Shotgun #21 A.Laughery rush middle for 6 yards gain to the OhioSt41 (#15 J.Thomas)",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "8:30"
+          },
+          {
+            "text": "Shotgun #21 A.Laughery rush middle for 7 yards gain to the OhioSt34 (#1 E.Little Jr.), 1ST DOWN",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "8:30"
+          },
+          {
+            "text": "No Huddle-Shotgun #21 A.Laughery rush middle for 1 yard gain to the OhioSt33 (#55 J.Walker)",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "8:30"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass incomplete short middle to #17 C.Dixon thrown to OhioSt20 broken up by #17 T.Alford",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "8:30"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass complete short middle to #11 B.Trimble caught at OhioSt28, for 6 yards to the OhioSt27 (#8 J.McClain)",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "8:30"
+          },
+          {
+            "text": "Shotgun #4 K.Houser pass incomplete short left to #17 C.Dixon thrown to OhioSt10 PENALTY OhioSt Pass Interference (#6 D.Sanchez) Illini UNS: Unsportsmanlike Conduct (#13 H.Clement) 28 yards from OhioSt27 to OhioSt27, 1ST DOWN. NO PLAY",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "6:06"
+          },
+          {
+            "text": "PENALTY Illini UNS: Unsportsmanlike Conduct (#13 H.Clement) 15 yards from OhioSt13 to OhioSt28. NO PLAY",
+            "awayScore": 13,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "6:06"
+          },
+          {
+            "text": "Ty Robinson 27 Yd pass from Katin Houser (Two-Point Pass Conversion Failed)",
+            "awayScore": 19,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "6:02"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "8 plays, 43 yards, 3:26",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#27 L.Osada onside kickoff 8 yards to the Illini43",
+            "awayScore": 19,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "6:02"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 4 yards gain to the Illini39 (#7 M.Bailey)",
+            "awayScore": 19,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "6:02"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 4 yards gain to the Illini35 (#7 M.Bailey; #26 I.Kante)",
+            "awayScore": 19,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "6:02"
+          },
+          {
+            "text": "Timeout Illinois, clock 05:09",
+            "awayScore": 19,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "5:09"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete deep right to #4 J.Smith thrown to Illini13 broken up by #6 J.Clarke",
+            "awayScore": 19,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "5:09"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #4 J.Smith caught at Illini23, for 12 yards to the Illini23 (#6 J.Clarke; #32 T.Cox), 1ST DOWN",
+            "awayScore": 19,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "5:09"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 3 yards gain to the Illini20 (#26 I.Kante; #7 M.Bailey)",
+            "awayScore": 19,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "5:09"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 3 yards gain to the Illini17 (#1 X.Scott; #7 M.Bailey)",
+            "awayScore": 19,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "5:09"
+          },
+          {
+            "text": "Timeout Illinois, clock 03:26",
+            "awayScore": 19,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "3:26"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 15 yards gain to the Illini02 (#7 M.Bailey; #54 D.John), 1ST DOWN",
+            "awayScore": 19,
+            "homeScore": 35,
+            "period": 4,
+            "clock": "3:26"
+          },
+          {
+            "text": "#24 J.Jackson rush middle for 2 yards gain to the Illini00 TOUCHDOWN, clock 02:36 #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 19,
+            "homeScore": 42,
+            "period": 4,
+            "clock": "2:36"
+          }
+        ]
+      }
+    ],
+    "winProbability": [
+      {
+        "homeWinPercentage": 0.9515,
+        "playId": "4018584652"
+      },
+      {
+        "homeWinPercentage": 0.9543,
+        "playId": "4018584657"
+      },
+      {
+        "homeWinPercentage": 0.9561,
+        "playId": "40185846514"
+      },
+      {
+        "homeWinPercentage": 0.9578,
+        "playId": "40185846519"
+      },
+      {
+        "homeWinPercentage": 0.958,
+        "playId": "40185846523"
+      },
+      {
+        "homeWinPercentage": 0.9585,
+        "playId": "40185846528"
+      },
+      {
+        "homeWinPercentage": 0.9608,
+        "playId": "40185846532"
+      },
+      {
+        "homeWinPercentage": 0.9592,
+        "playId": "40185846536"
+      },
+      {
+        "homeWinPercentage": 0.9616,
+        "playId": "40185846540"
+      },
+      {
+        "homeWinPercentage": 0.9592,
+        "playId": "40185846543"
+      },
+      {
+        "homeWinPercentage": 0.9688,
+        "playId": "40185846546"
+      },
+      {
+        "homeWinPercentage": 0.9685,
+        "playId": "40185846551"
+      },
+      {
+        "homeWinPercentage": 0.9713,
+        "playId": "40185846555"
+      },
+      {
+        "homeWinPercentage": 0.9729,
+        "playId": "40185846575"
+      },
+      {
+        "homeWinPercentage": 0.9743,
+        "playId": "40185846570"
+      },
+      {
+        "homeWinPercentage": 0.9749,
+        "playId": "40185846581"
+      },
+      {
+        "homeWinPercentage": 0.9741,
+        "playId": "40185846584"
+      },
+      {
+        "homeWinPercentage": 0.9702,
+        "playId": "40185846589"
+      },
+      {
+        "homeWinPercentage": 0.9689,
+        "playId": "40185846596"
+      },
+      {
+        "homeWinPercentage": 0.9732,
+        "playId": "401858465100"
+      },
+      {
+        "homeWinPercentage": 0.9678,
+        "playId": "401858465104"
+      },
+      {
+        "homeWinPercentage": 0.9696,
+        "playId": "401858465109"
+      },
+      {
+        "homeWinPercentage": 0.9714,
+        "playId": "401858465113"
+      },
+      {
+        "homeWinPercentage": 0.9739,
+        "playId": "401858465116"
+      },
+      {
+        "homeWinPercentage": 0.9693,
+        "playId": "401858465119"
+      },
+      {
+        "homeWinPercentage": 0.9679,
+        "playId": "401858465123"
+      },
+      {
+        "homeWinPercentage": 0.9686,
+        "playId": "401858465127"
+      },
+      {
+        "homeWinPercentage": 0.9724,
+        "playId": "401858465132"
+      },
+      {
+        "homeWinPercentage": 0.9848,
+        "playId": "401858465137"
+      },
+      {
+        "homeWinPercentage": 0.985,
+        "playId": "401858465145"
+      },
+      {
+        "homeWinPercentage": 0.9849,
+        "playId": "401858465148"
+      },
+      {
+        "homeWinPercentage": 0.9805,
+        "playId": "401858465153"
+      },
+      {
+        "homeWinPercentage": 0.9823,
+        "playId": "401858465157"
+      },
+      {
+        "homeWinPercentage": 0.9835,
+        "playId": "401858465163"
+      },
+      {
+        "homeWinPercentage": 0.9803,
+        "playId": "401858465166"
+      },
+      {
+        "homeWinPercentage": 0.979,
+        "playId": "401858465171"
+      },
+      {
+        "homeWinPercentage": 0.9699,
+        "playId": "401858465174"
+      },
+      {
+        "homeWinPercentage": 0.9692,
+        "playId": "401858465181"
+      },
+      {
+        "homeWinPercentage": 0.9689,
+        "playId": "401858465186"
+      },
+      {
+        "homeWinPercentage": 0.9676,
+        "playId": "401858465190"
+      },
+      {
+        "homeWinPercentage": 0.967,
+        "playId": "401858465197"
+      },
+      {
+        "homeWinPercentage": 0.9624,
+        "playId": "401858465201"
+      },
+      {
+        "homeWinPercentage": 0.962,
+        "playId": "401858465207"
+      },
+      {
+        "homeWinPercentage": 0.9556,
+        "playId": "401858465213"
+      },
+      {
+        "homeWinPercentage": 0.9578,
+        "playId": "401858465218"
+      },
+      {
+        "homeWinPercentage": 0.961,
+        "playId": "401858465222"
+      },
+      {
+        "homeWinPercentage": 0.9673,
+        "playId": "401858465225"
+      },
+      {
+        "homeWinPercentage": 0.9638,
+        "playId": "401858465229"
+      },
+      {
+        "homeWinPercentage": 0.9667,
+        "playId": "401858465233"
+      },
+      {
+        "homeWinPercentage": 0.9689,
+        "playId": "401858465238"
+      },
+      {
+        "homeWinPercentage": 0.9679,
+        "playId": "401858465242"
+      },
+      {
+        "homeWinPercentage": 0.9658,
+        "playId": "401858465246"
+      },
+      {
+        "homeWinPercentage": 0.9707,
+        "playId": "401858465249"
+      },
+      {
+        "homeWinPercentage": 0.9703,
+        "playId": "401858465253"
+      },
+      {
+        "homeWinPercentage": 0.9711,
+        "playId": "401858465258"
+      },
+      {
+        "homeWinPercentage": 0.9729,
+        "playId": "401858465262"
+      },
+      {
+        "homeWinPercentage": 0.9709,
+        "playId": "401858465266"
+      },
+      {
+        "homeWinPercentage": 0.9734,
+        "playId": "401858465269"
+      },
+      {
+        "homeWinPercentage": 0.9748,
+        "playId": "401858465274"
+      },
+      {
+        "homeWinPercentage": 0.971,
+        "playId": "401858465280"
+      },
+      {
+        "homeWinPercentage": 0.9706,
+        "playId": "401858465278"
+      },
+      {
+        "homeWinPercentage": 0.9731,
+        "playId": "401858465284"
+      },
+      {
+        "homeWinPercentage": 0.967,
+        "playId": "401858465288"
+      },
+      {
+        "homeWinPercentage": 0.9653,
+        "playId": "401858465292"
+      },
+      {
+        "homeWinPercentage": 0.9755,
+        "playId": "401858465295"
+      },
+      {
+        "homeWinPercentage": 0.9744,
+        "playId": "401858465300"
+      },
+      {
+        "homeWinPercentage": 0.972,
+        "playId": "401858465303"
+      },
+      {
+        "homeWinPercentage": 0.9794,
+        "playId": "401858465306"
+      },
+      {
+        "homeWinPercentage": 0.9827,
+        "playId": "401858465316"
+      },
+      {
+        "homeWinPercentage": 0.9849,
+        "playId": "401858465326"
+      },
+      {
+        "homeWinPercentage": 0.985,
+        "playId": "401858465329"
+      },
+      {
+        "homeWinPercentage": 0.9835,
+        "playId": "401858465333"
+      },
+      {
+        "homeWinPercentage": 0.9832,
+        "playId": "401858465338"
+      },
+      {
+        "homeWinPercentage": 0.977,
+        "playId": "401858465344"
+      },
+      {
+        "homeWinPercentage": 0.9767,
+        "playId": "401858465342"
+      },
+      {
+        "homeWinPercentage": 0.9754,
+        "playId": "401858465348"
+      },
+      {
+        "homeWinPercentage": 0.9771,
+        "playId": "401858465354"
+      },
+      {
+        "homeWinPercentage": 0.9771,
+        "playId": "401858465352"
+      },
+      {
+        "homeWinPercentage": 0.9809,
+        "playId": "401858465360"
+      },
+      {
+        "homeWinPercentage": 0.9809,
+        "playId": "401858465358"
+      },
+      {
+        "homeWinPercentage": 0.9769,
+        "playId": "401858465362"
+      },
+      {
+        "homeWinPercentage": 0.9769,
+        "playId": "401858465365"
+      },
+      {
+        "homeWinPercentage": 0.9783,
+        "playId": "401858465368"
+      },
+      {
+        "homeWinPercentage": 0.9789,
+        "playId": "401858465373"
+      },
+      {
+        "homeWinPercentage": 0.9799,
+        "playId": "401858465377"
+      },
+      {
+        "homeWinPercentage": 0.9805,
+        "playId": "401858465382"
+      },
+      {
+        "homeWinPercentage": 0.9817,
+        "playId": "401858465386"
+      },
+      {
+        "homeWinPercentage": 0.9797,
+        "playId": "401858465391"
+      },
+      {
+        "homeWinPercentage": 0.9823,
+        "playId": "401858465399"
+      },
+      {
+        "homeWinPercentage": 0.9825,
+        "playId": "401858465397"
+      },
+      {
+        "homeWinPercentage": 0.9871,
+        "playId": "401858465403"
+      },
+      {
+        "homeWinPercentage": 0.986,
+        "playId": "401858465410"
+      },
+      {
+        "homeWinPercentage": 0.9858,
+        "playId": "401858465408"
+      },
+      {
+        "homeWinPercentage": 0.9921,
+        "playId": "401858465412"
+      },
+      {
+        "homeWinPercentage": 0.9931,
+        "playId": "401858465422"
+      },
+      {
+        "homeWinPercentage": 0.9926,
+        "playId": "401858465425"
+      },
+      {
+        "homeWinPercentage": 0.9922,
+        "playId": "401858465429"
+      },
+      {
+        "homeWinPercentage": 0.9921,
+        "playId": "401858465435"
+      },
+      {
+        "homeWinPercentage": 0.992,
+        "playId": "401858465433"
+      },
+      {
+        "homeWinPercentage": 0.9915,
+        "playId": "401858465437"
+      },
+      {
+        "homeWinPercentage": 0.9887,
+        "playId": "401858465443"
+      },
+      {
+        "homeWinPercentage": 0.9917,
+        "playId": "401858465448"
+      },
+      {
+        "homeWinPercentage": 0.9909,
+        "playId": "401858465453"
+      },
+      {
+        "homeWinPercentage": 0.9906,
+        "playId": "401858465457"
+      },
+      {
+        "homeWinPercentage": 0.9915,
+        "playId": "401858465461"
+      },
+      {
+        "homeWinPercentage": 0.9912,
+        "playId": "401858465464"
+      },
+      {
+        "homeWinPercentage": 0.9898,
+        "playId": "401858465469"
+      },
+      {
+        "homeWinPercentage": 0.9881,
+        "playId": "401858465473"
+      },
+      {
+        "homeWinPercentage": 0.9889,
+        "playId": "401858465477"
+      },
+      {
+        "homeWinPercentage": 0.988,
+        "playId": "401858465482"
+      },
+      {
+        "homeWinPercentage": 0.991,
+        "playId": "401858465486"
+      },
+      {
+        "homeWinPercentage": 0.9927,
+        "playId": "401858465490"
+      },
+      {
+        "homeWinPercentage": 0.9869,
+        "playId": "401858465495"
+      },
+      {
+        "homeWinPercentage": 0.9872,
+        "playId": "401858465500"
+      },
+      {
+        "homeWinPercentage": 0.9886,
+        "playId": "401858465503"
+      },
+      {
+        "homeWinPercentage": 0.9907,
+        "playId": "401858465506"
+      },
+      {
+        "homeWinPercentage": 0.9893,
+        "playId": "401858465509"
+      },
+      {
+        "homeWinPercentage": 0.9892,
+        "playId": "401858465512"
+      },
+      {
+        "homeWinPercentage": 0.9907,
+        "playId": "401858465515"
+      },
+      {
+        "homeWinPercentage": 0.9919,
+        "playId": "401858465520"
+      },
+      {
+        "homeWinPercentage": 0.9904,
+        "playId": "401858465524"
+      },
+      {
+        "homeWinPercentage": 0.9907,
+        "playId": "401858465527"
+      },
+      {
+        "homeWinPercentage": 0.9895,
+        "playId": "401858465533"
+      },
+      {
+        "homeWinPercentage": 0.9874,
+        "playId": "401858465536"
+      },
+      {
+        "homeWinPercentage": 0.9893,
+        "playId": "401858465539"
+      },
+      {
+        "homeWinPercentage": 0.9878,
+        "playId": "401858465543"
+      },
+      {
+        "homeWinPercentage": 0.9889,
+        "playId": "401858465547"
+      },
+      {
+        "homeWinPercentage": 0.9904,
+        "playId": "401858465552"
+      },
+      {
+        "homeWinPercentage": 0.9864,
+        "playId": "401858465556"
+      },
+      {
+        "homeWinPercentage": 0.9869,
+        "playId": "401858465561"
+      },
+      {
+        "homeWinPercentage": 0.9859,
+        "playId": "401858465571"
+      },
+      {
+        "homeWinPercentage": 0.9846,
+        "playId": "401858465569"
+      },
+      {
+        "homeWinPercentage": 0.9809,
+        "playId": "401858465577"
+      },
+      {
+        "homeWinPercentage": 0.9796,
+        "playId": "401858465582"
+      },
+      {
+        "homeWinPercentage": 0.9783,
+        "playId": "401858465586"
+      },
+      {
+        "homeWinPercentage": 0.9771,
+        "playId": "401858465590"
+      },
+      {
+        "homeWinPercentage": 0.9762,
+        "playId": "401858465595"
+      },
+      {
+        "homeWinPercentage": 0.9789,
+        "playId": "401858465604"
+      },
+      {
+        "homeWinPercentage": 0.987,
+        "playId": "401858465608"
+      },
+      {
+        "homeWinPercentage": 0.9932,
+        "playId": "401858465614"
+      },
+      {
+        "homeWinPercentage": 0.9941,
+        "playId": "401858465618"
+      },
+      {
+        "homeWinPercentage": 0.9949,
+        "playId": "401858465622"
+      },
+      {
+        "homeWinPercentage": 0.9931,
+        "playId": "401858465627"
+      },
+      {
+        "homeWinPercentage": 0.9959,
+        "playId": "401858465631"
+      },
+      {
+        "homeWinPercentage": 0.9966,
+        "playId": "401858465636"
+      },
+      {
+        "homeWinPercentage": 0.9962,
+        "playId": "401858465640"
+      },
+      {
+        "homeWinPercentage": 0.9968,
+        "playId": "401858465644"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465648"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465656"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465659"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465663"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465668"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465674"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465672"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465677"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465681"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465685"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465688"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465693"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465697"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465701"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465709"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465718"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465722"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465728"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465726"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465730"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465735"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465740"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465746"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465744"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465749"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465756"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465759"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465763"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465769"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465767"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465773"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465777"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465782"
+      },
+      {
+        "homeWinPercentage": 1,
+        "playId": "401858465785"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858465789"
+      },
+      {
+        "homeWinPercentage": 1,
+        "playId": "401858465792"
+      },
+      {
+        "homeWinPercentage": 1,
+        "playId": "401858465797"
+      }
+    ],
+    "attendance": 101452,
     "broadcast": [],
     "odds": {
       "details": null,

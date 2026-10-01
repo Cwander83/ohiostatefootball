@@ -39,10 +39,10 @@
     "opponentAbbr": "KENT",
     "venue": "Ohio Stadium",
     "neutralSite": false,
-    "osuScore": null,
-    "oppScore": null,
-    "status": "upcoming",
-    "boxscoreAvailable": false
+    "osuScore": 59,
+    "oppScore": 3,
+    "status": "final",
+    "boxscoreAvailable": true
   },
   {
     "id": "401858465",
@@ -54,15 +54,15 @@
     "opponentAbbr": "ILL",
     "venue": "Ohio Stadium",
     "neutralSite": false,
-    "osuScore": null,
-    "oppScore": null,
-    "status": "upcoming",
-    "boxscoreAvailable": false
+    "osuScore": 42,
+    "oppScore": 19,
+    "status": "final",
+    "boxscoreAvailable": true
   },
   {
     "id": "401858473",
     "week": 5,
-    "date": "2026-10-03T04:00Z",
+    "date": "2026-10-03T19:30Z",
     "name": "Ohio State Buckeyes at Iowa Hawkeyes",
     "homeAway": "away",
     "opponent": "Iowa Hawkeyes",
@@ -77,7 +77,7 @@
   {
     "id": "401858483",
     "week": 6,
-    "date": "2026-10-10T04:00Z",
+    "date": "2026-10-10T20:15Z",
     "name": "Maryland Terrapins at Ohio State Buckeyes",
     "homeAway": "home",
     "opponent": "Maryland Terrapins",
