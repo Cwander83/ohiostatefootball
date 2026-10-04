@@ -258,6 +258,12 @@ main {
   color: var(--ink);
 }
 .schedule-status.final { background: var(--scarlet); color: var(--white); }
+.schedule-status.canceled {
+  background: transparent;
+  border: 1px dashed var(--muted);
+  color: var(--muted);
+}
+.schedule-list li.canceled { opacity: 0.55; }
 .schedule-link {
   font-family: var(--font-head);
   text-transform: uppercase;
@@ -432,6 +438,7 @@ td.jersey {
   margin-bottom: 8px;
 }
 .game-meta .meta-badge.loss { background: var(--muted); }
+.game-meta .meta-badge.canceled { background: var(--gray-light); color: var(--ink); }
 
 /* Leader cards */
 .leader-grid {

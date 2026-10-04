@@ -41,6 +41,7 @@
 
     for (const g of games) {
       const li = document.createElement("li");
+      if (g.status === "canceled") li.classList.add("canceled");
 
       const week = document.createElement("div");
       week.className = "schedule-week";
@@ -73,8 +74,9 @@
       }
 
       const status = document.createElement("div");
-      status.className = "schedule-status" + (g.status === "final" ? " final" : "");
-      status.textContent = g.status === "final" ? "Final" : "Upcoming";
+      status.className = `schedule-status ${g.status}`;
+      status.textContent =
+        { final: "Final", canceled: "Canceled" }[g.status] || "Upcoming";
 
       const link = document.createElement("a");
       link.className = "schedule-link";

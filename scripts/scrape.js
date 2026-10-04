@@ -31,6 +31,11 @@ async function scrapeSchedule(season) {
     const osu = comp.competitors.find((c) => c.id === TEAM_ID);
     const opp = comp.competitors.find((c) => c.id !== TEAM_ID);
     const score = (c) => (c?.score?.value != null ? Number(c.score.value) : null);
+    const statusType = comp.status?.type;
+    // Canceled/postponed games never complete, and ESPN still reports them as
+    // 0-0. Treat them as their own status and drop the meaningless score.
+    const unplayed =
+      statusType?.name === "STATUS_CANCELED" || statusType?.name === "STATUS_POSTPONED";
     games.push({
       id: e.id,
       week: e.week?.number ?? null,
@@ -41,9 +46,9 @@ async function scrapeSchedule(season) {
       opponentAbbr: opp?.team?.abbreviation ?? null,
       venue: comp.venue?.fullName ?? null,
       neutralSite: comp.neutralSite ?? false,
-      osuScore: score(osu),
-      oppScore: score(opp),
-      status: comp.status?.type?.completed ? "final" : "upcoming",
+      osuScore: unplayed ? null : score(osu),
+      oppScore: unplayed ? null : score(opp),
+      status: statusType?.completed ? "final" : unplayed ? "canceled" : "upcoming",
       boxscoreAvailable: comp.boxscoreAvailable ?? false,
     });
   }

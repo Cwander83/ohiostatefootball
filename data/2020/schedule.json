@@ -54,9 +54,9 @@
     "opponentAbbr": "MD",
     "venue": "SECU Stadium",
     "neutralSite": false,
-    "osuScore": 0,
-    "oppScore": 0,
-    "status": "upcoming",
+    "osuScore": null,
+    "oppScore": null,
+    "status": "canceled",
     "boxscoreAvailable": false
   },
   {
@@ -84,9 +84,9 @@
     "opponentAbbr": "ILL",
     "venue": "Gies Memorial Stadium",
     "neutralSite": false,
-    "osuScore": 0,
-    "oppScore": 0,
-    "status": "upcoming",
+    "osuScore": null,
+    "oppScore": null,
+    "status": "canceled",
     "boxscoreAvailable": false
   },
   {
@@ -114,9 +114,9 @@
     "opponentAbbr": "MICH",
     "venue": "Ohio Stadium",
     "neutralSite": false,
-    "osuScore": 0,
-    "oppScore": 0,
-    "status": "upcoming",
+    "osuScore": null,
+    "oppScore": null,
+    "status": "canceled",
     "boxscoreAvailable": false
   },
   {

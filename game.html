@@ -79,7 +79,15 @@
         oppTeams.append(el("div", "team-name", opp), el("div", `team-score ${win ? "loss" : "win"}`, sched.oppScore ?? "–"));
         gameHeader.append(osuTeams, el("div", "game-score-divider", "–"), oppTeams);
         const gameMeta = el("div", "game-meta");
-        const badge = el("div", `meta-badge ${win ? "" : "loss"}`, sched.status === "final" ? (win ? "W" : "L") : "Upcoming");
+        const badge = el(
+          "div",
+          `meta-badge ${sched.status === "final" ? (win ? "" : "loss") : sched.status}`,
+          sched.status === "final"
+            ? win
+              ? "W"
+              : "L"
+            : { canceled: "Canceled" }[sched.status] || "Upcoming"
+        );
         const metaParts = [sched.week ? `Week ${sched.week} · ${fmtDate(sched.date)}` : fmtDate(sched.date)];
         if (sched.date) metaParts.push(fmtTime(sched.date));
         const metaLine = el("div", "", metaParts.join(" · "));
