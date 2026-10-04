@@ -69,10 +69,10 @@
     "opponentAbbr": "IOWA",
     "venue": "Kinnick Stadium",
     "neutralSite": false,
-    "osuScore": null,
-    "oppScore": null,
-    "status": "upcoming",
-    "boxscoreAvailable": false
+    "osuScore": 31,
+    "oppScore": 14,
+    "status": "final",
+    "boxscoreAvailable": true
   },
   {
     "id": "401858483",
