@@ -57,7 +57,7 @@
               "8.7",
               "1",
               "1",
-              "91.7"
+              "90.3"
             ]
           }
         ]
@@ -702,7 +702,7 @@
               "5.3",
               "1",
               "1",
-              "80.6"
+              "78.6"
             ]
           }
         ]
@@ -3148,7 +3148,7 @@
               "10.3",
               "1",
               "1",
-              "16.3"
+              "16.5"
             ]
           },
           {
@@ -3162,7 +3162,7 @@
               "8.7",
               "1",
               "0",
-              "24.8"
+              "25.2"
             ]
           }
         ]
@@ -4098,7 +4098,7 @@
               "2.7",
               "0",
               "1",
-              "30.4"
+              "28.4"
             ]
           },
           {
@@ -4112,7 +4112,7 @@
               "7.8",
               "0",
               "0",
-              "96.5"
+              "96.1"
             ]
           }
         ]
@@ -6403,7 +6403,7 @@
               "11.0",
               "2",
               "0",
-              "73.5"
+              "76.1"
             ]
           },
           {
@@ -6417,7 +6417,7 @@
               "28.2",
               "1",
               "1",
-              "90.1"
+              "91.3"
             ]
           },
           {
@@ -7272,7 +7272,7 @@
               "2.3",
               "0",
               "1",
-              "35.1"
+              "32.9"
             ]
           },
           {
@@ -7328,7 +7328,7 @@
               "-0.3",
               "0",
               "0",
-              "38.7"
+              "36.5"
             ]
           }
         ]
@@ -10209,7 +10209,7 @@
               "7.1",
               "1",
               "0",
-              "89.8"
+              "88.9"
             ]
           },
           {
@@ -13317,7 +13317,7 @@
               "4.9",
               "0",
               "1",
-              "30.4"
+              "30.8"
             ]
           },
           {
@@ -13331,7 +13331,7 @@
               "13.4",
               "0",
               "0",
-              "95.0"
+              "95.1"
             ]
           }
         ]
@@ -14000,39 +14000,39 @@
     "scoringPlays": [
       {
         "type": "Passing Touchdown",
-        "text": "J. Sayin pass to D. McCuin for 15 yds, for a TD (C. Hawkins KICK)",
-        "awayScore": 1,
+        "text": "Devin McCuin 15 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "awayScore": 7,
         "homeScore": 0,
         "period": 1,
-        "clock": "13:24"
+        "clock": "13:18"
       },
       {
         "type": "Field Goal Good",
-        "text": "C. Buhr 43 yd FG GOOD",
-        "awayScore": 1,
+        "text": "Caden Buhr 43 Yd Field Goal  ",
+        "awayScore": 7,
         "homeScore": 3,
         "period": 1,
         "clock": "10:01"
       },
       {
         "type": "Field Goal Good",
-        "text": "C. Hawkins 28 yd FG GOOD",
-        "awayScore": 4,
+        "text": "Connor Hawkins 28 Yd Field Goal  ",
+        "awayScore": 10,
         "homeScore": 3,
         "period": 1,
         "clock": "4:17"
       },
       {
         "type": "Field Goal Good",
-        "text": "C. Buhr 48 yd FG GOOD",
-        "awayScore": 4,
+        "text": "Caden Buhr 48 Yd Field Goal ",
+        "awayScore": 10,
         "homeScore": 6,
         "period": 1,
-        "clock": "0:03"
+        "clock": "0:00"
       },
       {
         "type": "Passing Touchdown",
-        "text": "Jeremiah Smith 12 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "text": "J. Sayin pass to Je. Smith for 12 yds, for a TD (C. Hawkins KICK)",
         "awayScore": 17,
         "homeScore": 6,
         "period": 2,
@@ -14085,11 +14085,11 @@
             "clock": "13:35"
           },
           {
-            "text": "(13:24) Shotgun #10 J.Sayin pass complete short middle to #3 D.McCuin caught at IOWA09, for 15 yards to the IOWA00 TOUCHDOWN, clock 13:18, 1ST DOWN #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
-            "awayScore": 1,
+            "text": "Devin McCuin 15 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
-            "clock": "13:24"
+            "clock": "13:18"
           }
         ]
       },
@@ -14101,91 +14101,91 @@
         "plays": [
           {
             "text": "(13:18) #49 M.Diomede kickoff 65 yards to the IOWA00, Touchback",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "13:18"
           },
           {
             "text": "(13:17) Shotgun #9 H.Brown pass incomplete short left to #2 R.Vander Zee thrown to IOWA32",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "13:14"
           },
           {
             "text": "(13:14) Shotgun #28 K.Moulton rush left for 4 yards gain to the IOWA29 (#4 Q.Russaw)",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "13:06"
           },
           {
             "text": "(12:38) Shotgun #9 H.Brown pass incomplete short left to #2 R.Vander Zee thrown to IOWA35, 1ST DOWN, PENALTY OSU Pass Interference (#6 D.Sanchez) 9 yards from IOWA29 to IOWA38, 1ST DOWN. NO PLAY",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "12:38"
           },
           {
             "text": "(12:30) #9 H.Brown pass incomplete deep left to #2 R.Vander Zee thrown to OSU32",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "12:30"
           },
           {
             "text": "(12:27) Shotgun #9 H.Brown pass complete short right to #81 D.Vonnahme caught at IOWA37, for 18 yards to the OSU44 (#7 J.Mathews Jr.), out of bounds, 1ST DOWN",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "12:22"
           },
           {
             "text": "(11:57) #21 L.Phillips Jr. rush right for 4 yards gain to the OSU40 (#26 P.Pierce)",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "11:45"
           },
           {
             "text": "(11:27) Shotgun #9 H.Brown pass incomplete short right thrown to OSU34 QB hurried by #96 E.Houston",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "11:21"
           },
           {
             "text": "(11:11) Shotgun #9 H.Brown rush middle for 7 yards gain to the OSU33 (#26 P.Pierce), 1ST DOWN",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "11:08"
           },
           {
             "text": "(10:41) Shotgun #14 T.Diaz rush left for 8 yards gain to the OSU25 (#1 E.Little Jr.), out of bounds",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "10:41"
           },
           {
             "text": "(10:16) #9 H.Brown pass incomplete deep right to #14 T.Diaz thrown to OSU00",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "10:10"
           },
           {
             "text": "(10:08) Shotgun #9 H.Brown pass incomplete short middle to #22 B.Jackson thrown to OSU23 broken up by #3 J.Smith",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 0,
             "period": 1,
             "clock": "10:05"
           },
           {
             "text": "(10:04) #92 C.Buhr field goal attempt from 43 yards GOOD (H: #35 T.Philpott, LS: #69 I.Speltz), clock 10:01",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "10:01"
@@ -14200,91 +14200,91 @@
         "plays": [
           {
             "text": "(10:01) #25 E.Ozick kickoff 65 yards to the OSU00 fair catch by #3 D.McCuin at OSU00 PENALTY IOWA UNS: Unsportsmanlike Conduct (#13 B.Doll) 15 yards from OSU25 to OSU40",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "10:01"
           },
           {
             "text": "(10:01) Shotgun #10 J.Sayin pass complete short right to #4 J.Smith caught at OSU46, for 16 yards to the IOWA44 (#6 Z.Lutmer), 1ST DOWN",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "9:51"
           },
           {
             "text": "(09:30) Shotgun #24 J.Jackson rush left for 8 yards gain to the IOWA36 (#6 Z.Lutmer; #57 W.Hubert)",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "9:23"
           },
           {
             "text": "(08:45) #24 J.Jackson rush right for 7 yards gain to the IOWA29 (#57 W.Hubert), 1ST DOWN",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "8:42"
           },
           {
             "text": "PENALTY OSU False Start (#67 A.Siereveld) 5 yards from IOWA29 to IOWA34. NO PLAY",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "8:12"
           },
           {
             "text": "(08:00) Shotgun #10 J.Sayin pass complete short right to #4 J.Smith caught at IOWA30, for 4 yards to the IOWA30, out of bounds at IOWA30",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "7:56"
           },
           {
             "text": "(07:27) Shotgun #10 J.Sayin rush middle for 5 yards gain to the IOWA25 (#57 W.Hubert)",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "7:15"
           },
           {
             "text": "(06:42) Shotgun #10 J.Sayin pass complete short left to #3 D.McCuin caught at IOWA20, for 11 yards to the IOWA14 (#8 D.Lee), 1ST DOWN",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "6:33"
           },
           {
             "text": "(06:05) #10 J.Sayin rush right for 2 yards gain to the IOWA12 (#33 C.Buffington; #97 I.Epenesa)",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "5:54"
           },
           {
             "text": "PENALTY OSU False Start (#58 G.VanSickle) 5 yards from IOWA12 to IOWA17. NO PLAY",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "5:28"
           },
           {
             "text": "(05:04) Shotgun #10 J.Sayin pass incomplete short middle to #0 B.Inniss thrown to IOWA13",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "5:02"
           },
           {
             "text": "(05:01) Shotgun #10 J.Sayin pass complete short right to #4 J.Smith caught at IOWA15, for 7 yards to the IOWA10 (#11 J.Wallace)",
-            "awayScore": 1,
+            "awayScore": 7,
             "homeScore": 3,
             "period": 1,
             "clock": "4:50"
           },
           {
             "text": "(04:18) #96 C.Hawkins field goal attempt from 28 yards GOOD (H: #42 J.McGuire, LS: #55 D.Riggs), clock 04:17",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 3,
             "period": 1,
             "clock": "4:17"
@@ -14299,84 +14299,84 @@
         "plays": [
           {
             "text": "(04:17) #49 M.Diomede kickoff 65 yards to the IOWA00, Touchback PENALTY OSU Offside (#97 D.Quinn) 5 yards from IOWA25 to IOWA30",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 3,
             "period": 1,
             "clock": "4:17"
           },
           {
             "text": "(04:15) #28 K.Moulton rush left for 0 yards to the IOWA30 (#96 E.Houston; #4 Q.Russaw)",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 3,
             "period": 1,
             "clock": "4:09"
           },
           {
             "text": "(03:44) Shotgun #9 H.Brown pass incomplete short middle to #87 A.Ostrenga thrown to IOWA37 QB hurried by #55 J.Walker",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 3,
             "period": 1,
             "clock": "3:41"
           },
           {
             "text": "(03:33) Shotgun #9 H.Brown pass complete short right to #81 D.Vonnahme caught at IOWA32, for 16 yards to the IOWA46, End Of Play, 1ST DOWN",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 3,
             "period": 1,
             "clock": "3:21"
           },
           {
             "text": "(03:05) Shotgun #9 H.Brown pass complete short left to #14 T.Diaz caught at IOWA43, for 10 yards to the OSU44 (#1 E.Little Jr.), out of bounds, 1ST DOWN",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 3,
             "period": 1,
             "clock": "3:03"
           },
           {
             "text": "(02:43) #9 H.Brown pass complete short right to #48 Z.Ortwerth caught at OSU47, for 7 yards to the OSU37 (#5 R.Pettijohn)",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 3,
             "period": 1,
             "clock": "2:26"
           },
           {
             "text": "(02:05) Shotgun #9 H.Brown pass complete short middle to #0 J.Buie caught at OSU32, for 17 yards to the OSU20 (#6 D.Sanchez; #8 J.McClain), 1ST DOWN",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 3,
             "period": 1,
             "clock": "1:52"
           },
           {
             "text": "(01:26) #9 H.Brown pass incomplete short right thrown to OSU20 QB hurried by #96 E.Houston",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 3,
             "period": 1,
             "clock": "1:20"
           },
           {
             "text": "(01:19) #28 K.Moulton rush left for 0 yards to the OSU20 (#1 E.Little Jr.; #9 Z.Grady)",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 3,
             "period": 1,
             "clock": "1:13"
           },
           {
             "text": "(00:52) Shotgun #9 H.Brown sacked for loss of 10 yards to the OSU30 (#4 Q.Russaw)",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 3,
             "period": 1,
             "clock": "0:44"
           },
           {
-            "text": "(00:03) #92 C.Buhr field goal attempt from 48 yards GOOD (H: #35 T.Philpott, LS: #69 I.Speltz), clock 00:00",
-            "awayScore": 4,
+            "text": "Caden Buhr 48 Yd Field Goal ",
+            "awayScore": 10,
             "homeScore": 6,
             "period": 1,
-            "clock": "0:03"
+            "clock": "0:00"
           },
           {
             "text": "End of 1st quarter.",
-            "awayScore": 4,
+            "awayScore": 10,
             "homeScore": 6,
             "period": 1,
             "clock": "0:00"
@@ -14710,6 +14710,10 @@
       {
         "homeWinPercentage": 0.1277,
         "playId": "40185847331"
+      },
+      {
+        "homeWinPercentage": 0.0996,
+        "playId": "40185847334"
       },
       {
         "homeWinPercentage": 0.1015,
