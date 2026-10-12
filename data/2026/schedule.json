@@ -84,15 +84,15 @@
     "opponentAbbr": "MD",
     "venue": "Ohio Stadium",
     "neutralSite": false,
-    "osuScore": null,
-    "oppScore": null,
-    "status": "upcoming",
-    "boxscoreAvailable": false
+    "osuScore": 45,
+    "oppScore": 16,
+    "status": "final",
+    "boxscoreAvailable": true
   },
   {
     "id": "401858488",
     "week": 7,
-    "date": "2026-10-17T04:00Z",
+    "date": "2026-10-17T16:00Z",
     "name": "Ohio State Buckeyes at Indiana Hoosiers",
     "homeAway": "away",
     "opponent": "Indiana Hoosiers",

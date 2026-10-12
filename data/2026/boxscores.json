@@ -57,7 +57,7 @@
               "8.7",
               "1",
               "1",
-              "90.3"
+              "90.2"
             ]
           }
         ]
@@ -702,7 +702,7 @@
               "5.3",
               "1",
               "1",
-              "78.6"
+              "77.5"
             ]
           }
         ]
@@ -3134,7 +3134,7 @@
               "12.8",
               "3",
               "0",
-              "96.5"
+              "96.4"
             ]
           },
           {
@@ -3148,7 +3148,7 @@
               "10.3",
               "1",
               "1",
-              "16.5"
+              "15.9"
             ]
           },
           {
@@ -3162,7 +3162,7 @@
               "8.7",
               "1",
               "0",
-              "25.2"
+              "24.2"
             ]
           }
         ]
@@ -4098,7 +4098,7 @@
               "2.7",
               "0",
               "1",
-              "28.4"
+              "27.0"
             ]
           },
           {
@@ -4112,7 +4112,7 @@
               "7.8",
               "0",
               "0",
-              "96.1"
+              "95.9"
             ]
           }
         ]
@@ -6403,7 +6403,7 @@
               "11.0",
               "2",
               "0",
-              "76.1"
+              "71.6"
             ]
           },
           {
@@ -6417,7 +6417,7 @@
               "28.2",
               "1",
               "1",
-              "91.3"
+              "89.2"
             ]
           },
           {
@@ -7272,7 +7272,7 @@
               "2.3",
               "0",
               "1",
-              "32.9"
+              "31.4"
             ]
           },
           {
@@ -7300,7 +7300,7 @@
               "0.0",
               "0",
               "0",
-              "0.4"
+              "0.3"
             ]
           },
           {
@@ -7328,7 +7328,7 @@
               "-0.3",
               "0",
               "0",
-              "36.5"
+              "34.8"
             ]
           }
         ]
@@ -9532,7 +9532,7 @@
               "10.2",
               "4",
               "0",
-              "95.2"
+              "94.3"
             ]
           }
         ]
@@ -10209,7 +10209,7 @@
               "7.1",
               "1",
               "0",
-              "88.9"
+              "88.2"
             ]
           },
           {
@@ -12691,7 +12691,7 @@
               "12.0",
               "3",
               "0",
-              "89.9"
+              "88.3"
             ]
           }
         ]
@@ -13317,7 +13317,7 @@
               "4.9",
               "0",
               "1",
-              "30.8"
+              "29.5"
             ]
           },
           {
@@ -13331,7 +13331,7 @@
               "13.4",
               "0",
               "0",
-              "95.1"
+              "94.7"
             ]
           }
         ]
@@ -15353,6 +15353,2897 @@
       }
     ],
     "attendance": 69250,
+    "broadcast": [],
+    "odds": {
+      "details": null,
+      "overUnder": null,
+      "spread": [],
+      "winner": null
+    }
+  },
+  "401858483": {
+    "eventId": "401858483",
+    "osuTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "oppTeam": {
+      "firstDowns": {},
+      "thirdDownEff": {},
+      "fourthDownEff": {},
+      "totalYards": {},
+      "netPassingYards": {},
+      "completionAttempts": {},
+      "yardsPerPass": {},
+      "rushingYards": {},
+      "rushingAttempts": {},
+      "yardsPerRushAttempt": {},
+      "totalPenaltiesYards": {},
+      "turnovers": {},
+      "fumblesLost": {},
+      "interceptions": {},
+      "possessionTime": {}
+    },
+    "osuPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "5079712",
+            "name": "Julian Sayin",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "13/21",
+              "242",
+              "11.5",
+              "4",
+              "1",
+              "41.8"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5141517",
+            "name": "Bo Jackson",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "23",
+              "107",
+              "4.7",
+              "2",
+              "25"
+            ]
+          },
+          {
+            "id": "5151892",
+            "name": "Ja'Kobi Jackson",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "14",
+              "76",
+              "5.4",
+              "0",
+              "15"
+            ]
+          },
+          {
+            "id": "5182122",
+            "name": "Legend Bey",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "4",
+              "13",
+              "3.3",
+              "0",
+              "6"
+            ]
+          },
+          {
+            "id": "5079712",
+            "name": "Julian Sayin",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "7",
+              "11",
+              "1.6",
+              "0",
+              "8"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5079720",
+            "name": "Jeremiah Smith",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "4",
+              "93",
+              "23.3",
+              "2",
+              "40"
+            ]
+          },
+          {
+            "id": "5141656",
+            "name": "Nate Roberts",
+            "position": null,
+            "jersey": "83",
+            "stats": [
+              "1",
+              "68",
+              "68.0",
+              "1",
+              "68"
+            ]
+          },
+          {
+            "id": "5159009",
+            "name": "Chris Henry Jr.",
+            "position": null,
+            "jersey": "15",
+            "stats": [
+              "1",
+              "46",
+              "46.0",
+              "0",
+              "46"
+            ]
+          },
+          {
+            "id": "4900640",
+            "name": "Kyle Parker",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "1",
+              "16",
+              "16.0",
+              "0",
+              "16"
+            ]
+          },
+          {
+            "id": "5151892",
+            "name": "Ja'Kobi Jackson",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "2",
+              "8",
+              "4.0",
+              "0",
+              "5"
+            ]
+          },
+          {
+            "id": "5141384",
+            "name": "Phillip Bell",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "1",
+              "6",
+              "6.0",
+              "0",
+              "6"
+            ]
+          },
+          {
+            "id": "5141517",
+            "name": "Bo Jackson",
+            "position": null,
+            "jersey": "25",
+            "stats": [
+              "1",
+              "3",
+              "3.0",
+              "0",
+              "3"
+            ]
+          },
+          {
+            "id": "5081611",
+            "name": "Mason Williams",
+            "position": null,
+            "jersey": "86",
+            "stats": [
+              "2",
+              "2",
+              "1.0",
+              "1",
+              "1"
+            ]
+          }
+        ]
+      },
+      "fumbles": {
+        "labels": [
+          "FUM",
+          "LOST",
+          "REC"
+        ],
+        "rows": [
+          {
+            "id": "5079712",
+            "name": "Julian Sayin",
+            "position": null,
+            "jersey": "10",
+            "stats": [
+              "2",
+              "1",
+              "0"
+            ]
+          }
+        ]
+      },
+      "defensive": {
+        "labels": [
+          "TOT",
+          "SOLO",
+          "SACKS",
+          "TFL",
+          "PD",
+          "QB HUR",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5079518",
+            "name": "Jaylen McClain",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "8",
+              "4",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5141355",
+            "name": "Tarvos Alford",
+            "position": null,
+            "jersey": "17",
+            "stats": [
+              "4",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4685437",
+            "name": "Earl Little Jr.",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "4",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5079485",
+            "name": "Eddrick Houston",
+            "position": null,
+            "jersey": "96",
+            "stats": [
+              "4",
+              "1",
+              "0",
+              "1.5",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5079667",
+            "name": "Payton Pierce",
+            "position": null,
+            "jersey": "26",
+            "stats": [
+              "4",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4923052",
+            "name": "Cam Calhoun",
+            "position": null,
+            "jersey": "18",
+            "stats": [
+              "3",
+              "3",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5150251",
+            "name": "Qua Russaw",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "3",
+              "3",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5081821",
+            "name": "Kenyatta Jackson Jr.",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "3",
+              "0",
+              "0",
+              "0.5",
+              "0",
+              "2",
+              "0"
+            ]
+          },
+          {
+            "id": "5141635",
+            "name": "Devin Sanchez",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "2",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5150710",
+            "name": "Jermaine Mathews Jr.",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "2",
+              "2",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5160481",
+            "name": "Simeon Caldwell",
+            "position": null,
+            "jersey": "28",
+            "stats": [
+              "2",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5209313",
+            "name": "Cincere Johnson",
+            "position": null,
+            "jersey": "20",
+            "stats": [
+              "2",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4870950",
+            "name": "Jason Moore",
+            "position": null,
+            "jersey": "94",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4915838",
+            "name": "Will Smith Jr.",
+            "position": null,
+            "jersey": "53",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          },
+          {
+            "id": "5141481",
+            "name": "Zion Grady",
+            "position": null,
+            "jersey": "9",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4871055",
+            "name": "John Walker",
+            "position": null,
+            "jersey": "55",
+            "stats": [
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5141630",
+            "name": "Riley Pettijohn",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5150713",
+            "name": "Ryan Rudzinski",
+            "position": null,
+            "jersey": "46",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5208133",
+            "name": "Dominick Kelly",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": []
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5182122",
+            "name": "Legend Bey",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "2",
+              "46",
+              "23.0",
+              "29",
+              "0"
+            ]
+          },
+          {
+            "id": "5116115",
+            "name": "Maxence LeBlanc",
+            "position": null,
+            "jersey": "88",
+            "stats": [
+              "1",
+              "16",
+              "16.0",
+              "16",
+              "0"
+            ]
+          },
+          {
+            "id": "5214446",
+            "name": "Brody Lennon",
+            "position": null,
+            "jersey": "87",
+            "stats": [
+              "1",
+              "0",
+              "0.0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5141384",
+            "name": "Phillip Bell",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "4",
+              "41",
+              "10.3",
+              "31",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "5156433",
+            "name": "Connor Hawkins",
+            "position": null,
+            "jersey": "96",
+            "stats": [
+              "1/1",
+              "100.0",
+              "40",
+              "6/6",
+              "9"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5159957",
+            "name": "Joe McGuire",
+            "position": null,
+            "jersey": "42",
+            "stats": [
+              "3",
+              "156",
+              "52.0",
+              "1",
+              "1",
+              "56"
+            ]
+          }
+        ]
+      }
+    },
+    "oppPlayers": {
+      "passing": {
+        "labels": [
+          "C/ATT",
+          "YDS",
+          "AVG",
+          "TD",
+          "INT",
+          "QBR"
+        ],
+        "rows": [
+          {
+            "id": "5141695",
+            "name": "Malik Washington",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "12/25",
+              "64",
+              "2.6",
+              "0",
+              "0",
+              "62.6"
+            ]
+          }
+        ]
+      },
+      "rushing": {
+        "labels": [
+          "CAR",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5295550",
+            "name": "DeJuan Williams",
+            "position": null,
+            "jersey": "0",
+            "stats": [
+              "16",
+              "48",
+              "3.0",
+              "0",
+              "13"
+            ]
+          },
+          {
+            "id": "5141695",
+            "name": "Malik Washington",
+            "position": null,
+            "jersey": "7",
+            "stats": [
+              "5",
+              "19",
+              "3.8",
+              "1",
+              "6"
+            ]
+          },
+          {
+            "id": "5194795",
+            "name": "Na'eem Abdul-Rahim Gladding",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "6",
+              "6.0",
+              "0",
+              "6"
+            ]
+          },
+          {
+            "id": "5141522",
+            "name": "Iverson Howard",
+            "position": null,
+            "jersey": "24",
+            "stats": [
+              "4",
+              "6",
+              "1.5",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "4685393",
+            "name": "Preston Howard",
+            "position": null,
+            "jersey": "8",
+            "stats": [
+              "1",
+              "2",
+              "2.0",
+              "0",
+              "2"
+            ]
+          },
+          {
+            "id": "5270858",
+            "name": "Liam Willson",
+            "position": null,
+            "jersey": "29",
+            "stats": [
+              "1",
+              "1",
+              "1.0",
+              "0",
+              "1"
+            ]
+          }
+        ]
+      },
+      "receiving": {
+        "labels": [
+          "REC",
+          "YDS",
+          "AVG",
+          "TD",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "5193298",
+            "name": "Chris Durr Jr.",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "4",
+              "15",
+              "3.8",
+              "0",
+              "12"
+            ]
+          },
+          {
+            "id": "4838556",
+            "name": "Kaleb Webb",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "2",
+              "14",
+              "7.0",
+              "0",
+              "10"
+            ]
+          },
+          {
+            "id": "5159020",
+            "name": "Damon Hall Jr.",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "1",
+              "11",
+              "11.0",
+              "0",
+              "11"
+            ]
+          },
+          {
+            "id": "5295550",
+            "name": "DeJuan Williams",
+            "position": null,
+            "jersey": "0",
+            "stats": [
+              "1",
+              "11",
+              "11.0",
+              "0",
+              "11"
+            ]
+          },
+          {
+            "id": "4940236",
+            "name": "Ryan Manning",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "1",
+              "6",
+              "6.0",
+              "0",
+              "6"
+            ]
+          },
+          {
+            "id": "5092410",
+            "name": "Dorian Fleming",
+            "position": null,
+            "jersey": "9",
+            "stats": [
+              "1",
+              "4",
+              "4.0",
+              "0",
+              "4"
+            ]
+          },
+          {
+            "id": "5194795",
+            "name": "Na'eem Abdul-Rahim Gladding",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "2",
+              "3",
+              "1.5",
+              "0",
+              "2"
+            ]
+          }
+        ]
+      },
+      "fumbles": {
+        "labels": [
+          "FUM",
+          "LOST",
+          "REC"
+        ],
+        "rows": [
+          {
+            "id": "5148665",
+            "name": "Messiah Delhomme",
+            "position": null,
+            "jersey": "33",
+            "stats": [
+              "0",
+              "0",
+              "1"
+            ]
+          }
+        ]
+      },
+      "defensive": {
+        "labels": [
+          "TOT",
+          "SOLO",
+          "SACKS",
+          "TFL",
+          "PD",
+          "QB HUR",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "4921326",
+            "name": "Daniel Wingate",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "10",
+              "1",
+              "0",
+              "0.5",
+              "0",
+              "0",
+              "1"
+            ]
+          },
+          {
+            "id": "5216961",
+            "name": "Sidney Stewart",
+            "position": null,
+            "jersey": "11",
+            "stats": [
+              "8",
+              "5",
+              "1",
+              "2",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5155142",
+            "name": "Eyan Thomas",
+            "position": null,
+            "jersey": "98",
+            "stats": [
+              "8",
+              "4",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5141682",
+            "name": "Carlton Smith",
+            "position": null,
+            "jersey": "32",
+            "stats": [
+              "7",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5213305",
+            "name": "Nahsir Taylor",
+            "position": null,
+            "jersey": "40",
+            "stats": [
+              "6",
+              "1",
+              "0",
+              "0.5",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4873464",
+            "name": "Lavain Scruggs",
+            "position": null,
+            "jersey": "2",
+            "stats": [
+              "5",
+              "4",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5127728",
+            "name": "Judah Jenkins",
+            "position": null,
+            "jersey": "21",
+            "stats": [
+              "4",
+              "3",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4870829",
+            "name": "Dontay Joyner",
+            "position": null,
+            "jersey": "16",
+            "stats": [
+              "4",
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5209297",
+            "name": "Zion Elee",
+            "position": null,
+            "jersey": "0",
+            "stats": [
+              "3",
+              "3",
+              "1",
+              "2",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4916380",
+            "name": "Armon Parker",
+            "position": null,
+            "jersey": "95",
+            "stats": [
+              "3",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5148665",
+            "name": "Messiah Delhomme",
+            "position": null,
+            "jersey": "33",
+            "stats": [
+              "3",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5218946",
+            "name": "Trey Reddick",
+            "position": null,
+            "jersey": "3",
+            "stats": [
+              "3",
+              "1",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ]
+          },
+          {
+            "id": "4870792",
+            "name": "Derrick LeBlanc",
+            "position": null,
+            "jersey": "88",
+            "stats": [
+              "3",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4912140",
+            "name": "Jamare Glasker",
+            "position": null,
+            "jersey": "4",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4916379",
+            "name": "Jayvon Parker",
+            "position": null,
+            "jersey": "97",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5141529",
+            "name": "Bryce Jenkins",
+            "position": null,
+            "jersey": "57",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5178090",
+            "name": "Darrell Carey",
+            "position": null,
+            "jersey": "5",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5220193",
+            "name": "Jordan Scruggs",
+            "position": null,
+            "jersey": "6",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5266920",
+            "name": "Kaden Carter",
+            "position": null,
+            "jersey": "27",
+            "stats": [
+              "2",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "4870981",
+            "name": "Joel Starlings",
+            "position": null,
+            "jersey": "44",
+            "stats": [
+              "2",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5078405",
+            "name": "Alex Moore",
+            "position": null,
+            "jersey": "18",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5295553",
+            "name": "Luke O'Hare",
+            "position": null,
+            "jersey": "97",
+            "stats": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5079450",
+            "name": "DD Holmes",
+            "position": null,
+            "jersey": "56",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          {
+            "id": "5276981",
+            "name": "Sean Johnson",
+            "position": null,
+            "jersey": "14",
+            "stats": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        ]
+      },
+      "interceptions": {
+        "labels": [
+          "INT",
+          "YDS",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "4921326",
+            "name": "Daniel Wingate",
+            "position": null,
+            "jersey": "1",
+            "stats": [
+              "1",
+              "52",
+              "1"
+            ]
+          }
+        ]
+      },
+      "kickReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": []
+      },
+      "puntReturns": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "LONG",
+          "TD"
+        ],
+        "rows": [
+          {
+            "id": "5193298",
+            "name": "Chris Durr Jr.",
+            "position": null,
+            "jersey": "13",
+            "stats": [
+              "1",
+              "5",
+              "5.0",
+              "5",
+              "0"
+            ]
+          }
+        ]
+      },
+      "kicking": {
+        "labels": [
+          "FG",
+          "PCT",
+          "LONG",
+          "XP",
+          "PTS"
+        ],
+        "rows": [
+          {
+            "id": "5226837",
+            "name": "Sean O'Haire",
+            "position": null,
+            "jersey": "36",
+            "stats": [
+              "1/1",
+              "100.0",
+              "39",
+              "1/1",
+              "4"
+            ]
+          }
+        ]
+      },
+      "punting": {
+        "labels": [
+          "NO",
+          "YDS",
+          "AVG",
+          "TB",
+          "In 20",
+          "LONG"
+        ],
+        "rows": [
+          {
+            "id": "4906305",
+            "name": "Bryce McFerson",
+            "position": null,
+            "jersey": "34",
+            "stats": [
+              "7",
+              "284",
+              "40.6",
+              "0",
+              "2",
+              "49"
+            ]
+          }
+        ]
+      }
+    },
+    "leaders": {
+      "passingYards": {
+        "name": "Julian Sayin",
+        "id": "5079712",
+        "position": "QB",
+        "jersey": "10",
+        "displayValue": "13/21, 242 YDS, 4 TD, 1 INT",
+        "value": 242
+      },
+      "rushingYards": {
+        "name": "Bo Jackson",
+        "id": "5141517",
+        "position": "RB",
+        "jersey": "25",
+        "displayValue": "23 CAR, 107 YDS, 2 TD",
+        "value": 107
+      },
+      "receivingYards": {
+        "name": "Jeremiah Smith",
+        "id": "5079720",
+        "position": "WR",
+        "jersey": "4",
+        "displayValue": "4 REC, 93 YDS, 2 TD",
+        "value": 93
+      },
+      "totalTackles": {
+        "name": "Jaylen McClain",
+        "id": "5079518",
+        "position": "S",
+        "jersey": "8",
+        "displayValue": "8",
+        "value": 8
+      }
+    },
+    "scoringPlays": [
+      {
+        "type": "Passing Touchdown",
+        "text": "Jeremiah Smith 33 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "awayScore": 0,
+        "homeScore": 7,
+        "period": 1,
+        "clock": "8:40"
+      },
+      {
+        "type": "Field Goal Good",
+        "text": "Sean O'Haire 39 Yd Field Goal  ",
+        "awayScore": 3,
+        "homeScore": 7,
+        "period": 1,
+        "clock": "3:55"
+      },
+      {
+        "type": "Passing Touchdown",
+        "text": "Nate Roberts 68 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "awayScore": 3,
+        "homeScore": 14,
+        "period": 1,
+        "clock": "3:03"
+      },
+      {
+        "type": "Rushing Touchdown",
+        "text": "Malik Washington 5 Yd Run (Sean O'Haire Kick)",
+        "awayScore": 10,
+        "homeScore": 14,
+        "period": 2,
+        "clock": "11:23"
+      },
+      {
+        "type": "Passing Touchdown",
+        "text": "Jeremiah Smith 40 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "awayScore": 10,
+        "homeScore": 21,
+        "period": 2,
+        "clock": "8:32"
+      },
+      {
+        "type": "Field Goal Good",
+        "text": "Connor Hawkins 40 Yd Field Goal  ",
+        "awayScore": 10,
+        "homeScore": 24,
+        "period": 2,
+        "clock": "5:55"
+      },
+      {
+        "type": "Passing Touchdown",
+        "text": "Mason Williams 1 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+        "awayScore": 10,
+        "homeScore": 31,
+        "period": 2,
+        "clock": "0:24"
+      },
+      {
+        "type": "Interception Return Touchdown",
+        "text": "Daniel Wingate 52 Yd Interception Return (Two-Point Pass Conversion Failed)",
+        "awayScore": 16,
+        "homeScore": 31,
+        "period": 3,
+        "clock": "5:12"
+      },
+      {
+        "type": "Rushing Touchdown",
+        "text": "Bo Jackson 25 Yd Run (Connor Hawkins Kick)",
+        "awayScore": 16,
+        "homeScore": 38,
+        "period": 3,
+        "clock": "2:38"
+      },
+      {
+        "type": "Rushing Touchdown",
+        "text": "Bo Jackson 2 Yd Run (Connor Hawkins Kick)",
+        "awayScore": 16,
+        "homeScore": 45,
+        "period": 4,
+        "clock": "4:52"
+      }
+    ],
+    "scoringDrives": [
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "2 plays, 36 yards, 1:07",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 6 yards gain to the Maryla30 (#44 J.Starlings) PENALTY OhioSt Holding offsetting Maryla Personal Foul offsetting. NO PLAY",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "9:47"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short left to #25 B.Jackson caught at Maryla37, for 3 yards to the Maryla33 (#16 D.Joyner), out of bounds",
+            "awayScore": 0,
+            "homeScore": 0,
+            "period": 1,
+            "clock": "9:47"
+          },
+          {
+            "text": "Jeremiah Smith 33 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "8:40"
+          },
+          {
+            "text": "PENALTY OhioSt False Start (#74 C.Lowe) 5 yards from Maryla03 to Maryla08. NO PLAY",
+            "awayScore": 0,
+            "homeScore": 6,
+            "period": 1,
+            "clock": "9:47"
+          }
+        ]
+      },
+      {
+        "team": "Maryland Terrapins",
+        "teamAbbr": "MD",
+        "description": "7 plays, 11 yards, 2:29",
+        "result": "FG",
+        "plays": [
+          {
+            "text": "Shotgun #7 M.Washington pass complete short right to #13 C.Durr Jr. caught at OhioSt37, for 2 yards to the OhioSt30 (#4 Q.Russaw)",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "6:24"
+          },
+          {
+            "text": "No Huddle-Shotgun #7 M.Washington pass complete short right to #2 K.Webb caught at OhioSt26, for 4 yards to the OhioSt26 (#18 C.Calhoun)",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "6:24"
+          },
+          {
+            "text": "No Huddle #1 N.Abdul-Rahim Gladding rush left for 6 yards gain to the OhioSt20 (#28 S.Caldwell), 1ST DOWN",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "6:24"
+          },
+          {
+            "text": "Shotgun #24 I.Howard rush middle for 1 yard loss to the OhioSt21 (#96 E.Houston; #2 K.Jackson Jr.)",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "6:24"
+          },
+          {
+            "text": "Shotgun #7 M.Washington pass incomplete short left to #2 K.Webb thrown to OhioSt15",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "6:24"
+          },
+          {
+            "text": "Shotgun #7 M.Washington pass incomplete deep right to #1 N.Abdul-Rahim Gladding thrown to OhioSt00",
+            "awayScore": 0,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "6:24"
+          },
+          {
+            "text": "#36 S.O'Haire field goal attempt from 39 yards GOOD (H: #34 B.McFerson, LS: #97 L.O'Hare), clock 03:55",
+            "awayScore": 3,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "3:55"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "2 plays, 71 yards, 0:46",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#98 D.Leahy kickoff 65 yards to the OhioSt00 #2 L.Bey return 29 yards to the OhioSt29 (#21 J.Jenkins)",
+            "awayScore": 3,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "3:49"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush right for 3 yards gain to the OhioSt32 (#11 S.Stewart; #3 T.Reddick)",
+            "awayScore": 3,
+            "homeScore": 7,
+            "period": 1,
+            "clock": "3:49"
+          },
+          {
+            "text": "Nate Roberts 68 Yd pass from Julian Sayin (Connor Hawkins Kick)",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:03"
+          }
+        ]
+      },
+      {
+        "team": "Maryland Terrapins",
+        "teamAbbr": "MD",
+        "description": "11 plays, 75 yards, 6:40",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#49 M.Diomede kickoff 65 yards to the Maryla00 fair catch by #1 N.Abdul-Rahim Gladding at Maryla00",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:03"
+          },
+          {
+            "text": "Shotgun #7 M.Washington pass complete short left to #9 D.Fleming caught at Maryla29, for 4 yards to the Maryla29 (#6 D.Sanchez)",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:03"
+          },
+          {
+            "text": "Shotgun #7 M.Washington pass complete short right to #1 N.Abdul-Rahim Gladding caught at Maryla27, for 2 yards to the Maryla31 (#20 C.Johnson)",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:03"
+          },
+          {
+            "text": "Shotgun #7 M.Washington pass incomplete short right to #2 K.Webb thrown to Maryla35 PENALTY OhioSt Roughing The Passer (#12 B.Atkinson) 15 yards from Maryla31 to Maryla46, 1ST DOWN. NO PLAY",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:03"
+          },
+          {
+            "text": "Shotgun #0 D.Williams rush middle for 3 yards gain to the Maryla49 (#26 P.Pierce; #1 E.Little Jr.)",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:03"
+          },
+          {
+            "text": "Shotgun #7 M.Washington pass complete short right to #0 D.Williams caught at Maryla49, for 11 yards to the OhioSt40 (#20 C.Johnson), 1ST DOWN",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:03"
+          },
+          {
+            "text": "Shotgun #0 D.Williams rush middle for 2 yards gain to the OhioSt38 (#8 J.McClain; #26 P.Pierce)",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "3:03"
+          },
+          {
+            "text": "End of 1st quarter.",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 1,
+            "clock": "0:00"
+          },
+          {
+            "text": "PENALTY OhioSt Offside (#3 J.Smith) 5 yards from OhioSt38 to OhioSt33. NO PLAY",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #0 D.Williams rush middle for 13 yards gain to the OhioSt20 (#8 J.McClain), 1ST DOWN",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #7 M.Washington pass complete short left to #11 R.Manning caught at OhioSt22, for 6 yards to the OhioSt14 (#18 C.Calhoun)",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #0 D.Williams rush middle for 3 yards gain to the OhioSt11 (#8 J.McClain; #17 T.Alford)",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #7 M.Washington rush left for 2 yards gain to the OhioSt09 (#8 J.McClain), 1ST DOWN",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #0 D.Williams rush left for 6 yards loss to the OhioSt15 (#96 E.Houston)",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "PENALTY OhioSt Delay Of Game (#4 Q.Russaw) 5 yards from OhioSt15 to OhioSt10. NO PLAY",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #7 M.Washington pass incomplete short left to #2 K.Webb thrown to OhioSt00 PENALTY OhioSt Offside (#8 J.McClain) 5 yards from OhioSt10 to OhioSt05. NO PLAY",
+            "awayScore": 3,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #7 M.Washington rush middle for 5 yards gain to the OhioSt00 TOUCHDOWN, clock 11:23 #36 S.O'Haire kick attempt good (H: #34 B.McFerson, LS: #97 L.O'Hare)",
+            "awayScore": 10,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "11:23"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "5 plays, 77 yards, 2:46",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#98 D.Leahy kickoff 59 yards to the OhioSt06 #2 L.Bey return 17 yards to the OhioSt23 (#27 K.Carter)",
+            "awayScore": 10,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "11:18"
+          },
+          {
+            "text": "#10 J.Sayin rush right for 3 yards gain to the OhioSt26 (#11 S.Stewart), out of bounds",
+            "awayScore": 10,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "11:18"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin rush middle for 8 yards gain to the OhioSt34 (#33 M.Delhomme), 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "11:18"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 9 yards gain to the OhioSt43 (#14 S.Johnson; #40 N.Taylor)",
+            "awayScore": 10,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "11:18"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush right for 7 yards gain to the OhioSt50 (#40 N.Taylor; #32 C.Smith), 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "11:18"
+          },
+          {
+            "text": "#10 J.Sayin pass incomplete short right to #83 N.Roberts thrown to Maryla40 PENALTY Maryla Holding (#5 D.Carey) 10 yards from OhioSt50 to Maryla40, 1ST DOWN. NO PLAY",
+            "awayScore": 10,
+            "homeScore": 14,
+            "period": 2,
+            "clock": "11:18"
+          },
+          {
+            "text": "#10 J.Sayin pass complete short left to #4 J.Smith caught at Maryla44, for 40 yards to the Maryla00 TOUCHDOWN, clock 08:32, 1ST DOWN #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "8:32"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "6 plays, 42 yards, 1:39",
+        "result": "FG",
+        "plays": [
+          {
+            "text": "Shotgun #25 B.Jackson rush right for 6 yards gain to the OhioSt42 (#3 T.Reddick)",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "7:34"
+          },
+          {
+            "text": "No Huddle-Shotgun #10 J.Sayin pass complete deep left to #15 C.Henry Jr. caught at Maryla12, for 46 yards to the Maryla12, End Of Play, 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "7:34"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete short left to #5 K.Parker thrown to Maryla02",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "7:34"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete short right to #11 B.Boyd thrown to Maryla00",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "7:34"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short middle to #25 B.Jackson caught at Maryla04, for 12 yards to the Maryla00 TOUCHDOWN nullified by penalty, clock 06:04 PENALTY OhioSt Holding (#75 C.Hinzman) 10 yards from Maryla12 to Maryla22. NO PLAY",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "7:34"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete short left to #2 L.Bey thrown to Maryla24",
+            "awayScore": 10,
+            "homeScore": 21,
+            "period": 2,
+            "clock": "7:34"
+          },
+          {
+            "text": "#96 C.Hawkins field goal attempt from 40 yards GOOD (H: #42 J.McGuire, LS: #55 D.Riggs), clock 05:55",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "5:55"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "8 plays, 44 yards, 3:11",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#24 J.Jackson rush left for 4 yards gain to the Maryla40 (#40 N.Taylor; #4 J.Glasker)",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "3:35"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush left for 13 yards gain to the Maryla27 (#2 L.Scruggs), out of bounds, 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "3:35"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush left for 8 yards gain to the Maryla19 (#2 L.Scruggs)",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "3:35"
+          },
+          {
+            "text": "Timeout Ohio State, clock 02:00",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "2:00"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 2 yards loss to the Maryla21 (#40 N.Taylor; #1 D.Wingate)",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "2:00"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #4 J.Smith caught at Maryla20, for 8 yards to the Maryla13 (#21 J.Jenkins), 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "2:00"
+          },
+          {
+            "text": "#2 L.Bey rush right for 6 yards gain to the Maryla07 (#2 L.Scruggs), out of bounds",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "2:00"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 1 yard gain to the Maryla06 (#11 S.Stewart)",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "2:00"
+          },
+          {
+            "text": "Timeout Maryland, clock 00:36",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "0:36"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete short right to #83 N.Roberts thrown to Maryla00 PENALTY Maryla Pass Interference (#2 L.Scruggs) 4 yards from Maryla06 to Maryla02, 1ST DOWN. NO PLAY",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "0:36"
+          },
+          {
+            "text": "PENALTY Maryla UNR: Unnecessary Roughness (#1 D.Wingate) 1 yard from Maryla02 to Maryla01, 1ST DOWN. NO PLAY",
+            "awayScore": 10,
+            "homeScore": 24,
+            "period": 2,
+            "clock": "0:36"
+          },
+          {
+            "text": "#10 J.Sayin pass complete short right to #86 M.Williams caught at Maryla00, for 1 yard to the Maryla00 TOUCHDOWN, clock 00:24 #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 10,
+            "homeScore": 31,
+            "period": 2,
+            "clock": "0:24"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "3 plays, 25 yards, 1:11",
+        "result": "INT TD",
+        "plays": [
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #4 J.Smith caught at OhioSt37, for 12 yards to the OhioSt43 (#21 J.Jenkins; #16 D.Joyner), 1ST DOWN",
+            "awayScore": 10,
+            "homeScore": 31,
+            "period": 3,
+            "clock": "6:23"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush left for 2 yards loss to the OhioSt41 (#0 Z.Elee)",
+            "awayScore": 10,
+            "homeScore": 31,
+            "period": 3,
+            "clock": "6:23"
+          },
+          {
+            "text": "PENALTY Maryla UNS: Unsportsmanlike Conduct (#0 Z.Elee) 15 yards from OhioSt41 to Maryla44, 1ST DOWN. NO PLAY",
+            "awayScore": 10,
+            "homeScore": 31,
+            "period": 3,
+            "clock": "6:23"
+          },
+          {
+            "text": "Daniel Wingate 52 Yd Interception Return (Two-Point Pass Conversion Failed)",
+            "awayScore": 16,
+            "homeScore": 31,
+            "period": 3,
+            "clock": "5:12"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "7 plays, 64 yards, 2:32",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "#86 E.Fulcher kickoff 29 yards to the OhioSt36 #87 B.Lennon return 0 yards to the OhioSt36, End Of Play",
+            "awayScore": 16,
+            "homeScore": 31,
+            "period": 3,
+            "clock": "5:10"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush right for 6 yards gain to the OhioSt42 (#32 C.Smith)",
+            "awayScore": 16,
+            "homeScore": 31,
+            "period": 3,
+            "clock": "5:10"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 8 yards gain to the OhioSt50 (#40 N.Taylor; #32 C.Smith), 1ST DOWN",
+            "awayScore": 16,
+            "homeScore": 31,
+            "period": 3,
+            "clock": "5:10"
+          },
+          {
+            "text": "No Huddle-Shotgun #25 B.Jackson rush middle for 1 yard gain to the Maryla49 (#98 E.Thomas) PENALTY Maryla Face Mask (#98 E.Thomas) 15 yards from Maryla49 to Maryla34, 1ST DOWN",
+            "awayScore": 16,
+            "homeScore": 31,
+            "period": 3,
+            "clock": "5:10"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass incomplete short left thrown to Maryla15",
+            "awayScore": 16,
+            "homeScore": 31,
+            "period": 3,
+            "clock": "5:10"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush left for 3 yards gain to the Maryla31 (#95 A.Parker)",
+            "awayScore": 16,
+            "homeScore": 31,
+            "period": 3,
+            "clock": "5:10"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short right to #7 P.Bell caught at Maryla25, for 6 yards to the Maryla25 (#21 J.Jenkins), out of bounds",
+            "awayScore": 16,
+            "homeScore": 31,
+            "period": 3,
+            "clock": "5:10"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 25 yards gain to the Maryla00 TOUCHDOWN, clock 02:38, 1ST DOWN #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 3,
+            "clock": "2:38"
+          }
+        ]
+      },
+      {
+        "team": "Ohio State Buckeyes",
+        "teamAbbr": "OSU",
+        "description": "16 plays, 72 yards, 9:59",
+        "result": "TD",
+        "plays": [
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 6 yards gain to the OhioSt34 (#95 A.Parker; #33 M.Delhomme)",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush right for 3 yards gain to the OhioSt37 (#1 D.Wingate; #95 A.Parker)",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "15:00"
+          },
+          {
+            "text": "#10 J.Sayin rush middle for 2 yards gain to the OhioSt39 (#1 D.Wingate), 1ST DOWN",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 4 yards gain to the OhioSt43 (#44 J.Starlings; #1 D.Wingate)",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #10 J.Sayin pass complete short middle to #24 J.Jackson caught at OhioSt43, for 5 yards to the OhioSt48 (#1 D.Wingate; #32 C.Smith)",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "15:00"
+          },
+          {
+            "text": "#24 J.Jackson rush middle for 7 yards gain to the Maryla45 (#57 B.Jenkins; #16 D.Joyner), 1ST DOWN",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "15:00"
+          },
+          {
+            "text": "#10 J.Sayin pass complete short right to #5 K.Parker caught at Maryla30, for 16 yards to the Maryla29 (#16 D.Joyner), 1ST DOWN",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "15:00"
+          },
+          {
+            "text": "#24 J.Jackson rush right for 1 yard gain to the Maryla28 (#5 D.Carey)",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "15:00"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush right for 6 yards gain to the Maryla22 (#32 C.Smith; #98 E.Thomas)",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "15:00"
+          },
+          {
+            "text": "Timeout Ohio State, clock 08:44",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "8:44"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 2 yards gain to the Maryla20 (#0 Z.Elee)",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "8:44"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 2 yards gain to the Maryla18 (#1 D.Wingate; #13 D.Holmes), 1ST DOWN",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "8:44"
+          },
+          {
+            "text": "Shotgun #25 B.Jackson rush middle for 3 yards loss to the Maryla21 (#11 S.Stewart)",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "8:44"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 15 yards gain to the Maryla06 (#1 D.Wingate; #33 M.Delhomme), 1ST DOWN",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "8:44"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush right for 1 yard gain to the Maryla05 (#4 J.Glasker)",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "8:44"
+          },
+          {
+            "text": "Shotgun #24 J.Jackson rush middle for 3 yards gain to the Maryla02 (#98 E.Thomas)",
+            "awayScore": 16,
+            "homeScore": 38,
+            "period": 4,
+            "clock": "8:44"
+          },
+          {
+            "text": "#25 B.Jackson rush middle for 2 yards gain to the Maryla00 TOUCHDOWN, clock 04:52 #96 C.Hawkins kick attempt good (H: #42 J.McGuire, LS: #55 D.Riggs)",
+            "awayScore": 16,
+            "homeScore": 45,
+            "period": 4,
+            "clock": "4:52"
+          }
+        ]
+      }
+    ],
+    "winProbability": [
+      {
+        "homeWinPercentage": 0.9847,
+        "playId": "4018584832"
+      },
+      {
+        "homeWinPercentage": 0.986,
+        "playId": "4018584833"
+      },
+      {
+        "homeWinPercentage": 0.986,
+        "playId": "40185848314"
+      },
+      {
+        "homeWinPercentage": 0.9855,
+        "playId": "40185848318"
+      },
+      {
+        "homeWinPercentage": 0.9838,
+        "playId": "40185848323"
+      },
+      {
+        "homeWinPercentage": 0.9868,
+        "playId": "40185848327"
+      },
+      {
+        "homeWinPercentage": 0.9864,
+        "playId": "40185848331"
+      },
+      {
+        "homeWinPercentage": 0.9861,
+        "playId": "40185848335"
+      },
+      {
+        "homeWinPercentage": 0.9842,
+        "playId": "40185848340"
+      },
+      {
+        "homeWinPercentage": 0.9818,
+        "playId": "40185848343"
+      },
+      {
+        "homeWinPercentage": 0.9821,
+        "playId": "40185848347"
+      },
+      {
+        "homeWinPercentage": 0.9831,
+        "playId": "40185848351"
+      },
+      {
+        "homeWinPercentage": 0.9847,
+        "playId": "40185848355"
+      },
+      {
+        "homeWinPercentage": 0.986,
+        "playId": "40185848358"
+      },
+      {
+        "homeWinPercentage": 0.9864,
+        "playId": "40185848364"
+      },
+      {
+        "homeWinPercentage": 0.9858,
+        "playId": "40185848370"
+      },
+      {
+        "homeWinPercentage": 0.9903,
+        "playId": "40185848375"
+      },
+      {
+        "homeWinPercentage": 0.9916,
+        "playId": "40185848386"
+      },
+      {
+        "homeWinPercentage": 0.9905,
+        "playId": "40185848390"
+      },
+      {
+        "homeWinPercentage": 0.9909,
+        "playId": "40185848393"
+      },
+      {
+        "homeWinPercentage": 0.9903,
+        "playId": "40185848397"
+      },
+      {
+        "homeWinPercentage": 0.9915,
+        "playId": "401858483102"
+      },
+      {
+        "homeWinPercentage": 0.9911,
+        "playId": "401858483105"
+      },
+      {
+        "homeWinPercentage": 0.9908,
+        "playId": "401858483111"
+      },
+      {
+        "homeWinPercentage": 0.9902,
+        "playId": "401858483115"
+      },
+      {
+        "homeWinPercentage": 0.9894,
+        "playId": "401858483118"
+      },
+      {
+        "homeWinPercentage": 0.9865,
+        "playId": "401858483127"
+      },
+      {
+        "homeWinPercentage": 0.9864,
+        "playId": "401858483132"
+      },
+      {
+        "homeWinPercentage": 0.9849,
+        "playId": "401858483137"
+      },
+      {
+        "homeWinPercentage": 0.9857,
+        "playId": "401858483141"
+      },
+      {
+        "homeWinPercentage": 0.9868,
+        "playId": "401858483145"
+      },
+      {
+        "homeWinPercentage": 0.9884,
+        "playId": "401858483148"
+      },
+      {
+        "homeWinPercentage": 0.9859,
+        "playId": "401858483151"
+      },
+      {
+        "homeWinPercentage": 0.9864,
+        "playId": "401858483154"
+      },
+      {
+        "homeWinPercentage": 0.9859,
+        "playId": "401858483159"
+      },
+      {
+        "homeWinPercentage": 0.9924,
+        "playId": "401858483163"
+      },
+      {
+        "homeWinPercentage": 0.9924,
+        "playId": "401858483171"
+      },
+      {
+        "homeWinPercentage": 0.9925,
+        "playId": "401858483174"
+      },
+      {
+        "homeWinPercentage": 0.9927,
+        "playId": "401858483179"
+      },
+      {
+        "homeWinPercentage": 0.9915,
+        "playId": "401858483184"
+      },
+      {
+        "homeWinPercentage": 0.9916,
+        "playId": "401858483188"
+      },
+      {
+        "homeWinPercentage": 0.9907,
+        "playId": "401858483192"
+      },
+      {
+        "homeWinPercentage": 0.9909,
+        "playId": "401858483197"
+      },
+      {
+        "homeWinPercentage": 0.9902,
+        "playId": "401858483203"
+      },
+      {
+        "homeWinPercentage": 0.9894,
+        "playId": "401858483207"
+      },
+      {
+        "homeWinPercentage": 0.9881,
+        "playId": "401858483212"
+      },
+      {
+        "homeWinPercentage": 0.9873,
+        "playId": "401858483216"
+      },
+      {
+        "homeWinPercentage": 0.9873,
+        "playId": "401858483221"
+      },
+      {
+        "homeWinPercentage": 0.9866,
+        "playId": "401858483225"
+      },
+      {
+        "homeWinPercentage": 0.9887,
+        "playId": "401858483229"
+      },
+      {
+        "homeWinPercentage": 0.9879,
+        "playId": "401858483233"
+      },
+      {
+        "homeWinPercentage": 0.9869,
+        "playId": "401858483236"
+      },
+      {
+        "homeWinPercentage": 0.9825,
+        "playId": "401858483240"
+      },
+      {
+        "homeWinPercentage": 0.98,
+        "playId": "401858483247"
+      },
+      {
+        "homeWinPercentage": 0.9813,
+        "playId": "401858483252"
+      },
+      {
+        "homeWinPercentage": 0.9829,
+        "playId": "401858483256"
+      },
+      {
+        "homeWinPercentage": 0.9837,
+        "playId": "401858483260"
+      },
+      {
+        "homeWinPercentage": 0.9844,
+        "playId": "401858483264"
+      },
+      {
+        "homeWinPercentage": 0.9853,
+        "playId": "401858483268"
+      },
+      {
+        "homeWinPercentage": 0.9902,
+        "playId": "401858483272"
+      },
+      {
+        "homeWinPercentage": 0.9905,
+        "playId": "401858483280"
+      },
+      {
+        "homeWinPercentage": 0.9909,
+        "playId": "401858483283"
+      },
+      {
+        "homeWinPercentage": 0.9915,
+        "playId": "401858483288"
+      },
+      {
+        "homeWinPercentage": 0.9913,
+        "playId": "401858483293"
+      },
+      {
+        "homeWinPercentage": 0.9921,
+        "playId": "401858483291"
+      },
+      {
+        "homeWinPercentage": 0.9918,
+        "playId": "401858483295"
+      },
+      {
+        "homeWinPercentage": 0.9924,
+        "playId": "401858483302"
+      },
+      {
+        "homeWinPercentage": 0.9951,
+        "playId": "401858483306"
+      },
+      {
+        "homeWinPercentage": 0.9947,
+        "playId": "401858483313"
+      },
+      {
+        "homeWinPercentage": 0.9941,
+        "playId": "401858483316"
+      },
+      {
+        "homeWinPercentage": 0.9931,
+        "playId": "401858483319"
+      },
+      {
+        "homeWinPercentage": 0.9926,
+        "playId": "401858483325"
+      },
+      {
+        "homeWinPercentage": 0.9929,
+        "playId": "401858483328"
+      },
+      {
+        "homeWinPercentage": 0.9933,
+        "playId": "401858483331"
+      },
+      {
+        "homeWinPercentage": 0.9932,
+        "playId": "401858483338"
+      },
+      {
+        "homeWinPercentage": 0.9934,
+        "playId": "401858483345"
+      },
+      {
+        "homeWinPercentage": 0.9938,
+        "playId": "401858483349"
+      },
+      {
+        "homeWinPercentage": 0.9928,
+        "playId": "401858483353"
+      },
+      {
+        "homeWinPercentage": 0.9929,
+        "playId": "401858483358"
+      },
+      {
+        "homeWinPercentage": 0.9934,
+        "playId": "401858483362"
+      },
+      {
+        "homeWinPercentage": 0.9942,
+        "playId": "401858483366"
+      },
+      {
+        "homeWinPercentage": 0.995,
+        "playId": "401858483369"
+      },
+      {
+        "homeWinPercentage": 0.9951,
+        "playId": "401858483374"
+      },
+      {
+        "homeWinPercentage": 0.9958,
+        "playId": "401858483378"
+      },
+      {
+        "homeWinPercentage": 0.9963,
+        "playId": "401858483382"
+      },
+      {
+        "homeWinPercentage": 0.9962,
+        "playId": "401858483388"
+      },
+      {
+        "homeWinPercentage": 0.9959,
+        "playId": "401858483386"
+      },
+      {
+        "homeWinPercentage": 0.9964,
+        "playId": "401858483391"
+      },
+      {
+        "homeWinPercentage": 0.9969,
+        "playId": "401858483396"
+      },
+      {
+        "homeWinPercentage": 0.9967,
+        "playId": "401858483400"
+      },
+      {
+        "homeWinPercentage": 0.9962,
+        "playId": "401858483406"
+      },
+      {
+        "homeWinPercentage": 0.9965,
+        "playId": "401858483404"
+      },
+      {
+        "homeWinPercentage": 0.9965,
+        "playId": "401858483411"
+      },
+      {
+        "homeWinPercentage": 0.9979,
+        "playId": "401858483414"
+      },
+      {
+        "homeWinPercentage": 0.9982,
+        "playId": "401858483422"
+      },
+      {
+        "homeWinPercentage": 0.9981,
+        "playId": "401858483425"
+      },
+      {
+        "homeWinPercentage": 0.9983,
+        "playId": "401858483431"
+      },
+      {
+        "homeWinPercentage": 0.9981,
+        "playId": "401858483438"
+      },
+      {
+        "homeWinPercentage": 0.9978,
+        "playId": "401858483442"
+      },
+      {
+        "homeWinPercentage": 0.9981,
+        "playId": "401858483446"
+      },
+      {
+        "homeWinPercentage": 0.9982,
+        "playId": "401858483451"
+      },
+      {
+        "homeWinPercentage": 0.9985,
+        "playId": "401858483455"
+      },
+      {
+        "homeWinPercentage": 0.9983,
+        "playId": "401858483459"
+      },
+      {
+        "homeWinPercentage": 0.9984,
+        "playId": "401858483463"
+      },
+      {
+        "homeWinPercentage": 0.9985,
+        "playId": "401858483467"
+      },
+      {
+        "homeWinPercentage": 0.9983,
+        "playId": "401858483471"
+      },
+      {
+        "homeWinPercentage": 0.9984,
+        "playId": "401858483475"
+      },
+      {
+        "homeWinPercentage": 0.9986,
+        "playId": "401858483479"
+      },
+      {
+        "homeWinPercentage": 0.9985,
+        "playId": "401858483483"
+      },
+      {
+        "homeWinPercentage": 0.9986,
+        "playId": "401858483486"
+      },
+      {
+        "homeWinPercentage": 0.9981,
+        "playId": "401858483490"
+      },
+      {
+        "homeWinPercentage": 0.9986,
+        "playId": "401858483496"
+      },
+      {
+        "homeWinPercentage": 0.9987,
+        "playId": "401858483500"
+      },
+      {
+        "homeWinPercentage": 0.9985,
+        "playId": "401858483504"
+      },
+      {
+        "homeWinPercentage": 0.9983,
+        "playId": "401858483509"
+      },
+      {
+        "homeWinPercentage": 0.9985,
+        "playId": "401858483512"
+      },
+      {
+        "homeWinPercentage": 0.9988,
+        "playId": "401858483515"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483519"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483523"
+      },
+      {
+        "homeWinPercentage": 0.9988,
+        "playId": "401858483528"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483532"
+      },
+      {
+        "homeWinPercentage": 0.9954,
+        "playId": "401858483535"
+      },
+      {
+        "homeWinPercentage": 0.9957,
+        "playId": "401858483543"
+      },
+      {
+        "homeWinPercentage": 0.9956,
+        "playId": "401858483548"
+      },
+      {
+        "homeWinPercentage": 0.9962,
+        "playId": "401858483552"
+      },
+      {
+        "homeWinPercentage": 0.9964,
+        "playId": "401858483556"
+      },
+      {
+        "homeWinPercentage": 0.9962,
+        "playId": "401858483561"
+      },
+      {
+        "homeWinPercentage": 0.996,
+        "playId": "401858483564"
+      },
+      {
+        "homeWinPercentage": 0.9954,
+        "playId": "401858483568"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483573"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483580"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483583"
+      },
+      {
+        "homeWinPercentage": 0.9988,
+        "playId": "401858483587"
+      },
+      {
+        "homeWinPercentage": 0.9988,
+        "playId": "401858483592"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483596"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483600"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483605"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483609"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483617"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483621"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483625"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483629"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483633"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483638"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483642"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483647"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483651"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483659"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483657"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483662"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483666"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483670"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483674"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483678"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483682"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483689"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483692"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483697"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483700"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483704"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483708"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483714"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483720"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483718"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483723"
+      },
+      {
+        "homeWinPercentage": 0.999,
+        "playId": "401858483727"
+      },
+      {
+        "homeWinPercentage": 1,
+        "playId": "401858483738"
+      },
+      {
+        "homeWinPercentage": 1,
+        "playId": "401858483748"
+      }
+    ],
+    "attendance": 102589,
     "broadcast": [],
     "odds": {
       "details": null,
